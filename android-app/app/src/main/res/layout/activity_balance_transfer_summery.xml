@@ -1,0 +1,142 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_header"
+
+    >
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/parent"
+            style="@style/match_match"
+            android:orientation="vertical"
+            tools:background="@drawable/bg_header"
+            tools:context=".activity.UserDetail.UserDetailActivity"
+            tools:theme="@style/AppTheme.NoActionBar"
+            android:fitsSystemWindows="true">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/scrollable_toolbar" />
+
+
+            <android.support.v4.widget.NestedScrollView
+                android:id="@+id/scrollMainContainer"
+                style="@style/match_wrap"
+                android:fillViewport="false"
+
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <!--<RelativeLayout
+                    style="@style/match_match"
+                    android:animateLayoutChanges="true"
+                    android:background="@color/app_bg_color">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/app_margin"
+                            android:descendantFocusability="blocksDescendants"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/app_margin">
+
+                            <TextView
+                                style="@style/AppTheme.TextView"
+                                android:maxLines="3"
+                                android:singleLine="false"
+                                android:text="Take Amount and number from user and recharge" />
+
+                            <Button
+                                android:id="@+id/btnRechargeNow"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:onClick="onButtonClicked"
+                                android:text="Rechrage Now" />
+
+
+                        </LinearLayout>
+
+
+                </RelativeLayout>-->
+                <RelativeLayout
+                    style="@style/match_wrap"
+                    android:padding="@dimen/app_padding">
+                <RelativeLayout
+                    android:id="@+id/relMainContainer"
+                    style="@style/match_wrap"
+                    android:background="@drawable/background_rounded_corner"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/llNumberContainer"
+                        android:background="@color/app_bg_color"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:padding="@dimen/app_padding">
+
+                        <TextView style="@style/AppTheme.TextView.Summary"
+                            android:text="@string/lbl_transfer_to"/>
+                        <TextView
+                            android:id="@+id/tvNumber"
+                            style="@style/AppTheme.TextView.Bold.Summary"
+                            tools:text="9876543210"/>
+                        <TextView
+                            style="@style/AppTheme.TextView.Summary"
+                            android:text="@string/lbl_transfer_amount"/>
+                        <TextView
+                            android:id="@+id/tvAmount"
+                            style="@style/AppTheme.TextView.Bold.Summary"
+                            tools:text="@string/lbl_price_five_hundred"/>
+                        <TextView
+                            android:id="@+id/tvLblComment"
+                            style="@style/AppTheme.TextView.Summary"
+                            android:text="@string/lbl_comment"
+                            android:layout_margin="@dimen/app_margin_min"
+                            />
+                        <TextView
+                            android:id="@+id/tvComment"
+                            style="@style/AppTheme.TextView.Summary"
+                            tools:text="hi hello this is a little bit ling comment"
+                            android:maxLines="2"
+                            android:layout_margin="@dimen/app_margin_min"
+                            />
+
+                        <Button
+                            android:id="@+id/btnContinue"
+                            style="@style/AppTheme.Button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="@dimen/app_btn_margin"
+                            android:background="@drawable/button_rounded_corner"
+                            android:text="@string/btn_confirm" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+                </RelativeLayout>
+            </android.support.v4.widget.NestedScrollView>
+
+            <include
+                android:id="@+id/extra_view"
+                style="@style/match_match"
+                layout="@layout/layout_extra_view"
+                tools:visibility="gone" />
+
+        </android.support.design.widget.CoordinatorLayout>
+
+
+        <!--<include-->
+            <!--android:id="@+id/layoutNavMenu"-->
+            <!--layout="@layout/nav_main_menu" />-->
+    </android.support.v4.widget.DrawerLayout>
+</layout>

@@ -1,0 +1,800 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorMain">@color/colorPrimary</item>
+        <item name="colorIcon">@color/colorPrimary</item>
+        <item name="colorMainDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+
+    <style name="Sterlite" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorMain">@color/colorPrimary</item>
+        <item name="colorIcon">@color/colorPrimary</item>
+
+        <item name="colorMainDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="Telkomsel" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorMain">@color/colorPrimary_1</item>
+        <item name="colorIcon">@color/colorPrimary_1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_1</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <!--warning do not put below line in appthemes  it cause status bar color issues-->
+    <!-- <item name="coordinatorLayoutStyle">@style/Widget.Design.CoordinatorLayout</item>-->
+    <!-- <item name="cardViewStyle">@style/CardView</item>-->
+<!--
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">@dimen/_3sdp</item>
+    </style>
+-->
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">@dimen/_3sdp</item>
+    </style>
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">@dimen/_3sdp</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AppTheme.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/app_text_regular</item>
+        <item name="android:textColor">@color/app_text_color</item>
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">left|start</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="AppTheme.TextView.Small" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/app_text_regular_medium</item>
+    </style>
+
+    <style name="AppTheme.TextView.SmallRecharge" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/app_text_regular_medium</item>
+        <item name="android:layout_margin">@dimen/app_margin</item>
+    </style>
+
+    <style name="AppTheme.TextView.EDTLbl" parent="AppTheme.TextView">
+        <item name="android:layout_margin">@dimen/app_margin</item>
+    </style>
+
+    <style name="AppTheme.TextView.Summary" parent="AppTheme.TextView">
+        <item name="android:layout_margin">@dimen/app_margin</item>
+    </style>
+
+    <style name="AppTheme.TextView.RechargeHistory" parent="AppTheme.TextView">
+        <item name="android:layout_margin">@dimen/app_margin</item>
+        <item name="android:layout_width">@dimen/_100sdp</item>
+    </style>
+
+    <style name="AppTheme.TextView.Bold.Summary" parent="AppTheme.TextView.Bold">
+        <item name="android:layout_margin">@dimen/app_margin</item>
+        <item name="android:textSize">@dimen/app_text_xx_large</item>
+    </style>
+
+    <style name="AppTheme.TextView.Bold" parent="AppTheme.TextView">
+        <item name="fontPath">@string/font_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AppTheme.TextView.Selected" parent="AppTheme.TextView">
+        <item name="fontPath">@string/font_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextView.Register" parent="AppTheme.TextView">
+        <item name="android:textColor">@color/app_text_color_dark</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginTop">@dimen/_15sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+    </style>
+
+
+
+
+
+    <style name="AppTheme.TextView.KycDetails" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/app_text_regular_medium</item>
+    </style>
+
+    <style name="AppTheme.TextView.KycDetailsLabel" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/app_text_medium</item>
+        <item name="android:textColor">@color/hint_color</item>
+        <item name="android:layout_marginTop">@dimen/app_edittext_margin_top</item>
+
+    </style>
+
+
+    <style name="AppTheme.TextView.NotFound" parent="AppTheme.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/bg_header</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/hint_lbl_no_records_found</item>
+        <item name="android:textSize">@dimen/app_text_xx_large</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="AppTheme.TextView.NavigationMenu" parent="AppTheme.TextView">
+        <item name="android:textColor">@color/navigation_menu_text_color</item>
+        <item name="android:textSize">@dimen/nav_menu_text_size</item>
+        <item name="android:layout_margin">@dimen/nav_margin</item>
+    </style>
+
+    <style name="AppTheme.TextView.NavigationMenu.Filter" parent="AppTheme.TextView.NavigationMenu">
+        <item name="android:textSize">@dimen/nav_menu_filter_text_size</item>
+    </style>
+
+    <style name="AppTheme.TextView.NavigationMenu.Bold" parent="AppTheme.TextView.NavigationMenu">
+        <item name="fontPath">@string/font_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextView.NavigationMenu.SecondLevel" parent="AppTheme.TextView.NavigationMenu">
+        <item name="android:textColor">@color/navigation_menu_text_color_second_level</item>
+        <item name="android:textSize">@dimen/nav_menu_text_size_second_level</item>
+    </style>
+
+    <style name="AppTheme.CheckBox" />
+
+    <style name="AppTheme.CheckBox.NavigationMenu" parent="AppTheme.CheckBox">
+        <item name="android:textColor">@color/navigation_menu_text_color</item>
+        <item name="android:textSize">@dimen/nav_menu_text_size_second_level</item>
+        <item name="android:button">@drawable/ic_nav_menu_check_box</item>
+        <item name="android:layout_margin">@dimen/app_margin_min</item>
+    </style>
+
+    <style name="AppTheme.RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppTheme.RadioButton.NavigationMenu">
+        <item name="android:textColor">@color/navigation_menu_text_color</item>
+        <item name="android:textSize">@dimen/nav_menu_filter_text_size_second_level</item>
+        <item name="android:button">@drawable/ic_nav_menu_radio_button</item>
+    </style>
+
+
+    <style name="AppTheme.TextViewWhithoutLinesLimit">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/app_text_regular</item>
+        <item name="android:textColor">@color/app_text_color</item>
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:gravity">left|start</item>
+        <item name="android:layout_margin">@dimen/app_margin</item>
+    </style>
+
+    <style name="AppTheme.ImageView" />
+
+    <style name="AppTheme.ImageView.SmallButton" parent="AppTheme.ImageView">
+        <item name="android:layout_width">@dimen/_16sdp</item>
+        <item name="android:layout_height">@dimen/_16sdp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="AppTheme.ImageView.SuccessIcon" parent="AppTheme.ImageView">
+        <item name="android:layout_width">@dimen/_90sdp</item>
+        <item name="android:layout_height">@dimen/_90sdp</item>
+    </style>
+
+    <style name="AppTheme.ImageView.NavigationIcon" parent="AppTheme.ImageView">
+        <item name="android:layout_width">@dimen/_24sdp</item>
+        <item name="android:layout_height">@dimen/_24sdp</item>
+        <item name="android:layout_margin">@dimen/nav_margin</item>
+        <item name="android:tint">@color/navigation_menu_icon_color</item>
+    </style>
+
+    <style name="AppTheme.ImageView.NavigationIcon.Small" parent="AppTheme.ImageView">
+        <item name="android:layout_width">@dimen/_18sdp</item>
+        <item name="android:layout_height">@dimen/_18sdp</item>
+        <item name="android:layout_margin">@dimen/nav_margin</item>
+        <item name="android:tint">@color/navigation_menu_icon_color</item>
+    </style>
+
+    <style name="AppTheme.ImageView.OrderReviewImageView">
+        <item name="android:layout_width">@dimen/_15sdp</item>
+        <item name="android:layout_height">@dimen/_15sdp</item>
+        <item name="android:tint">@color/app_color</item>
+    </style>
+
+    <style name="AppTheme.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:textSize">@dimen/app_text_max_medium</item>
+        <item name="android:textColor">@color/app_text_color_light</item>
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:background">@drawable/button_rounded_corner</item>
+        <item name="android:paddingLeft">@dimen/_30sdp</item>
+        <item name="android:paddingStart">@dimen/_30sdp</item>
+        <item name="android:paddingRight">@dimen/_30sdp</item>
+        <item name="android:paddingEnd">@dimen/_30sdp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="AppTheme.AlertButton" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:textSize">@dimen/app_text_medium_high</item>
+        <item name="android:textColor">@color/app_text_color</item>
+    </style>
+    <style name="AppTheme.ButtonText" parent="Base.TextAppearance.AppCompat.Display4">
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:textSize">@dimen/app_text_medium</item>
+        <item name="android:textColor">@color/app_text_color_light</item>
+    </style>
+    <style name="AppTheme.Button.Small" parent="AppTheme.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:textSize">@dimen/app_text_regular_medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/app_margin</item>
+    </style>
+
+    <style name="AppTheme.Button.RoundedCorner" parent="AppTheme.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_rounded_corner</item>
+        <item name="android:layout_margin">@dimen/app_margin_max</item>
+    </style>
+
+    <style name="AppTheme.Button.Bold" parent="AppTheme.Button">
+        <!--<item name="fontPath">@string/font_bold</item>-->
+        <!--<item name="android:textStyle">bold</item>-->
+    </style>
+
+    <style name="AppTheme.Button.NavigationMenu" parent="AppTheme.Button">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/navigation_menu_text_color</item>
+        <item name="android:textSize">@dimen/nav_menu_text_size</item>
+    </style>
+
+    <style name="AppTheme.Separator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/app_margin</item>
+        <item name="android:layout_marginBottom">@dimen/app_margin</item>
+        <item name="android:layout_height">@dimen/_1sdp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="AppTheme.NavigationSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_1sdp</item>
+        <item name="android:background">@color/navigation_separator_color</item>
+        <item name="android:layout_marginLeft">@dimen/nav_margin</item>
+        <item name="android:layout_marginStart">@dimen/nav_margin</item>
+        <item name="android:layout_marginEnd">@dimen/nav_margin</item>
+        <item name="android:layout_marginRight">@dimen/nav_margin</item>
+    </style>
+
+    <style name="AppTheme.SeparatorWithoutMargin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_1sdp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="match_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wrap_match">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="match_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppTheme.TextInputLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/app_text_color</item>
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginStart">@dimen/app_margin</item>
+        <item name="android:layout_marginLeft">@dimen/app_margin</item>
+        <item name="android:layout_marginEnd">@dimen/app_margin</item>
+        <item name="android:layout_marginRight">@dimen/app_margin</item>
+        <item name="android:layout_marginTop">@dimen/app_margin</item>
+        <item name="android:layout_marginBottom">@dimen/app_margin</item>
+        <item name="android:paddingStart">@dimen/app_padding_min</item>
+        <item name="android:paddingEnd">@dimen/app_padding_min</item>
+    </style>
+    <style name="AppTheme.TextView.CreateTicket.SpinnerLabel" parent="AppTheme.TextView.NavigationMenu">
+        <item name="android:textColor">@color/app_text_color_dark</item>
+        <item name="android:textSize">@dimen/app_text_regular</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">@dimen/nav_margin</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginEnd">@dimen/nav_margin</item>
+        <item name="android:layout_marginTop">@dimen/nav_margin</item>
+        <item name="android:layout_marginBottom">@dimen/nav_margin</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+    <style name="AppTheme.EditText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="android:layout_marginStart">@dimen/app_margin</item>
+        <item name="android:layout_marginLeft">@dimen/app_margin</item>
+        <item name="android:layout_marginEnd">@dimen/app_margin</item>
+        <item name="android:layout_marginRight">@dimen/app_margin</item>
+        <item name="android:layout_marginTop">@dimen/app_margin</item>
+        <item name="android:layout_marginBottom">@dimen/app_margin</item>
+        <item name="android:background">@drawable/edittext_rounded_corner</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:textSize">@dimen/app_edt_text_size</item>
+        <item name="android:textColor">@color/app_text_color</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+    </style>
+
+    <style name="AppTheme.EditTextTransParent" parent="AppTheme.EditText">
+        <item name="android:background">@drawable/edittext_rounded_corner_transparent</item>
+        <item name="android:textColor">@color/app_text_color_light</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <style name="AppTheme.EditText.NavigationMenu" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/navigation_menu_icon_color</item>
+        <item name="colorControlActivated">@color/navigation_menu_icon_color</item>
+        <item name="colorControlHighlight">@color/navigation_menu_icon_color</item>
+    </style>
+
+
+    <style name="AppTheme.TextView.OrderPreviewLabels" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/app_text_medium</item>
+        <item name="android:textColor">@color/hint_color</item>
+        <item name="android:layout_marginRight">@dimen/app_margin</item>
+    </style>
+
+    <style name="AppTheme.TextView.OrderPreviewEdittxt" parent="AppTheme.TextView">
+        <item name="android:layout_marginRight">@dimen/app_margin</item>
+        <item name="android:textSize">@dimen/app_text_regular_medium</item>
+    </style>
+
+
+    <style name="AppTheme.TextView.OrderTrackLabels" parent="AppTheme.TextView">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">@dimen/app_text_regular_medium</item>
+    </style>
+
+    <style name="AppTheme.TextView.OrderTrackLabelsDetail" parent="AppTheme.TextViewWhithoutLinesLimit">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1.5</item>
+        <item name="android:textColor">@color/app_default_text_color</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:paddingLeft">@dimen/app_margin</item>
+        <item name="android:textSize">@dimen/app_text_medium_high</item>
+    </style>
+
+    <style name="AppTheme.TextView.PP4U" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/app_text_medium</item>
+    </style>
+
+    <style name="ToolbarTextAppearance" parent="AppTheme.TextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/app_text_extra_large</item>
+    </style>
+
+    <style name="ToolbarExpandedTextAppearance" parent="AppTheme.TextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/app_text_xx_large</item>
+    </style>
+
+    <style name="AppTheme.ProgressBar" >
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="AppTheme.StartLineView">
+        <item name="android:layout_width">@dimen/item_start_line_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/app_startline_color</item>
+    </style>
+    <style name="AppTheme.ImageView.PaymentMethodIcons" parent="AppTheme.ImageView">
+        <item name="android:layout_width">@dimen/_40sdp</item>
+        <item name="android:layout_height">@dimen/_30sdp</item>
+        <item name="android:layout_marginBottom">@dimen/app_margin</item>
+    </style>
+
+    <style name="AppTheme.RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/hint_color</item>
+        <item name="colorControlActivated">@color/app_color</item>
+    </style>
+
+
+    <style name="Telkomsel.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">@dimen/_3sdp</item>
+    </style>
+
+
+    <style name="Telkomsel.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Telkomsel.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="Telkomsel.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/app_text_regular</item>
+        <item name="android:textColor">@color/app_text_color</item>
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">left|start</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Telkomsel.TextView.Small" parent="Telkomsel.TextView">
+        <item name="android:textSize">@dimen/app_text_regular_medium</item>
+    </style>
+
+    <style name="Telkomsel.TextView.SmallRecharge" parent="Telkomsel.TextView">
+        <item name="android:textSize">@dimen/app_text_regular_medium</item>
+        <item name="android:layout_margin">@dimen/app_margin</item>
+    </style>
+
+    <style name="Telkomsel.TextView.EDTLbl" parent="Telkomsel.TextView">
+        <item name="android:layout_margin">@dimen/app_margin</item>
+    </style>
+
+    <style name="Telkomsel.TextView.Summary" parent="Telkomsel.TextView">
+        <item name="android:layout_margin">@dimen/app_margin</item>
+    </style>
+
+    <style name="Telkomsel.TextView.RechargeHistory" parent="Telkomsel.TextView">
+        <item name="android:layout_margin">@dimen/app_margin</item>
+        <item name="android:layout_width">@dimen/_100sdp</item>
+    </style>
+
+    <style name="Telkomsel.TextView.Bold.Summary" parent="Telkomsel.TextView.Bold">
+        <item name="android:layout_margin">@dimen/app_margin</item>
+        <item name="android:textSize">@dimen/app_text_xx_large</item>
+    </style>
+
+    <style name="Telkomsel.TextView.Bold" parent="Telkomsel.TextView">
+        <item name="fontPath">@string/font_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Telkomsel.TextView.Selected" parent="Telkomsel.TextView">
+        <item name="fontPath">@string/font_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Telkomsel.TextView.Register" parent="Telkomsel.TextView">
+        <item name="android:textColor">@color/app_text_color_dark</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginTop">@dimen/_15sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_4sdp</item>
+    </style>
+
+
+
+
+
+    <style name="Telkomsel.TextView.KycDetails" parent="Telkomsel.TextView">
+        <item name="android:textSize">@dimen/app_text_regular_medium</item>
+    </style>
+
+    <style name="Telkomsel.TextView.KycDetailsLabel" parent="Telkomsel.TextView">
+        <item name="android:textSize">@dimen/app_text_medium</item>
+        <item name="android:textColor">@color/hint_color_1</item>
+        <item name="android:layout_marginTop">@dimen/app_edittext_margin_top</item>
+
+    </style>
+
+
+    <style name="Telkomsel.TextView.NotFound" parent="Telkomsel.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/bg_header</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/hint_lbl_no_records_found</item>
+        <item name="android:textSize">@dimen/app_text_xx_large</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="Telkomsel.TextView.NavigationMenu" parent="Telkomsel.TextView">
+        <item name="android:textColor">@color/navigation_menu_text_color</item>
+        <item name="android:textSize">@dimen/nav_menu_text_size</item>
+        <item name="android:layout_margin">@dimen/nav_margin</item>
+    </style>
+
+    <style name="Telkomsel.TextView.NavigationMenu.Filter" parent="Telkomsel.TextView.NavigationMenu">
+        <item name="android:textSize">@dimen/nav_menu_filter_text_size</item>
+    </style>
+
+    <style name="Telkomsel.TextView.NavigationMenu.Bold" parent="Telkomsel.TextView.NavigationMenu">
+        <item name="fontPath">@string/font_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Telkomsel.TextView.NavigationMenu.SecondLevel" parent="Telkomsel.TextView.NavigationMenu">
+        <item name="android:textColor">@color/navigation_menu_text_color_second_level</item>
+        <item name="android:textSize">@dimen/nav_menu_text_size_second_level</item>
+    </style>
+
+    <style name="Telkomsel.CheckBox" />
+
+    <style name="Telkomsel.CheckBox.NavigationMenu" parent="Telkomsel.CheckBox">
+        <item name="android:textColor">@color/navigation_menu_text_color</item>
+        <item name="android:textSize">@dimen/nav_menu_text_size_second_level</item>
+        <item name="android:button">@drawable/ic_nav_menu_check_box</item>
+        <item name="android:layout_margin">@dimen/app_margin_min</item>
+    </style>
+
+    <style name="Telkomsel.RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Telkomsel.RadioButton.NavigationMenu">
+        <item name="android:textColor">@color/navigation_menu_text_color</item>
+        <item name="android:textSize">@dimen/nav_menu_filter_text_size_second_level</item>
+        <item name="android:button">@drawable/ic_nav_menu_radio_button</item>
+    </style>
+
+
+    <style name="Telkomsel.TextViewWhithoutLinesLimit">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/app_text_regular</item>
+        <item name="android:textColor">@color/app_text_color</item>
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:gravity">left|start</item>
+        <item name="android:layout_margin">@dimen/app_margin</item>
+    </style>
+
+    <style name="Telkomsel.ImageView" />
+
+    <style name="Telkomsel.ImageView.SmallButton" parent="Telkomsel.ImageView">
+        <item name="android:layout_width">@dimen/_16sdp</item>
+        <item name="android:layout_height">@dimen/_16sdp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="Telkomsel.ImageView.SuccessIcon" parent="Telkomsel.ImageView">
+        <item name="android:layout_width">@dimen/_90sdp</item>
+        <item name="android:layout_height">@dimen/_90sdp</item>
+    </style>
+
+    <style name="Telkomsel.ImageView.NavigationIcon" parent="Telkomsel.ImageView">
+        <item name="android:layout_width">@dimen/_24sdp</item>
+        <item name="android:layout_height">@dimen/_24sdp</item>
+        <item name="android:layout_margin">@dimen/nav_margin</item>
+        <item name="android:tint">@color/navigation_menu_icon_color</item>
+    </style>
+
+    <style name="Telkomsel.ImageView.NavigationIcon.Small" parent="Telkomsel.ImageView">
+        <item name="android:layout_width">@dimen/_18sdp</item>
+        <item name="android:layout_height">@dimen/_18sdp</item>
+        <item name="android:layout_margin">@dimen/nav_margin</item>
+        <item name="android:tint">@color/navigation_menu_icon_color</item>
+    </style>
+
+    <style name="Telkomsel.ImageView.OrderReviewImageView">
+        <item name="android:layout_width">@dimen/_15sdp</item>
+        <item name="android:layout_height">@dimen/_15sdp</item>
+        <item name="android:tint">@color/app_color_1</item>
+    </style>
+
+    <style name="Telkomsel.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:textSize">@dimen/app_text_max_medium</item>
+        <item name="android:textColor">@color/app_text_color_light_1</item>
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:background">@drawable/button_rounded_corner</item>
+        <item name="android:paddingLeft">@dimen/_30sdp</item>
+        <item name="android:paddingStart">@dimen/_30sdp</item>
+        <item name="android:paddingRight">@dimen/_30sdp</item>
+        <item name="android:paddingEnd">@dimen/_30sdp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Telkomsel.AlertButton" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:textSize">@dimen/app_text_medium_high</item>
+        <item name="android:textColor">@color/app_text_color</item>
+    </style>
+    <style name="Telkomsel.ButtonText" parent="Base.TextAppearance.AppCompat.Display4">
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:textSize">@dimen/app_text_medium</item>
+        <item name="android:textColor">@color/app_text_color_light_1</item>
+    </style>
+    <style name="Telkomsel.Button.Small" parent="Telkomsel.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:textSize">@dimen/app_text_regular_medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/app_margin</item>
+    </style>
+
+    <style name="Telkomsel.Button.RoundedCorner" parent="Telkomsel.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_rounded_corner</item>
+        <item name="android:layout_margin">@dimen/app_margin_max</item>
+    </style>
+
+    <style name="Telkomsel.Button.Bold" parent="Telkomsel.Button">
+        <!--<item name="fontPath">@string/font_bold</item>-->
+        <!--<item name="android:textStyle">bold</item>-->
+    </style>
+
+    <style name="Telkomsel.Button.NavigationMenu" parent="Telkomsel.Button">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/navigation_menu_text_color</item>
+        <item name="android:textSize">@dimen/nav_menu_text_size</item>
+    </style>
+
+    <style name="Telkomsel.Separator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/app_margin</item>
+        <item name="android:layout_marginBottom">@dimen/app_margin</item>
+        <item name="android:layout_height">@dimen/_1sdp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="Telkomsel.NavigationSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_1sdp</item>
+        <item name="android:background">@color/navigation_separator_color</item>
+        <item name="android:layout_marginLeft">@dimen/nav_margin</item>
+        <item name="android:layout_marginStart">@dimen/nav_margin</item>
+        <item name="android:layout_marginEnd">@dimen/nav_margin</item>
+        <item name="android:layout_marginRight">@dimen/nav_margin</item>
+    </style>
+
+    <style name="Telkomsel.SeparatorWithoutMargin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_1sdp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+
+    <style name="Telkomsel.TextInputLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/app_text_color</item>
+        <item name="fontPath">@string/font_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginStart">@dimen/app_margin</item>
+        <item name="android:layout_marginLeft">@dimen/app_margin</item>
+        <item name="android:layout_marginEnd">@dimen/app_margin</item>
+        <item name="android:layout_marginRight">@dimen/app_margin</item>
+        <item name="android:layout_marginTop">@dimen/app_margin</item>
+        <item name="android:layout_marginBottom">@dimen/app_margin</item>
+        <item name="android:paddingStart">@dimen/app_padding_min</item>
+        <item name="android:paddingEnd">@dimen/app_padding_min</item>
+    </style>
+
+    <style name="Telkomsel.EditText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="android:layout_marginStart">@dimen/app_margin</item>
+        <item name="android:layout_marginLeft">@dimen/app_margin</item>
+        <item name="android:layout_marginEnd">@dimen/app_margin</item>
+        <item name="android:layout_marginRight">@dimen/app_margin</item>
+        <item name="android:layout_marginTop">@dimen/app_margin</item>
+        <item name="android:layout_marginBottom">@dimen/app_margin</item>
+        <item name="android:background">@drawable/edittext_rounded_corner</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:textSize">@dimen/app_edt_text_size</item>
+        <item name="android:textColor">@color/app_text_color</item>
+        <item name="android:textColorHint">@color/hint_color_1</item>
+    </style>
+
+    <style name="Telkomsel.EditTextTransParent" parent="Telkomsel.EditText">
+        <item name="android:background">@drawable/edittext_rounded_corner_transparent</item>
+        <item name="android:textColor">@color/app_text_color_light_1</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <style name="Telkomsel.EditText.NavigationMenu" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/navigation_menu_icon_color</item>
+        <item name="colorControlActivated">@color/navigation_menu_icon_color</item>
+        <item name="colorControlHighlight">@color/navigation_menu_icon_color</item>
+    </style>
+
+
+    <style name="Telkomsel.TextView.OrderPreviewLabels" parent="Telkomsel.TextView">
+        <item name="android:textSize">@dimen/app_text_medium</item>
+        <item name="android:textColor">@color/hint_color_1</item>
+        <item name="android:layout_marginRight">@dimen/app_margin</item>
+    </style>
+
+    <style name="Telkomsel.TextView.OrderPreviewEdittxt" parent="Telkomsel.TextView">
+        <item name="android:layout_marginRight">@dimen/app_margin</item>
+        <item name="android:textSize">@dimen/app_text_regular_medium</item>
+    </style>
+
+
+    <style name="Telkomsel.TextView.OrderTrackLabels" parent="Telkomsel.TextView">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">@dimen/app_text_regular_medium</item>
+    </style>
+
+    <style name="Telkomsel.TextView.OrderTrackLabelsDetail" parent="Telkomsel.TextViewWhithoutLinesLimit">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1.5</item>
+        <item name="android:textColor">@color/app_default_text_color_1</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:paddingLeft">@dimen/app_margin</item>
+        <item name="android:textSize">@dimen/app_text_medium_high</item>
+    </style>
+
+    <style name="Telkomsel.TextView.PP4U" parent="Telkomsel.TextView">
+        <item name="android:textSize">@dimen/app_text_medium</item>
+    </style>
+
+
+
+    <style name="Telkomsel.ProgressBar" parent="Telkomsel">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="Telkomsel.StartLineView">
+        <item name="android:layout_width">@dimen/item_start_line_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/app_startline_color_1</item>
+    </style>
+    <style name="Telkomsel.ImageView.PaymentMethodIcons" parent="Telkomsel.ImageView">
+        <item name="android:layout_width">@dimen/_40sdp</item>
+        <item name="android:layout_height">@dimen/_30sdp</item>
+        <item name="android:layout_marginBottom">@dimen/app_margin</item>
+    </style>
+
+    <style name="Telkomsel.RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/hint_color</item>
+        <item name="colorControlActivated">@color/app_color_1</item>
+    </style>
+
+
+
+    <dimen name="dp130">130dp</dimen>
+</resources>

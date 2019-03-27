@@ -1,0 +1,76 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">170dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="app_text_min">@dimen/_8ssp</dimen>
+    <dimen name="app_text_min_medium">@dimen/_9ssp</dimen>
+    <dimen name="app_text_medium">@dimen/_10ssp</dimen>
+    <dimen name="app_text_medium_high">@dimen/_11ssp</dimen>
+    <dimen name="app_text_regular_medium">@dimen/_12ssp</dimen>
+    <dimen name="app_text_regular">@dimen/_14ssp</dimen>
+    <dimen name="app_text_max_medium">@dimen/_15ssp</dimen>
+    <dimen name="app_text_max">@dimen/_16ssp</dimen>
+    <dimen name="app_text_extra_large">@dimen/_18ssp</dimen>
+    <dimen name="app_text_xx_large">@dimen/_20ssp</dimen>
+
+
+    <dimen name="app_icon_notification">@dimen/_15sdp</dimen>
+
+    <dimen name="app_margin_min">@dimen/_4sdp</dimen>
+    <dimen name="app_margin">@dimen/_8sdp</dimen>
+    <dimen name="app_margin_max">@dimen/_12sdp</dimen>
+    <dimen name="app_margin_super_max">@dimen/_20sdp</dimen>
+
+    <dimen name="app_padding_min">@dimen/_4sdp</dimen>
+    <dimen name="app_padding">@dimen/_8sdp</dimen>
+    <dimen name="app_padding_max">@dimen/_12sdp</dimen>
+
+    <dimen name="app_card_elevation">2dp</dimen>
+    <dimen name="app_card_elevation_medium">@dimen/_5sdp</dimen>
+    <dimen name="app_card_corner_radius">2dp</dimen>
+    <dimen name="app_card_corner_radius_medium">@dimen/_5sdp</dimen>
+    <dimen name="app_header_name_size">@dimen/app_text_regular_medium</dimen>
+
+
+    <dimen name="landing_image_size">@dimen/_60sdp</dimen>
+    <dimen name="home_menu_image_size_width">@dimen/_60sdp</dimen>
+    <dimen name="home_menu_image_size_height">@dimen/_60sdp</dimen>
+
+    <dimen name="home_circle_size">@dimen/_160sdp</dimen>
+
+    <dimen name="home_menu_image_size">@dimen/_70sdp</dimen>
+    <dimen name="plan_detail_icon_size">@dimen/_30sdp</dimen>
+
+
+    <dimen name="item_start_line_width">@dimen/_4sdp</dimen>
+
+    <dimen name="logo_text_size">@dimen/_30ssp</dimen>
+    <dimen name="app_edittext_address_margin_top">@dimen/_20sdp</dimen>
+    <dimen name="app_edittext_margin_top">@dimen/_20sdp</dimen>
+    <dimen name="app_editext_margin_left">@dimen/_40sdp</dimen>
+    <dimen name="app_edittext_margin_right">@dimen/_40sdp</dimen>
+
+    <dimen name="app_edt_text_size">@dimen/app_text_regular_medium</dimen>
+    <dimen name="app_btn_margin">@dimen/app_margin_max</dimen>
+    <dimen name="app_company_logo_height">@dimen/_60sdp</dimen>
+
+    <dimen name="app_progress_bar_height">@dimen/_20sdp</dimen>
+    <dimen name="app_progress_bar_width">@dimen/_20sdp</dimen>
+    <dimen name="app_cart_image_height">@dimen/_110sdp</dimen>
+    <dimen name="app_cart_image_width">@dimen/_100sdp</dimen>
+
+    <dimen name="padding_plan_viewpager">@dimen/_30ssp</dimen>
+
+
+    <dimen name="nav_menu_text_size">@dimen/app_text_regular_medium</dimen>
+    <dimen name="nav_menu_filter_text_size">@dimen/_17ssp</dimen>
+    <dimen name="nav_menu_filter_text_size_second_level">@dimen/app_text_max_medium</dimen>
+    <dimen name="nav_menu_text_size_second_level">@dimen/app_text_regular_medium</dimen>
+    <dimen name="nav_margin">@dimen/app_margin_max</dimen>
+
+</resources>

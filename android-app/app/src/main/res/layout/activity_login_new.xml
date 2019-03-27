@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_header">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/parent"
+        style="@style/match_match"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+         <include
+              android:id="@+id/toolbar"
+              layout="@layout/scrollable_toolbar" />
+
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scrollMainContainer"
+            style="@style/match_match"
+            android:fillViewport="false"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/app_margin"
+                android:background="@drawable/background_rounded_corner"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/_15sdp"
+                    android:paddingTop="@dimen/app_margin_max">
+
+                    <ImageView
+                        android:id="@+id/company_logo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_120sdp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/app_margin"
+                        android:adjustViewBounds="true"
+                        android:focusableInTouchMode="true" />
+                    <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="@dimen/_120sdp"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:adjustViewBounds="true"-->
+                    <!--android:focusableInTouchMode="true"-->
+                    <!--android:src="@drawable/logo_name"-->
+                    <!--android:layout_margin="@dimen/app_margin"/>-->
+
+
+                    <!--<TextView-->
+                    <!--android:layout_marginTop="@dimen/app_margin_max"-->
+                    <!--style="@style/AppTheme.TextView.Bold"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:text="@string/enter_mbile_number"-->
+                    <!--android:textColor="@color/color_found" />-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/app_margin"
+                        android:orientation="vertical">
+
+
+                        <EditText
+                            android:id="@+id/edtEmailId"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_lbl_login"
+
+                            android:inputType="textEmailAddress" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtEmailId"
+                            style="@style/AppTheme.TextInputLayout"
+
+                            android:layout_margin="0dp">
+
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/app_margin"
+                        android:orientation="vertical">
+
+
+                        <EditText
+                            android:id="@+id/edtMobileNo"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_lbl_mobile"
+                            android:inputType="number"
+                            android:maxLength="13" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtMobileNo"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_margin="0dp">
+
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/app_margin"
+                        android:orientation="vertical">
+
+
+                        <EditText
+                            android:id="@+id/edtAltEmailId"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_alt_lbl_email"
+                            android:inputType="textEmailAddress" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtAltEmailId"
+                            style="@style/AppTheme.TextInputLayout"
+
+                            android:layout_margin="0dp">
+
+
+
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/app_margin"
+                        android:orientation="vertical">
+
+
+                        <EditText
+                            android:id="@+id/edtAltMobileNo"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_alt_lbl_mobile"
+                            android:inputType="number"
+                            android:maxLength="13" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtAltMobileNo"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_margin="0dp">
+
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/app_margin"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+
+                        <AutoCompleteTextView
+                            android:id="@+id/edtCity"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:drawableRight="@android:drawable/ic_menu_search"
+                            android:hint="@string/hint_lbl_municipality"
+                            android:inputType="textCapSentences|textCapWords"
+                            android:padding="@dimen/_5sdp"
+                            android:maxLength="10"
+                            android:text="2" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtCity"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_margin="0dp" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnUpdate"
+                        style="@style/AppTheme.Button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/app_margin"
+                        android:background="@drawable/button_rounded_corner"
+                        android:onClick="onButtonClicked"
+                        android:text="@string/lbl_update" />
+                    <Button
+                        android:id="@+id/btnLoginSms"
+                        style="@style/AppTheme.Button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/app_margin"
+                        android:background="@drawable/button_rounded_corner"
+                        android:onClick="onButtonClicked"
+                        android:text="@string/lbl_log_in" />
+                    <TextView
+                        android:id="@+id/tvOR"
+                        style="@style/AppTheme.TextView.Bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:maxLines="2"
+                        android:text="@string/lbl_or"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/app_text_regular"
+                        android:layout_margin="@dimen/app_margin_min"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/tvLoginWith"
+                        style="@style/AppTheme.TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:maxLines="2"
+                        android:text="@string/lbl_login_with"
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/app_text_medium"
+                        android:textColor="@color/app_default_text_color"
+                        android:layout_marginBottom="@dimen/app_margin_min"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/llSocialMedia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_horizontal"
+                        >
+                        <ImageView
+                            android:id="@+id/ivFacebook"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/ic_facebook"
+                            android:layout_margin="@dimen/app_margin"/>
+                        <ImageView
+                            android:id="@+id/ivGoogle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/ic_google"
+                            android:layout_margin="@dimen/app_margin"/>
+                        <ImageView
+                            android:id="@+id/ivTwitter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/ic_twitter"
+                            android:layout_margin="@dimen/app_margin"/>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llSwitch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/tvCustomer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lbl_customer"
+                            android:layout_margin="@dimen/app_margin"
+                            android:textColor="@color/black"/>
+
+                          <Switch
+                              android:id="@+id/switch_one"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_gravity="center"
+                              app:layout_constraintEnd_toEndOf="parent"
+                              app:layout_constraintStart_toStartOf="parent"
+                              app:layout_constraintTop_toTopOf="parent"
+                              android:thumb="@drawable/ic_user"
+                             />
+
+                        <TextView
+                            android:id="@+id/tvPartner"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lbl_partner"
+                            android:layout_margin="@dimen/app_margin"
+                            android:textColor="@color/black"/>
+
+
+
+                    </LinearLayout>
+                    <!--<Button-->
+                    <!--android:id="@+id/btnLoginEmail"-->
+                    <!--style="@style/AppTheme.Button"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:layout_margin="@dimen/app_margin"-->
+                    <!--android:background="@drawable/button_rounded_corner"-->
+                    <!--android:onClick="onButtonClicked"-->
+                    <!--android:text="@string/send_otp_via_email" />-->
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <include
+            android:id="@+id/extra_view"
+            layout="@layout/layout_extra_view"
+            tools:visibility="gone" />
+
+    </android.support.design.widget.CoordinatorLayout>
+</layout>
+
+
+    <!--
+    <layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <data></data>
+
+        <LinearLayout
+            android:id="@+id/parent"
+            style="@style/match_match"
+            android:orientation="vertical"
+            android:visibility="visible"
+            tools:context="com.unboxdeals.activity.NewLoginActivity">
+
+            <RelativeLayout
+                android:id="@+id/rl_title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                >
+
+                <ImageView
+                    android:id="@+id/ivClose"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_close"
+                    android:clickable="true"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_10sdp"/>
+
+
+            </RelativeLayout>
+            <ScrollView
+                android:id="@+id/loginscroll"
+                style="@style/match_wrap">
+
+                <LinearLayout
+
+                    style="@style/match_wrap"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/app_company_logo_height"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_company" />
+
+
+                    <TextView
+                        style="@style/match_wrap"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/lbl_welcome"
+                        android:textColor="@color/app_text_color"
+                        android:textSize="@dimen/app_text_regular" />
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/iedtUserName"
+                        style="@style/AppTheme.TextInputLayout"
+                        android:layout_marginTop="@dimen/_30sdp">
+
+                        <EditText
+                            android:id="@+id/edtUserName"
+                            style="@style/AppTheme.EditText"
+                            android:inputType="textEmailAddress"
+                            android:hint="@string/hint_lbl_user_id"
+                            android:text="a"/>
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/iedtpsw"
+                        style="@style/AppTheme.TextInputLayout">
+
+                        <EditText
+                            android:id="@+id/edtpsw"
+                            style="@style/AppTheme.EditText"
+                            android:hint="@string/hint_lbl_psw"
+                            android:drawableRight="@drawable/show_hide_pw_wrapped"
+                            android:drawableEnd="@drawable/show_hide_pw_wrapped"
+                            android:inputType="textPassword"
+                            android:text="123456"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <RelativeLayout
+                        style="@style/wrap_wrap"
+                        android:layout_gravity="center_horizontal">
+
+                        <TextView
+                            android:id="@+id/tvSignUp"
+                            style="@style/AppTheme.TextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/app_edittext_margin_top"
+                            android:text="@string/lbl_sign_up" />
+
+                    </RelativeLayout>
+
+
+                    <Button
+                        android:id="@+id/btnLogin"
+                        style="@style/AppTheme.Button"
+                        android:layout_margin="@dimen/app_btn_margin"
+                        android:text="@string/btn_login" />
+
+                    &lt;!&ndash;<com.google.android.gms.common.SignInButton
+                        android:id="@+id/googleSignIn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/app_btn_margin"
+                        />&ndash;&gt;
+                    <Button
+                        android:id="@+id/googleSignIn"
+                        style="@style/AppTheme.Button"
+                        android:layout_margin="@dimen/app_btn_margin"
+                        android:text="@string/btn_login_with_google"
+                        />
+                    <com.facebook.login.widget.LoginButton
+                        android:id="@+id/login_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="30dp" />
+                </LinearLayout>
+
+
+            </ScrollView>
+
+
+        </LinearLayout>
+    </layout>
+    -->

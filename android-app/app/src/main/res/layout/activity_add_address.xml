@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_header">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/parent"
+        style="@style/match_match"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/scrollable_toolbar" />
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scrollMainContainer"
+            style="@style/match_match"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                style="@style/match_wrap"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/app_margin_max">
+
+                <LinearLayout
+                    android:id="@+id/linTemp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:background="@drawable/background_rounded_corner"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/_15sdp">
+
+                    <TextView
+                        style="@style/AppTheme.TextView.Bold"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/_15sdp"
+
+                        android:text="@string/registration_title_text"
+                        android:textColor="?attr/colorMain" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/app_margin"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/app_margin_min"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    style="@style/AppTheme.TextView.Register"
+                                    android:layout_marginTop="0dp"
+                                    android:text="Select" />
+
+                                <RelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/edittext_rounded_corner"
+                                    android:gravity="center_vertical"
+                                    android:paddingBottom="@dimen/_8sdp"
+                                    android:paddingTop="@dimen/_9sdp">
+
+                                    <Spinner
+                                        android:id="@+id/spTitles"
+                                        android:layout_width="@dimen/_90sdp"
+                                        android:layout_height="wrap_content"
+                                        android:dropDownWidth="@dimen/_90sdp"
+                                        android:entries="@array/arr_type" />
+                                </RelativeLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+
+                                    android:orientation="horizontal">
+
+                                <TextView
+                                    style="@style/AppTheme.TextView.Register"
+                                    android:layout_marginTop="0dp"
+                                    android:text="@string/hint_lbl_name" />
+                                <TextView
+                                    style="@style/AppTheme.TextView.Register"
+                                    android:layout_marginTop="0dp"
+                                    android:text="@string/hint_lbl_symbol_star"
+                                    android:textColor="@color/red"/>
+                                </LinearLayout>
+                                <EditText
+                                    android:id="@+id/edtFirstName"
+                                    style="@style/AppTheme.EditText"
+                                    android:layout_margin="0dp"
+                                    android:hint="@string/hint_lbl_name"
+                                    android:inputType="textCapSentences|textCapWords" />
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/iedtFirstName"
+                                    style="@style/AppTheme.TextInputLayout"
+                                    android:layout_margin="0dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                        <TextView
+                            style="@style/AppTheme.TextView.Register"
+                            android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                            android:text="@string/hint_lbl_lname"
+                            android:visibility="gone" />
+
+                        <EditText
+                            android:id="@+id/edtLastName"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_lbl_lname"
+                            android:inputType="textCapSentences|textCapWords"
+                            android:visibility="gone" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtLastName"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_margin="0dp"
+                            android:visibility="gone" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_mobile" />
+
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_symbol_star"
+                                android:textColor="@color/red"/>
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/edtMobileNo"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_lbl_mobile"
+                            android:inputType="number"
+                            android:maxLength="13" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtMobileNo"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_margin="0dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_address1" />
+
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_symbol_star"
+                                android:textColor="@color/red"/>
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/edtAddresLine1"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_lbl_address1"
+                            android:inputType="textCapSentences|textCapWords" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtAddresLine1"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_margin="0dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_address2" />
+
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_symbol_star"
+                                android:textColor="@color/red"/>
+                        </LinearLayout>
+
+
+                        <EditText
+                            android:id="@+id/edtAddresLine2"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_lbl_address2"
+                            android:inputType="textCapSentences|textCapWords" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtAddresLine2"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_margin="0dp" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:orientation="horizontal">
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_city" />
+
+
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_symbol_star"
+                                android:textColor="@color/red"/>
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/edtCity"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_lbl_city"
+                            android:inputType="textCapSentences|textCapWords" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtCity"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_margin="0dp" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:orientation="horizontal">
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_state" />
+
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_symbol_star"
+                                android:textColor="@color/red"/>
+                        </LinearLayout>
+                        <EditText
+                            android:id="@+id/edtState"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_lbl_state"
+                            android:inputType="textCapSentences|textCapWords" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtState"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_margin="0dp" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:orientation="horizontal">
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_pin" />
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_symbol_star"
+                                android:textColor="@color/red"/>
+                        </LinearLayout>
+                        <EditText
+                            android:id="@+id/edtPin"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_lbl_pin"
+                            android:inputType="number"
+                            android:maxLength="7" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtPin"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_margin="0dp" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_country"/>
+
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_symbol_star"
+                                android:textColor="@color/red"/>
+                        </LinearLayout>
+
+
+                        <EditText
+                            android:id="@+id/edtCountry"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_lbl_country"
+                            android:inputType="textCapSentences|textCapWords"
+                            android:visibility="gone" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtCountry"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_margin="0dp"
+                            android:visibility="gone" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_date"
+                                android:id="@+id/lblDate"/>
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_symbol_star"
+                                android:textColor="@color/red"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tvDate"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_lbl_date"
+                            android:inputType="textCapSentences|textCapWords" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtDate"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_margin="0dp" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/lbl_select_time"
+                                android:id="@+id/lblTime"/>
+                            <TextView
+                                style="@style/AppTheme.TextView.Register"
+                                android:layout_marginTop="@dimen/app_edittext_address_margin_top"
+                                android:text="@string/hint_lbl_symbol_star"
+                                android:textColor="@color/red"/>
+                        </LinearLayout>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/edittext_rounded_corner"
+                            android:gravity="center_vertical"
+                            android:paddingBottom="@dimen/_8sdp"
+                            android:paddingTop="@dimen/_9sdp">
+
+                            <Spinner
+                                android:id="@+id/spTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:dropDownWidth="match_parent"
+                                android:entries="@array/arr_time" />
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:id="@+id/checkBoxUseSameForShip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/llInputContainer"
+                        android:layout_margin="@dimen/app_margin"
+                        android:text="@string/lbl_same_adderess_for_shipping"
+                        android:textSize="@dimen/app_text_medium_high" />
+
+                    <Button
+                        android:id="@+id/btnProceed"
+                        style="@style/AppTheme.Button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/app_margin"
+                        android:background="@drawable/button_rounded_corner"
+                        android:text="@string/btn_continue" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+        <include
+            android:id="@+id/extra_view"
+            layout="@layout/layout_extra_view"
+            tools:visibility="gone" />
+
+    </android.support.design.widget.CoordinatorLayout>
+</layout>
+

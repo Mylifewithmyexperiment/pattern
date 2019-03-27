@@ -1,0 +1,215 @@
+{
+  "breadcrumbs": [],
+  "categoryCode": "MAKEMYPLANDATAADDONPLAN",
+  "currentQuery": {
+    "query": {
+      "value": ":relevance"
+    },
+    "url": "/MakeMyPlan/MAKEMYPLANDATAADDONPLAN/c/MAKEMYPLANDATAADDONPLAN?q=%3Arelevance"
+  },
+  "freeTextSearch": "",
+  "pagination": {
+    "currentPage": 0,
+    "pageSize": 20,
+    "sort": "relevance",
+    "totalPages": 1,
+    "totalResults": 4
+  },
+  "products": [{
+    "availableForPickup": false,
+    "code": "PRD00655",
+    "name": "100_MB",
+    "numberOfReviews": 0,
+    "oneTimeProductPrice": {
+      "currencyIso": "IDR",
+      "formattedValue": "Rp400.00",
+      "priceType": "BUY",
+      "value": 400
+    },
+    "price": {},
+    "priceRange": {},
+    "stock": {
+      "stockLevelStatus": "inStock"
+    },
+    "url": "/MakeMyPlan/MAKEMYPLANDATAADDONPLAN/5-GB/p/PRD00655"
+  },
+    {
+      "availableForPickup": false,
+      "code": "PRD00655",
+      "name": "200_MB",
+      "numberOfReviews": 0,
+      "oneTimeProductPrice": {
+        "currencyIso": "IDR",
+        "formattedValue": "Rp800.00",
+        "priceType": "BUY",
+        "value": 800
+      },
+      "price": {},
+      "priceRange": {},
+      "stock": {
+        "stockLevelStatus": "inStock"
+      },
+      "url": "/MakeMyPlan/MAKEMYPLANDATAADDONPLAN/5-GB/p/PRD00655"
+    },
+    {
+      "availableForPickup": false,
+      "code": "PRD00655",
+      "name": "300_MB",
+      "numberOfReviews": 0,
+      "oneTimeProductPrice": {
+        "currencyIso": "IDR",
+        "formattedValue": "Rp1,200.00",
+        "priceType": "BUY",
+        "value": 1200
+      },
+      "price": {},
+      "priceRange": {},
+      "stock": {
+        "stockLevelStatus": "inStock"
+      },
+      "url": "/MakeMyPlan/MAKEMYPLANDATAADDONPLAN/5-GB/p/PRD00655"
+    },
+    {
+      "availableForPickup": false,
+      "code": "PRD00655",
+      "name": "400_MB",
+      "numberOfReviews": 0,
+      "oneTimeProductPrice": {
+        "currencyIso": "IDR",
+        "formattedValue": "Rp1,600.00",
+        "priceType": "BUY",
+        "value": 1600
+      },
+      "price": {},
+      "priceRange": {},
+      "stock": {
+        "stockLevelStatus": "inStock"
+      },
+      "url": "/MakeMyPlan/MAKEMYPLANDATAADDONPLAN/5-GB/p/PRD00655"
+    },
+    {
+      "availableForPickup": false,
+      "code": "PRD00655",
+      "name": "500_MB",
+      "numberOfReviews": 0,
+      "oneTimeProductPrice": {
+        "currencyIso": "IDR",
+        "formattedValue": "Rp2,000.00",
+        "priceType": "BUY",
+        "value": 2000
+      },
+      "price": {},
+      "priceRange": {},
+      "stock": {
+        "stockLevelStatus": "inStock"
+      },
+      "url": "/MakeMyPlan/MAKEMYPLANDATAADDONPLAN/5-GB/p/PRD00655"
+    },
+    {
+      "availableForPickup": false,
+      "code": "PRD00655",
+      "name": "600_MB",
+      "numberOfReviews": 0,
+      "oneTimeProductPrice": {
+        "currencyIso": "IDR",
+        "formattedValue": "Rp2,400.00",
+        "priceType": "BUY",
+        "value": 2400
+      },
+      "price": {},
+      "priceRange": {},
+      "stock": {
+        "stockLevelStatus": "inStock"
+      },
+      "url": "/MakeMyPlan/MAKEMYPLANDATAADDONPLAN/5-GB/p/PRD00655"
+    },
+    {
+      "availableForPickup": false,
+      "code": "PRD00655",
+      "name": "700_MB",
+      "numberOfReviews": 0,
+      "oneTimeProductPrice": {
+        "currencyIso": "IDR",
+        "formattedValue": "Rp2,800.00",
+        "priceType": "BUY",
+        "value": 2800
+      },
+      "price": {},
+      "priceRange": {},
+      "stock": {
+        "stockLevelStatus": "inStock"
+      },
+      "url": "/MakeMyPlan/MAKEMYPLANDATAADDONPLAN/5-GB/p/PRD00655"
+    },
+    {
+      "availableForPickup": false,
+      "code": "PRD00655",
+      "name": "800_MB",
+      "numberOfReviews": 0,
+      "oneTimeProductPrice": {
+        "currencyIso": "IDR",
+        "formattedValue": "Rp3,200.00",
+        "priceType": "BUY",
+        "value": 3200
+      },
+      "price": {},
+      "priceRange": {},
+      "stock": {
+        "stockLevelStatus": "inStock"
+      },
+      "url": "/MakeMyPlan/MAKEMYPLANDATAADDONPLAN/5-GB/p/PRD00655"
+    },
+    {
+      "availableForPickup": false,
+      "code": "PRD00655",
+      "name": "900_MB",
+      "numberOfReviews": 0,
+      "oneTimeProductPrice": {
+        "currencyIso": "IDR",
+        "formattedValue": "Rp3,600.00",
+        "priceType": "BUY",
+        "value": 3600
+      },
+      "price": {},
+      "priceRange": {},
+      "stock": {
+        "stockLevelStatus": "inStock"
+      },
+      "url": "/MakeMyPlan/MAKEMYPLANDATAADDONPLAN/5-GB/p/PRD00655"
+    }
+  ],
+  "sorts": [{
+    "code": "relevance",
+    "name": "Relevance",
+    "selected": true
+  },
+    {
+      "code": "topRated",
+      "name": "Top Rated",
+      "selected": false
+    },
+    {
+      "code": "name-asc",
+      "name": "Name (ascending)",
+      "selected": false
+    },
+    {
+      "code": "name-desc",
+      "name": "Name (descending)",
+      "selected": false
+    },
+    {
+      "code": "price-asc",
+      "name": "Price (lowest first)",
+      "selected": false
+    },
+    {
+      "code": "price-desc",
+      "name": "Price (highest first)",
+      "selected": false
+    }
+  ],
+  "responseCode": "1",
+  "responseMessage": "SUCCESS",
+  "responseDescription": null
+}

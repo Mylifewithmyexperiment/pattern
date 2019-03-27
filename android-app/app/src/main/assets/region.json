@@ -1,0 +1,3866 @@
+[
+    {
+      "no": "1",
+      "urban": "Aren Jaya",
+      "subDistrict": "Bekasi Timur",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "2950"
+    },
+    {
+      "no": "2",
+      "urban": "Duren Jaya",
+      "subDistrict": "Bekasi Timur",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "4026"
+    },
+    {
+      "no": "3",
+      "urban": "Bekasi Jaya",
+      "subDistrict": "Bekasi Timur",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "6020"
+    },
+    {
+      "no": "4",
+      "urban": "Margahayu",
+      "subDistrict": "Bekasi Timur",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "6265"
+    },
+    {
+      "no": "5",
+      "urban": "Sepanjang Jaya",
+      "subDistrict": "Rawalumbu",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "2153"
+    },
+    {
+      "no": "6",
+      "urban": "Pengasinan",
+      "subDistrict": "Rawalumbu",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017115"
+    },
+    {
+      "no": "7",
+      "urban": "Bojong Rawalumbu",
+      "subDistrict": "Rawalumbu",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017116"
+    },
+    {
+      "no": "8",
+      "urban": "Bojong Menteng",
+      "subDistrict": "Rawalumbu",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017117"
+    },
+    {
+      "no": "9",
+      "urban": "Teluk Pucung",
+      "subDistrict": "Bekasi Utara",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017121"
+    },
+    {
+      "no": "10",
+      "urban": "Perwira",
+      "subDistrict": "Bekasi Utara",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017122"
+    },
+    {
+      "no": "11",
+      "urban": "Harapan Baru",
+      "subDistrict": "Bekasi Utara",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017123"
+    },
+    {
+      "no": "12",
+      "urban": "Harapan Jaya",
+      "subDistrict": "Bekasi Utara",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017124"
+    },
+    {
+      "no": "13",
+      "urban": "Kaliabang Tengah",
+      "subDistrict": "Bekasi Utara",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017125"
+    },
+    {
+      "no": "14",
+      "urban": "Pejuang",
+      "subDistrict": "Medan Satria",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017131"
+    },
+    {
+      "no": "15",
+      "urban": "Medan Satria",
+      "subDistrict": "Medan Satria",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017132"
+    },
+    {
+      "no": "16",
+      "urban": "Kali Baru",
+      "subDistrict": "Medan Satria",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017133"
+    },
+    {
+      "no": "17",
+      "urban": "Kota Baru",
+      "subDistrict": "Bekasi Barat",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017133"
+    },
+    {
+      "no": "18",
+      "urban": "Bintara",
+      "subDistrict": "Bekasi Barat",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017134"
+    },
+    {
+      "no": "19",
+      "urban": "Kranji",
+      "subDistrict": "Bekasi Barat",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017135"
+    },
+    {
+      "no": "20",
+      "urban": "Bintara Jaya",
+      "subDistrict": "Bekasi Barat",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017136"
+    },
+    {
+      "no": "21",
+      "urban": "Marga Jaya",
+      "subDistrict": "Bekasi Selatan",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017141"
+    },
+    {
+      "no": "22",
+      "urban": "Marga Mulya",
+      "subDistrict": "Bekasi Utara",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017142"
+    },
+    {
+      "no": "23",
+      "urban": "Harapan Mulya",
+      "subDistrict": "Medan Satria",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017143"
+    },
+    {
+      "no": "24",
+      "urban": "Kayuringin Jaya",
+      "subDistrict": "Bekasi Selatan",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017144"
+    },
+    {
+      "no": "25",
+      "urban": "Jakasampurna",
+      "subDistrict": "Bekasi Barat",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017145"
+    },
+    {
+      "no": "26",
+      "urban": "Jaka Mulya",
+      "subDistrict": "Bekasi Selatan",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017146"
+    },
+    {
+      "no": "27",
+      "urban": "Jaka Setia",
+      "subDistrict": "Bekasi Selatan",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017147"
+    },
+    {
+      "no": "28",
+      "urban": "Pekayon Jaya",
+      "subDistrict": "Bekasi Selatan",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017148"
+    },
+    {
+      "no": "29",
+      "urban": "Cimuning",
+      "subDistrict": "Bantargebang",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017155"
+    },
+    {
+      "no": "30",
+      "urban": "Padurenan",
+      "subDistrict": "Bantargebang",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017156"
+    },
+    {
+      "no": "31",
+      "urban": "Mustika Sari",
+      "subDistrict": "Bantargebang",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017157"
+    },
+    {
+      "no": "32",
+      "urban": "Mustika Jaya",
+      "subDistrict": "Bantargebang",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017158"
+    },
+    {
+      "no": "33",
+      "urban": "Segara Makmur",
+      "subDistrict": "Taruma Jaya",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017211"
+    },
+    {
+      "no": "34",
+      "urban": "Pantai Makmur",
+      "subDistrict": "Taruma Jaya",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017212"
+    },
+    {
+      "no": "35",
+      "urban": "Setia Mulya",
+      "subDistrict": "Taruma Jaya",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017213"
+    },
+    {
+      "no": "36",
+      "urban": "Pusaka Rakyat",
+      "subDistrict": "Taruma Jaya",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017214"
+    },
+    {
+      "no": "37",
+      "urban": "Setia Asih",
+      "subDistrict": "Taruma Jaya",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017215"
+    },
+    {
+      "no": "38",
+      "urban": "Pahlawan Setia",
+      "subDistrict": "Taruma Jaya",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017216"
+    },
+    {
+      "no": "39",
+      "urban": "Samudra Jaya",
+      "subDistrict": "Taruma Jaya",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017217"
+    },
+    {
+      "no": "40",
+      "urban": "Segara Jaya",
+      "subDistrict": "Taruma Jaya",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017218"
+    },
+    {
+      "no": "41",
+      "urban": "Jatiwaringin",
+      "subDistrict": "Pondokgede",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017411"
+    },
+    {
+      "no": "42",
+      "urban": "Jatibening",
+      "subDistrict": "Pondokgede",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017412"
+    },
+    {
+      "no": "43",
+      "urban": "Jatimekar",
+      "subDistrict": "Jatiasih",
+      "municipality": "Bekasi",
+      "province": "Jawa Barat",
+      "pin": "017422"
+    },
+    {
+      "no": "44",
+      "urban": "Menteng",
+      "subDistrict": "Bogor Barat",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016111"
+    },
+    {
+      "no": "45",
+      "urban": "Pabaton",
+      "subDistrict": "Bogor Tengah",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016121"
+    },
+    {
+      "no": "46",
+      "urban": "Paledang",
+      "subDistrict": "Bogor Tengah",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016122"
+    },
+    {
+      "no": "47",
+      "urban": "Gudang",
+      "subDistrict": "Bogor Tengah",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016123"
+    },
+    {
+      "no": "48",
+      "urban": "Cibogor",
+      "subDistrict": "Bogor Tengah",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016124"
+    },
+    {
+      "no": "49",
+      "urban": "Ciwaringin",
+      "subDistrict": "Bogor Tengah",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016124"
+    },
+    {
+      "no": "50",
+      "urban": "Kebon Kalapa",
+      "subDistrict": "Bogor Tengah",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016125"
+    },
+    {
+      "no": "51",
+      "urban": "Panaragan",
+      "subDistrict": "Bogor Tengah",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016125"
+    },
+    {
+      "no": "52",
+      "urban": "Babakan Pasar",
+      "subDistrict": "Bogor Tengah",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016126"
+    },
+    {
+      "no": "53",
+      "urban": "Tegallega",
+      "subDistrict": "Bogor Tengah",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016127"
+    },
+    {
+      "no": "54",
+      "urban": "Babakan",
+      "subDistrict": "Bogor Tengah",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016128"
+    },
+    {
+      "no": "55",
+      "urban": "Sempur",
+      "subDistrict": "Bogor Tengah",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016129"
+    },
+    {
+      "no": "56",
+      "urban": "Bondongan",
+      "subDistrict": "Bogor Selatan",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016131"
+    },
+    {
+      "no": "57",
+      "urban": "Empang",
+      "subDistrict": "Bogor Selatan",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016132"
+    },
+    {
+      "no": "58",
+      "urban": "Batutulis",
+      "subDistrict": "Bogor Selatan",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016133"
+    },
+    {
+      "no": "59",
+      "urban": "Lawanggintung",
+      "subDistrict": "Bogor Selatan",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016134"
+    },
+    {
+      "no": "60",
+      "urban": "Sukasari",
+      "subDistrict": "Bogor Timur",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016142"
+    },
+    {
+      "no": "61",
+      "urban": "Baranangsiang",
+      "subDistrict": "Bogor Timur",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016143"
+    },
+    {
+      "no": "62",
+      "urban": "Tegalgundil",
+      "subDistrict": "Bogor Utara",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016152"
+    },
+    {
+      "no": "63",
+      "urban": "Bantarjati",
+      "subDistrict": "Bogor Utara",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016153"
+    },
+    {
+      "no": "64",
+      "urban": "Tanah Sareal",
+      "subDistrict": "Tanahsareal",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016161"
+    },
+    {
+      "no": "65",
+      "urban": "Kebonpedes",
+      "subDistrict": "Tanahsareal",
+      "municipality": "Bogor",
+      "province": "Jawa Barat",
+      "pin": "016162"
+    },
+    {
+      "no": "66",
+      "urban": "Cipayung",
+      "subDistrict": "Ciputat",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015411"
+    },
+    {
+      "no": "67",
+      "urban": "Ciputat",
+      "subDistrict": "Ciputat",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015411"
+    },
+    {
+      "no": "68",
+      "urban": "Cempaka Putih",
+      "subDistrict": "Ciputat",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015412"
+    },
+    {
+      "no": "69",
+      "urban": "Pondok Ranji",
+      "subDistrict": "Ciputat",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015412"
+    },
+    {
+      "no": "70",
+      "urban": "Rempoa",
+      "subDistrict": "Ciputat",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015412"
+    },
+    {
+      "no": "71",
+      "urban": "Rengas",
+      "subDistrict": "Ciputat",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015412"
+    },
+    {
+      "no": "72",
+      "urban": "Sawah Baru",
+      "subDistrict": "Ciputat",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015413"
+    },
+    {
+      "no": "73",
+      "urban": "Sawah Lama",
+      "subDistrict": "Ciputat",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015413"
+    },
+    {
+      "no": "74",
+      "urban": "Jombang",
+      "subDistrict": "Pamulang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015414"
+    },
+    {
+      "no": "75",
+      "urban": "Sarua",
+      "subDistrict": "Pamulang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015414"
+    },
+    {
+      "no": "76",
+      "urban": "Sarua Indah",
+      "subDistrict": "Pamulang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015414"
+    },
+    {
+      "no": "77",
+      "urban": "Bambu Apus",
+      "subDistrict": "Pamulang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015415"
+    },
+    {
+      "no": "78",
+      "urban": "Kedaung",
+      "subDistrict": "Pamulang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015415"
+    },
+    {
+      "no": "79",
+      "urban": "Pondok Benda Baru",
+      "subDistrict": "Pamulang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015416"
+    },
+    {
+      "no": "80",
+      "urban": "Pondok Benda Lama",
+      "subDistrict": "Pamulang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015416"
+    },
+    {
+      "no": "81",
+      "urban": "Pamulang Barat",
+      "subDistrict": "Pamulang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015417"
+    },
+    {
+      "no": "82",
+      "urban": "Pamulang Timur",
+      "subDistrict": "Pamulang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015417"
+    },
+    {
+      "no": "83",
+      "urban": "Pondok Cabe Ilir",
+      "subDistrict": "Pamulang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015418"
+    },
+    {
+      "no": "84",
+      "urban": "Pondok Cabe Udik",
+      "subDistrict": "Pamulang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015418"
+    },
+    {
+      "no": "85",
+      "urban": "Cireundeu",
+      "subDistrict": "Ciputat",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015419"
+    },
+    {
+      "no": "86",
+      "urban": "Pisangan",
+      "subDistrict": "Ciputat",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015419"
+    },
+    {
+      "no": "87",
+      "urban": "Mekarjaya",
+      "subDistrict": "Sukmajaya",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016411"
+    },
+    {
+      "no": "88",
+      "urban": "Sukmajaya",
+      "subDistrict": "Sukmajaya",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016412"
+    },
+    {
+      "no": "89",
+      "urban": "Tirtajaya",
+      "subDistrict": "Sukmajaya",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016412"
+    },
+    {
+      "no": "90",
+      "urban": "Jatimulya",
+      "subDistrict": "Sukmajaya",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016413"
+    },
+    {
+      "no": "91",
+      "urban": "Kalimulya",
+      "subDistrict": "Sukmajaya",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016413"
+    },
+    {
+      "no": "92",
+      "urban": "Cilodong",
+      "subDistrict": "Sukmajaya",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016414"
+    },
+    {
+      "no": "93",
+      "urban": "Kalibaru",
+      "subDistrict": "Sukmajaya",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016414"
+    },
+    {
+      "no": "94",
+      "urban": "Sukamaju",
+      "subDistrict": "Sukmajaya",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016415"
+    },
+    {
+      "no": "95",
+      "urban": "Cisalak",
+      "subDistrict": "Sukmajaya",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016416"
+    },
+    {
+      "no": "96",
+      "urban": "Abadijaya",
+      "subDistrict": "Sukmajaya",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016417"
+    },
+    {
+      "no": "97",
+      "urban": "Baktijaya",
+      "subDistrict": "Sukmajaya",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016418"
+    },
+    {
+      "no": "98",
+      "urban": "Beji Barat",
+      "subDistrict": "Beji",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016421"
+    },
+    {
+      "no": "99",
+      "urban": "Beji Timur",
+      "subDistrict": "Beji",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016422"
+    },
+    {
+      "no": "100",
+      "urban": "Kemiri Muka",
+      "subDistrict": "Beji",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016423"
+    },
+    {
+      "no": "101",
+      "urban": "Pondok Cina",
+      "subDistrict": "Beji",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016424"
+    },
+    {
+      "no": "102",
+      "urban": "Kukusan",
+      "subDistrict": "Beji",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016425"
+    },
+    {
+      "no": "103",
+      "urban": "Tanah Baru",
+      "subDistrict": "Beji",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016426"
+    },
+    {
+      "no": "104",
+      "urban": "Depok",
+      "subDistrict": "Pancoranmas",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016431"
+    },
+    {
+      "no": "105",
+      "urban": "Depok Jaya",
+      "subDistrict": "Pancoranmas",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016432"
+    },
+    {
+      "no": "106",
+      "urban": "Mampang",
+      "subDistrict": "Pancoranmas",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016433"
+    },
+    {
+      "no": "107",
+      "urban": "Rangkapanjaya Baru",
+      "subDistrict": "Pancoranmas",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016434"
+    },
+    {
+      "no": "108",
+      "urban": "Rangkapanjaya",
+      "subDistrict": "Pancoranmas",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016435"
+    },
+    {
+      "no": "109",
+      "urban": "Pancoran Mas",
+      "subDistrict": "Pancoranmas",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016436"
+    },
+    {
+      "no": "110",
+      "urban": "Cipayung",
+      "subDistrict": "Pancoranmas",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016437"
+    },
+    {
+      "no": "111",
+      "urban": "Cipayungjaya",
+      "subDistrict": "Pancoranmas",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016437"
+    },
+    {
+      "no": "112",
+      "urban": "Pondokjaya",
+      "subDistrict": "Pancoranmas",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016438"
+    },
+    {
+      "no": "113",
+      "urban": "Pondokterong",
+      "subDistrict": "Pancoranmas",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016438"
+    },
+    {
+      "no": "114",
+      "urban": "Ratujaya",
+      "subDistrict": "Pancoranmas",
+      "municipality": "Depok",
+      "province": "Jawa Barat",
+      "pin": "016439"
+    },
+    {
+      "no": "115",
+      "urban": "Gambir",
+      "subDistrict": "Gambir",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010110"
+    },
+    {
+      "no": "116",
+      "urban": "Kebon Kelapa",
+      "subDistrict": "Gambir",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010120"
+    },
+    {
+      "no": "117",
+      "urban": "Petojo Utara",
+      "subDistrict": "Gambir",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010130"
+    },
+    {
+      "no": "118",
+      "urban": "Duri Pulo",
+      "subDistrict": "Gambir",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010140"
+    },
+    {
+      "no": "119",
+      "urban": "Cideng",
+      "subDistrict": "Gambir",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010150"
+    },
+    {
+      "no": "120",
+      "urban": "Petojo Selatan",
+      "subDistrict": "Gambir",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010160"
+    },
+    {
+      "no": "121",
+      "urban": "Bendungan Hilir",
+      "subDistrict": "Tanah Abang",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010210"
+    },
+    {
+      "no": "122",
+      "urban": "Karet Tengsin",
+      "subDistrict": "Tanah Abang",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010220"
+    },
+    {
+      "no": "123",
+      "urban": "Kebon Melati",
+      "subDistrict": "Tanah Abang",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010230"
+    },
+    {
+      "no": "124",
+      "urban": "Kebon Kacang",
+      "subDistrict": "Tanah Abang",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010240"
+    },
+    {
+      "no": "125",
+      "urban": "Kampung Bali",
+      "subDistrict": "Tanah Abang",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010250"
+    },
+    {
+      "no": "126",
+      "urban": "Petamburan",
+      "subDistrict": "Tanah Abang",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010260"
+    },
+    {
+      "no": "127",
+      "urban": "Gelora",
+      "subDistrict": "Tanah Abang",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010270"
+    },
+    {
+      "no": "128",
+      "urban": "Menteng",
+      "subDistrict": "Menteng",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010310"
+    },
+    {
+      "no": "129",
+      "urban": "Pegangsaan",
+      "subDistrict": "Menteng",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010320"
+    },
+    {
+      "no": "130",
+      "urban": "Cikini",
+      "subDistrict": "Menteng",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010330"
+    },
+    {
+      "no": "131",
+      "urban": "Kebon Sirih",
+      "subDistrict": "Menteng",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010340"
+    },
+    {
+      "no": "132",
+      "urban": "Gondangdia",
+      "subDistrict": "Menteng",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010350"
+    },
+    {
+      "no": "133",
+      "urban": "Senen",
+      "subDistrict": "Senen",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010410"
+    },
+    {
+      "no": "134",
+      "urban": "Kwitang",
+      "subDistrict": "Senen",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010420"
+    },
+    {
+      "no": "135",
+      "urban": "Kenari",
+      "subDistrict": "Senen",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010430"
+    },
+    {
+      "no": "136",
+      "urban": "Paseban",
+      "subDistrict": "Senen",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010440"
+    },
+    {
+      "no": "137",
+      "urban": "Kramat",
+      "subDistrict": "Senen",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010450"
+    },
+    {
+      "no": "138",
+      "urban": "Bungur",
+      "subDistrict": "Senen",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010460"
+    },
+    {
+      "no": "139",
+      "urban": "Cempaka Putih Timur",
+      "subDistrict": "Cempaka Putih",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010510"
+    },
+    {
+      "no": "140",
+      "urban": "Cempaka Putih Barat",
+      "subDistrict": "Cempaka Putih",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010520"
+    },
+    {
+      "no": "141",
+      "urban": "Galur",
+      "subDistrict": "Johar Baru",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010530"
+    },
+    {
+      "no": "142",
+      "urban": "Tanah Tinggi",
+      "subDistrict": "Johar Baru",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010540"
+    },
+    {
+      "no": "143",
+      "urban": "Kampung Rawa",
+      "subDistrict": "Johar Baru",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010550"
+    },
+    {
+      "no": "144",
+      "urban": "Johar Baru",
+      "subDistrict": "Johar Baru",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010560"
+    },
+    {
+      "no": "145",
+      "urban": "Rawasari",
+      "subDistrict": "Cempaka Putih",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010570"
+    },
+    {
+      "no": "146",
+      "urban": "Gunung Sahari Selatan",
+      "subDistrict": "Kemayoran",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010610"
+    },
+    {
+      "no": "147",
+      "urban": "Kemayoran",
+      "subDistrict": "Kemayoran",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010620"
+    },
+    {
+      "no": "148",
+      "urban": "Kebon Kosong",
+      "subDistrict": "Kemayoran",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010630"
+    },
+    {
+      "no": "149",
+      "urban": "Cempaka Baru",
+      "subDistrict": "Kemayoran",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010640"
+    },
+    {
+      "no": "150",
+      "urban": "Harapan Mulya",
+      "subDistrict": "Kemayoran",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010640"
+    },
+    {
+      "no": "151",
+      "urban": "Sumur Batu",
+      "subDistrict": "Kemayoran",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010640"
+    },
+    {
+      "no": "152",
+      "urban": "Serdang",
+      "subDistrict": "Kemayoran",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010650"
+    },
+    {
+      "no": "153",
+      "urban": "Utan Panjang",
+      "subDistrict": "Kemayoran",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010650"
+    },
+    {
+      "no": "154",
+      "urban": "Pasar Baru",
+      "subDistrict": "Sawah Besar",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010710"
+    },
+    {
+      "no": "155",
+      "urban": "Gunung Sahari Utara",
+      "subDistrict": "Sawah Besar",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010720"
+    },
+    {
+      "no": "156",
+      "urban": "Mangga Dua Selatan",
+      "subDistrict": "Sawah Besar",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010730"
+    },
+    {
+      "no": "157",
+      "urban": "Karang Anyar",
+      "subDistrict": "Sawah Besar",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010740"
+    },
+    {
+      "no": "158",
+      "urban": "Kartini",
+      "subDistrict": "Sawah Besar",
+      "municipality": "Jakarta Pusat",
+      "province": "DKI Jakarta",
+      "pin": "010750"
+    },
+    {
+      "no": "159",
+      "urban": "Pinangsia",
+      "subDistrict": "Tamansari",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011110"
+    },
+    {
+      "no": "160",
+      "urban": "Glodok",
+      "subDistrict": "Tamansari",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011120"
+    },
+    {
+      "no": "161",
+      "urban": "Keagungan",
+      "subDistrict": "Tamansari",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011130"
+    },
+    {
+      "no": "162",
+      "urban": "Krukut",
+      "subDistrict": "Tamansari",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011140"
+    },
+    {
+      "no": "163",
+      "urban": "Tamansari",
+      "subDistrict": "Tamansari",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011150"
+    },
+    {
+      "no": "164",
+      "urban": "Maphar",
+      "subDistrict": "Tamansari",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011160"
+    },
+    {
+      "no": "165",
+      "urban": "Tangki",
+      "subDistrict": "Tamansari",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011170"
+    },
+    {
+      "no": "166",
+      "urban": "Mangga Besar",
+      "subDistrict": "Tamansari",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011180"
+    },
+    {
+      "no": "167",
+      "urban": "Tanah Sareal",
+      "subDistrict": "Tambora",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011210"
+    },
+    {
+      "no": "168",
+      "urban": "Tambora",
+      "subDistrict": "Tambora",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011220"
+    },
+    {
+      "no": "169",
+      "urban": "Roa Malaka",
+      "subDistrict": "Tambora",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011230"
+    },
+    {
+      "no": "170",
+      "urban": "Pekojan",
+      "subDistrict": "Tambora",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011240"
+    },
+    {
+      "no": "171",
+      "urban": "Jembatan Lima",
+      "subDistrict": "Tambora",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011250"
+    },
+    {
+      "no": "172",
+      "urban": "Krendang",
+      "subDistrict": "Tambora",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011260"
+    },
+    {
+      "no": "173",
+      "urban": "Duri Selatan",
+      "subDistrict": "Tambora",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011270"
+    },
+    {
+      "no": "174",
+      "urban": "Duri Utara",
+      "subDistrict": "Tambora",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011270"
+    },
+    {
+      "no": "175",
+      "urban": "Kalianyar",
+      "subDistrict": "Tambora",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011310"
+    },
+    {
+      "no": "176",
+      "urban": "Jembatan Besi",
+      "subDistrict": "Tambora",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011320"
+    },
+    {
+      "no": "177",
+      "urban": "Angke",
+      "subDistrict": "Tambora",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011330"
+    },
+    {
+      "no": "178",
+      "urban": "Slipi",
+      "subDistrict": "Palmerah",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011410"
+    },
+    {
+      "no": "179",
+      "urban": "Kota Bambu Selatan",
+      "subDistrict": "Palmerah",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011420"
+    },
+    {
+      "no": "180",
+      "urban": "Kota Bambu Utara",
+      "subDistrict": "Palmerah",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011420"
+    },
+    {
+      "no": "181",
+      "urban": "Jati Pulo",
+      "subDistrict": "Palmerah",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011430"
+    },
+    {
+      "no": "182",
+      "urban": "Tomang",
+      "subDistrict": "Grogol Petamburan",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011440"
+    },
+    {
+      "no": "183",
+      "urban": "Grogol",
+      "subDistrict": "Grogol Petamburan",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011450"
+    },
+    {
+      "no": "184",
+      "urban": "Jelambar",
+      "subDistrict": "Grogol Petamburan",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011460"
+    },
+    {
+      "no": "185",
+      "urban": "Jelambar Baru",
+      "subDistrict": "Grogol Petamburan",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011460"
+    },
+    {
+      "no": "186",
+      "urban": "Wijaya Kusuma",
+      "subDistrict": "Grogol Petamburan",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011460"
+    },
+    {
+      "no": "187",
+      "urban": "Tanjung Duren",
+      "subDistrict": "Grogol Petamburan",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011470"
+    },
+    {
+      "no": "188",
+      "urban": "Tanjung Duren Utara",
+      "subDistrict": "Grogol Petamburan",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011470"
+    },
+    {
+      "no": "189",
+      "urban": "Kemanggisan",
+      "subDistrict": "Palmerah",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011480"
+    },
+    {
+      "no": "190",
+      "urban": "Palmerah",
+      "subDistrict": "Palmerah",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011480"
+    },
+    {
+      "no": "191",
+      "urban": "Duri Kepa",
+      "subDistrict": "Kebon Jeruk",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011510"
+    },
+    {
+      "no": "192",
+      "urban": "Kedoya Selatan",
+      "subDistrict": "Kebon Jeruk",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011520"
+    },
+    {
+      "no": "193",
+      "urban": "Kedoya Utara",
+      "subDistrict": "Kebon Jeruk",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011520"
+    },
+    {
+      "no": "194",
+      "urban": "Kebon Jeruk",
+      "subDistrict": "Kebon Jeruk",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011530"
+    },
+    {
+      "no": "195",
+      "urban": "Sukabumi Utara",
+      "subDistrict": "Kebon Jeruk",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011540"
+    },
+    {
+      "no": "196",
+      "urban": "Kelapa Dua",
+      "subDistrict": "Kebon Jeruk",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011550"
+    },
+    {
+      "no": "197",
+      "urban": "Sukabumi Selatan",
+      "subDistrict": "Kebon Jeruk",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011560"
+    },
+    {
+      "no": "198",
+      "urban": "Kembangan Barat",
+      "subDistrict": "Kembangan",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011610"
+    },
+    {
+      "no": "199",
+      "urban": "Kembangan Timur",
+      "subDistrict": "Kembangan",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011610"
+    },
+    {
+      "no": "200",
+      "urban": "Meruya Utara",
+      "subDistrict": "Kembangan",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011620"
+    },
+    {
+      "no": "201",
+      "urban": "Serengseng",
+      "subDistrict": "Kembangan",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011630"
+    },
+    {
+      "no": "202",
+      "urban": "Joglo",
+      "subDistrict": "Kembangan",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011640"
+    },
+    {
+      "no": "203",
+      "urban": "Meruya Selatan",
+      "subDistrict": "Kembangan",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011650"
+    },
+    {
+      "no": "204",
+      "urban": "Kedaung Kaliangke",
+      "subDistrict": "Cengkareng",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011710"
+    },
+    {
+      "no": "205",
+      "urban": "Kapuk",
+      "subDistrict": "Cengkareng",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011720"
+    },
+    {
+      "no": "206",
+      "urban": "Cengkareng Barat",
+      "subDistrict": "Cengkareng",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011730"
+    },
+    {
+      "no": "207",
+      "urban": "Cengkareng Timur",
+      "subDistrict": "Cengkareng",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011730"
+    },
+    {
+      "no": "208",
+      "urban": "Rawa Buaya",
+      "subDistrict": "Cengkareng",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011740"
+    },
+    {
+      "no": "209",
+      "urban": "Duri Kosambi",
+      "subDistrict": "Cengkareng",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011750"
+    },
+    {
+      "no": "210",
+      "urban": "Kamal",
+      "subDistrict": "Kalideres",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011810"
+    },
+    {
+      "no": "211",
+      "urban": "Tegal Alur",
+      "subDistrict": "Kalideres",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011820"
+    },
+    {
+      "no": "212",
+      "urban": "Pegadungan",
+      "subDistrict": "Kalideres",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011830"
+    },
+    {
+      "no": "213",
+      "urban": "Kalideres",
+      "subDistrict": "Kalideres",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011840"
+    },
+    {
+      "no": "214",
+      "urban": "Semanan",
+      "subDistrict": "Kalideres",
+      "municipality": "Jakarta Barat",
+      "province": "DKI Jakarta",
+      "pin": "011850"
+    },
+    {
+      "no": "215",
+      "urban": "Selong",
+      "subDistrict": "Kebayoran Baru",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012110"
+    },
+    {
+      "no": "216",
+      "urban": "Gunung",
+      "subDistrict": "Kebayoran Baru",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012120"
+    },
+    {
+      "no": "217",
+      "urban": "Kramat Pela",
+      "subDistrict": "Kebayoran Baru",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012130"
+    },
+    {
+      "no": "218",
+      "urban": "Gandaria Utara",
+      "subDistrict": "Kebayoran Baru",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012140"
+    },
+    {
+      "no": "219",
+      "urban": "Cipete Utara",
+      "subDistrict": "Kebayoran Baru",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012150"
+    },
+    {
+      "no": "220",
+      "urban": "Melawai",
+      "subDistrict": "Kebayoran Baru",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012160"
+    },
+    {
+      "no": "221",
+      "urban": "Pulo",
+      "subDistrict": "Kebayoran Baru",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012160"
+    },
+    {
+      "no": "222",
+      "urban": "Petogogan",
+      "subDistrict": "Kebayoran Baru",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012170"
+    },
+    {
+      "no": "223",
+      "urban": "Rawa Barat",
+      "subDistrict": "Kebayoran Baru",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012180"
+    },
+    {
+      "no": "224",
+      "urban": "Senayan",
+      "subDistrict": "Kebayoran Baru",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012190"
+    },
+    {
+      "no": "225",
+      "urban": "Grogol Utara",
+      "subDistrict": "Kebayoran Lama",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012210"
+    },
+    {
+      "no": "226",
+      "urban": "Grogol Selatan",
+      "subDistrict": "Kebayoran Lama",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012220"
+    },
+    {
+      "no": "227",
+      "urban": "Cipulir",
+      "subDistrict": "Kebayoran Lama",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012230"
+    },
+    {
+      "no": "228",
+      "urban": "Kebayoran Lama Selatan",
+      "subDistrict": "Kebayoran Lama",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012240"
+    },
+    {
+      "no": "229",
+      "urban": "Kebayoran Lama Utara",
+      "subDistrict": "Kebayoran Lama",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012240"
+    },
+    {
+      "no": "230",
+      "urban": "Ulujami",
+      "subDistrict": "Pesanggrahan",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012250"
+    },
+    {
+      "no": "231",
+      "urban": "Petukangan Utara",
+      "subDistrict": "Pesanggrahan",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012260"
+    },
+    {
+      "no": "232",
+      "urban": "Petukangan Selatan",
+      "subDistrict": "Pesanggrahan",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012270"
+    },
+    {
+      "no": "233",
+      "urban": "Pondok Pinang",
+      "subDistrict": "Kebayoran Lama",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012310"
+    },
+    {
+      "no": "234",
+      "urban": "Pesanggrahan",
+      "subDistrict": "Pesanggrahan",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012320"
+    },
+    {
+      "no": "235",
+      "urban": "Bintaro",
+      "subDistrict": "Pesanggrahan",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012330"
+    },
+    {
+      "no": "236",
+      "urban": "Cipete Selatan",
+      "subDistrict": "Cilandak",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012410"
+    },
+    {
+      "no": "237",
+      "urban": "Gandaria Selatan",
+      "subDistrict": "Cilandak",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012420"
+    },
+    {
+      "no": "238",
+      "urban": "Cilandak Barat",
+      "subDistrict": "Cilandak",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012430"
+    },
+    {
+      "no": "239",
+      "urban": "Lebak Bulus",
+      "subDistrict": "Cilandak",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012440"
+    },
+    {
+      "no": "240",
+      "urban": "Pondok Labu",
+      "subDistrict": "Cilandak",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012450"
+    },
+    {
+      "no": "241",
+      "urban": "Pejaten Barat",
+      "subDistrict": "Pasar Minggu",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012510"
+    },
+    {
+      "no": "242",
+      "urban": "Pejaten Timur",
+      "subDistrict": "Pasar Minggu",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012510"
+    },
+    {
+      "no": "243",
+      "urban": "Kebagusan",
+      "subDistrict": "Pasar Minggu",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012520"
+    },
+    {
+      "no": "244",
+      "urban": "Pasar Minggu",
+      "subDistrict": "Pasar Minggu",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012520"
+    },
+    {
+      "no": "245",
+      "urban": "Tanjung Barat",
+      "subDistrict": "Jagakarsa",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012530"
+    },
+    {
+      "no": "246",
+      "urban": "Jati Padang",
+      "subDistrict": "Pasar Minggu",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012540"
+    },
+    {
+      "no": "247",
+      "urban": "Ragunan",
+      "subDistrict": "Pasar Minggu",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012550"
+    },
+    {
+      "no": "248",
+      "urban": "Cilandak Timur",
+      "subDistrict": "Pasar Minggu",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012560"
+    },
+    {
+      "no": "249",
+      "urban": "Lenteng Agung",
+      "subDistrict": "Jagakarsa",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012610"
+    },
+    {
+      "no": "250",
+      "urban": "Jagakarsa",
+      "subDistrict": "Jagakarsa",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012620"
+    },
+    {
+      "no": "251",
+      "urban": "Ciganjur",
+      "subDistrict": "Jagakarsa",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012630"
+    },
+    {
+      "no": "252",
+      "urban": "Cipedak",
+      "subDistrict": "Jagakarsa",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012630"
+    },
+    {
+      "no": "253",
+      "urban": "Srengseng Sawah",
+      "subDistrict": "Jagakarsa",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012640"
+    },
+    {
+      "no": "254",
+      "urban": "Kuningan Barat",
+      "subDistrict": "Mampang Prapatan",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012710"
+    },
+    {
+      "no": "255",
+      "urban": "Pela Mampang",
+      "subDistrict": "Mampang Prapatan",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012720"
+    },
+    {
+      "no": "256",
+      "urban": "Bangka",
+      "subDistrict": "Mampang Prapatan",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012730"
+    },
+    {
+      "no": "257",
+      "urban": "Kalibata",
+      "subDistrict": "Pancoran",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012740"
+    },
+    {
+      "no": "258",
+      "urban": "Rawajati",
+      "subDistrict": "Pancoran",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012750"
+    },
+    {
+      "no": "259",
+      "urban": "Duren Tiga",
+      "subDistrict": "Pancoran",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012760"
+    },
+    {
+      "no": "260",
+      "urban": "Cikoko",
+      "subDistrict": "Pancoran",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012770"
+    },
+    {
+      "no": "261",
+      "urban": "Pengadegan",
+      "subDistrict": "Pancoran",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012770"
+    },
+    {
+      "no": "262",
+      "urban": "Pancoran",
+      "subDistrict": "Mampang Prapatan",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012780"
+    },
+    {
+      "no": "263",
+      "urban": "Mampang Prapatan",
+      "subDistrict": "Mampang Prapatan",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012790"
+    },
+    {
+      "no": "264",
+      "urban": "Tegal Parang",
+      "subDistrict": "Mampang Prapatan",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012790"
+    },
+    {
+      "no": "265",
+      "urban": "Tebet Barat",
+      "subDistrict": "Tebet",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012810"
+    },
+    {
+      "no": "266",
+      "urban": "Tebet Timur",
+      "subDistrict": "Tebet",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012820"
+    },
+    {
+      "no": "267",
+      "urban": "Kebon Baru",
+      "subDistrict": "Tebet",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012830"
+    },
+    {
+      "no": "268",
+      "urban": "Bukit Duri",
+      "subDistrict": "Tebet",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012840"
+    },
+    {
+      "no": "269",
+      "urban": "Manggarai",
+      "subDistrict": "Tebet",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012850"
+    },
+    {
+      "no": "270",
+      "urban": "Manggarai Selatan",
+      "subDistrict": "Tebet",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012860"
+    },
+    {
+      "no": "271",
+      "urban": "Menteng Dalam",
+      "subDistrict": "Tebet",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012870"
+    },
+    {
+      "no": "272",
+      "urban": "Setiabudi",
+      "subDistrict": "Setiabudi",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012910"
+    },
+    {
+      "no": "273",
+      "urban": "Karet",
+      "subDistrict": "Setiabudi",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012920"
+    },
+    {
+      "no": "274",
+      "urban": "Karet Semanggi",
+      "subDistrict": "Setiabudi",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012930"
+    },
+    {
+      "no": "275",
+      "urban": "Karet Kuningan",
+      "subDistrict": "Setiabudi",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012940"
+    },
+    {
+      "no": "276",
+      "urban": "Kuningan Timur",
+      "subDistrict": "Setiabudi",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012950"
+    },
+    {
+      "no": "277",
+      "urban": "Menteng Atas",
+      "subDistrict": "Setiabudi",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012960"
+    },
+    {
+      "no": "278",
+      "urban": "Pasar Manggis",
+      "subDistrict": "Setiabudi",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012970"
+    },
+    {
+      "no": "279",
+      "urban": "Guntur",
+      "subDistrict": "Setiabudi",
+      "municipality": "Jakarta Selatan",
+      "province": "DKI Jakarta",
+      "pin": "012980"
+    },
+    {
+      "no": "280",
+      "urban": "Pisangan Baru",
+      "subDistrict": "Matraman",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013110"
+    },
+    {
+      "no": "281",
+      "urban": "Utan Kayu Selatan",
+      "subDistrict": "Matraman",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013120"
+    },
+    {
+      "no": "282",
+      "urban": "Utan Kayu Utara",
+      "subDistrict": "Matraman",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013120"
+    },
+    {
+      "no": "283",
+      "urban": "Kayu Manis",
+      "subDistrict": "Matraman",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013130"
+    },
+    {
+      "no": "284",
+      "urban": "Pal Meriam",
+      "subDistrict": "Matraman",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013140"
+    },
+    {
+      "no": "285",
+      "urban": "Kebon Manggis",
+      "subDistrict": "Matraman",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013150"
+    },
+    {
+      "no": "286",
+      "urban": "Kayu Putih",
+      "subDistrict": "Pulo Gadung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013210"
+    },
+    {
+      "no": "287",
+      "urban": "Jati",
+      "subDistrict": "Pulo Gadung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013220"
+    },
+    {
+      "no": "288",
+      "urban": "Rawamangun",
+      "subDistrict": "Pulo Gadung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013220"
+    },
+    {
+      "no": "289",
+      "urban": "Pisangan Timur",
+      "subDistrict": "Pulo Gadung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013230"
+    },
+    {
+      "no": "290",
+      "urban": "Cipinang",
+      "subDistrict": "Pulo Gadung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013240"
+    },
+    {
+      "no": "291",
+      "urban": "Jatinegara Kaum",
+      "subDistrict": "Pulo Gadung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013250"
+    },
+    {
+      "no": "292",
+      "urban": "Pulo Gadung",
+      "subDistrict": "Pulo Gadung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013260"
+    },
+    {
+      "no": "293",
+      "urban": "Bali Mester",
+      "subDistrict": "Jatinegara",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013310"
+    },
+    {
+      "no": "294",
+      "urban": "Kampung Melayu",
+      "subDistrict": "Jatinegara",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013320"
+    },
+    {
+      "no": "295",
+      "urban": "Bidara Cina",
+      "subDistrict": "Jatinegara",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013330"
+    },
+    {
+      "no": "296",
+      "urban": "Cipinang Cempedak",
+      "subDistrict": "Jatinegara",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013340"
+    },
+    {
+      "no": "297",
+      "urban": "Rawa Bunga",
+      "subDistrict": "Jatinegara",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013350"
+    },
+    {
+      "no": "298",
+      "urban": "Cipinang Besar Selatan",
+      "subDistrict": "Jatinegara",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013410"
+    },
+    {
+      "no": "299",
+      "urban": "Cipinang Besar Utara",
+      "subDistrict": "Jatinegara",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013410"
+    },
+    {
+      "no": "300",
+      "urban": "Cipinang Muara",
+      "subDistrict": "Jatinegara",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013420"
+    },
+    {
+      "no": "301",
+      "urban": "Pondok Bambu",
+      "subDistrict": "Duren Sawit",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013430"
+    },
+    {
+      "no": "302",
+      "urban": "Duren Sawit",
+      "subDistrict": "Duren Sawit",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013440"
+    },
+    {
+      "no": "303",
+      "urban": "Pondok Kelapa",
+      "subDistrict": "Duren Sawit",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013450"
+    },
+    {
+      "no": "304",
+      "urban": "Malaka Jaya",
+      "subDistrict": "Duren Sawit",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013460"
+    },
+    {
+      "no": "305",
+      "urban": "Malaka Sari",
+      "subDistrict": "Duren Sawit",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013460"
+    },
+    {
+      "no": "306",
+      "urban": "Pondok Kopi",
+      "subDistrict": "Duren Sawit",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013460"
+    },
+    {
+      "no": "307",
+      "urban": "Klender",
+      "subDistrict": "Duren Sawit",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013470"
+    },
+    {
+      "no": "308",
+      "urban": "Kramat Jati",
+      "subDistrict": "Kramatjati",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013510"
+    },
+    {
+      "no": "309",
+      "urban": "Batu Ampar",
+      "subDistrict": "Kramatjati",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013520"
+    },
+    {
+      "no": "310",
+      "urban": "Bale Kambang",
+      "subDistrict": "Kramatjati",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013530"
+    },
+    {
+      "no": "311",
+      "urban": "Kampung Tengah",
+      "subDistrict": "Kramatjati",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013540"
+    },
+    {
+      "no": "312",
+      "urban": "Dukuh",
+      "subDistrict": "Kramatjati",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013550"
+    },
+    {
+      "no": "313",
+      "urban": "Pinang Ranti",
+      "subDistrict": "Makasar",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013560"
+    },
+    {
+      "no": "314",
+      "urban": "Makasar",
+      "subDistrict": "Makasar",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013570"
+    },
+    {
+      "no": "315",
+      "urban": "Halim Perdanakusumah",
+      "subDistrict": "Makasar",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013610"
+    },
+    {
+      "no": "316",
+      "urban": "Cipinang Melayu",
+      "subDistrict": "Makasar",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013620"
+    },
+    {
+      "no": "317",
+      "urban": "Cawang",
+      "subDistrict": "Kramatjati",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013630"
+    },
+    {
+      "no": "318",
+      "urban": "Cililitan",
+      "subDistrict": "Kramatjati",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013640"
+    },
+    {
+      "no": "319",
+      "urban": "Kebon Pala",
+      "subDistrict": "Makasar",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013650"
+    },
+    {
+      "no": "320",
+      "urban": "Pekayon",
+      "subDistrict": "Pasar Rebo",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013710"
+    },
+    {
+      "no": "321",
+      "urban": "Cibubur",
+      "subDistrict": "Ciracas",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013720"
+    },
+    {
+      "no": "322",
+      "urban": "Kelapa Dua Wetan",
+      "subDistrict": "Ciracas",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013730"
+    },
+    {
+      "no": "323",
+      "urban": "Ciracas",
+      "subDistrict": "Ciracas",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013740"
+    },
+    {
+      "no": "324",
+      "urban": "Susukan",
+      "subDistrict": "Ciracas",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013750"
+    },
+    {
+      "no": "325",
+      "urban": "Gedong",
+      "subDistrict": "Pasar Rebo",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013760"
+    },
+    {
+      "no": "326",
+      "urban": "Cijantung",
+      "subDistrict": "Pasar Rebo",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013770"
+    },
+    {
+      "no": "327",
+      "urban": "Baru",
+      "subDistrict": "Pasar Rebo",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013780"
+    },
+    {
+      "no": "328",
+      "urban": "Kalisari",
+      "subDistrict": "Pasar Rebo",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013790"
+    },
+    {
+      "no": "329",
+      "urban": "Lubang Buaya",
+      "subDistrict": "Cipayung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013810"
+    },
+    {
+      "no": "330",
+      "urban": "Ceger",
+      "subDistrict": "Cipayung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013820"
+    },
+    {
+      "no": "331",
+      "urban": "Rambutan",
+      "subDistrict": "Ciracas",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013830"
+    },
+    {
+      "no": "332",
+      "urban": "Cipayung",
+      "subDistrict": "Cipayung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013840"
+    },
+    {
+      "no": "333",
+      "urban": "Munjul",
+      "subDistrict": "Cipayung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013850"
+    },
+    {
+      "no": "334",
+      "urban": "Pondok Rangon",
+      "subDistrict": "Cipayung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013860"
+    },
+    {
+      "no": "335",
+      "urban": "Cilangkap",
+      "subDistrict": "Cipayung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013870"
+    },
+    {
+      "no": "336",
+      "urban": "Setu",
+      "subDistrict": "Cipayung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013880"
+    },
+    {
+      "no": "337",
+      "urban": "Bambu Apus",
+      "subDistrict": "Cipayung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013890"
+    },
+    {
+      "no": "338",
+      "urban": "Cakung Barat",
+      "subDistrict": "Cakung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013910"
+    },
+    {
+      "no": "339",
+      "urban": "Cakung Timur",
+      "subDistrict": "Cakung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013910"
+    },
+    {
+      "no": "340",
+      "urban": "Rawa Terate",
+      "subDistrict": "Cakung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013920"
+    },
+    {
+      "no": "341",
+      "urban": "Jatinegara",
+      "subDistrict": "Cakung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013930"
+    },
+    {
+      "no": "342",
+      "urban": "Penggilingan",
+      "subDistrict": "Cakung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013940"
+    },
+    {
+      "no": "343",
+      "urban": "Pulo Gebang",
+      "subDistrict": "Cakung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013950"
+    },
+    {
+      "no": "344",
+      "urban": "Ujung Menteng",
+      "subDistrict": "Cakung",
+      "municipality": "Jakarta Timur",
+      "province": "DKI Jakarta",
+      "pin": "013960"
+    },
+    {
+      "no": "345",
+      "urban": "Kalibaru",
+      "subDistrict": "Cilincing",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014110"
+    },
+    {
+      "no": "346",
+      "urban": "Cilincing",
+      "subDistrict": "Cilincing",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014120"
+    },
+    {
+      "no": "347",
+      "urban": "Semper Barat",
+      "subDistrict": "Cilincing",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014130"
+    },
+    {
+      "no": "348",
+      "urban": "Semper Timur",
+      "subDistrict": "Cilincing",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014130"
+    },
+    {
+      "no": "349",
+      "urban": "Rorotan",
+      "subDistrict": "Cilincing",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014140"
+    },
+    {
+      "no": "350",
+      "urban": "Sukapura",
+      "subDistrict": "Cilincing",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014140"
+    },
+    {
+      "no": "351",
+      "urban": "Marunda",
+      "subDistrict": "Cilincing",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014150"
+    },
+    {
+      "no": "352",
+      "urban": "Koja Utara",
+      "subDistrict": "Koja",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014210"
+    },
+    {
+      "no": "353",
+      "urban": "Koja Selatan",
+      "subDistrict": "Koja",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014220"
+    },
+    {
+      "no": "354",
+      "urban": "Rawa Badak",
+      "subDistrict": "Koja",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014230"
+    },
+    {
+      "no": "355",
+      "urban": "Kelapa Gading Barat",
+      "subDistrict": "Kelapa Gading",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014240"
+    },
+    {
+      "no": "356",
+      "urban": "Kelapa Gading Timur",
+      "subDistrict": "Kelapa Gading",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014240"
+    },
+    {
+      "no": "357",
+      "urban": "Pegangsaan Dua",
+      "subDistrict": "Kelapa Gading",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014250"
+    },
+    {
+      "no": "358",
+      "urban": "Tugu Selatan",
+      "subDistrict": "Koja",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014260"
+    },
+    {
+      "no": "359",
+      "urban": "Tugu Utara",
+      "subDistrict": "Koja",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014260"
+    },
+    {
+      "no": "360",
+      "urban": "Lagoa",
+      "subDistrict": "Koja",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014270"
+    },
+    {
+      "no": "361",
+      "urban": "Tanjung Priok",
+      "subDistrict": "Tanjung Priok",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014310"
+    },
+    {
+      "no": "362",
+      "urban": "Kebon Bawang",
+      "subDistrict": "Tanjung Priok",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014320"
+    },
+    {
+      "no": "363",
+      "urban": "Sungai Bambu",
+      "subDistrict": "Tanjung Priok",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014330"
+    },
+    {
+      "no": "364",
+      "urban": "Papanggo",
+      "subDistrict": "Tanjung Priok",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014340"
+    },
+    {
+      "no": "365",
+      "urban": "Warakas",
+      "subDistrict": "Tanjung Priok",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014340"
+    },
+    {
+      "no": "366",
+      "urban": "Sunter Agung",
+      "subDistrict": "Tanjung Priok",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014350"
+    },
+    {
+      "no": "367",
+      "urban": "Sunter Jaya",
+      "subDistrict": "Tanjung Priok",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014350"
+    },
+    {
+      "no": "368",
+      "urban": "Pademangan Timur",
+      "subDistrict": "Pademangan",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014410"
+    },
+    {
+      "no": "369",
+      "urban": "Pademangan Barat",
+      "subDistrict": "Pademangan",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014420"
+    },
+    {
+      "no": "370",
+      "urban": "Ancol",
+      "subDistrict": "Pademangan",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014430"
+    },
+    {
+      "no": "371",
+      "urban": "Penjaringan",
+      "subDistrict": "Penjaringan",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014440"
+    },
+    {
+      "no": "372",
+      "urban": "Pejagalan",
+      "subDistrict": "Penjaringan",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014450"
+    },
+    {
+      "no": "373",
+      "urban": "Pluit",
+      "subDistrict": "Penjaringan",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014450"
+    },
+    {
+      "no": "374",
+      "urban": "Kapuk Muara",
+      "subDistrict": "Penjaringan",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014460"
+    },
+    {
+      "no": "375",
+      "urban": "Kamal Muara",
+      "subDistrict": "Penjaringan",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014470"
+    },
+    {
+      "no": "376",
+      "urban": "Pulau Untung Jawa",
+      "subDistrict": "Kepulauan Seribu",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014510"
+    },
+    {
+      "no": "377",
+      "urban": "Pulau Tidung",
+      "subDistrict": "Kepulauan Seribu",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014520"
+    },
+    {
+      "no": "378",
+      "urban": "Pulau Panggang",
+      "subDistrict": "Kepulauan Seribu",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014530"
+    },
+    {
+      "no": "379",
+      "urban": "Pulau Kelapa",
+      "subDistrict": "Kepulauan Seribu",
+      "municipality": "Jakarta Utara",
+      "province": "DKI Jakarta",
+      "pin": "014540"
+    },
+    {
+      "no": "380",
+      "urban": "Suka Asih",
+      "subDistrict": "Tangerang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015111"
+    },
+    {
+      "no": "381",
+      "urban": "Sukarasa",
+      "subDistrict": "Tangerang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015111"
+    },
+    {
+      "no": "382",
+      "urban": "Koang Jaya",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015112"
+    },
+    {
+      "no": "383",
+      "urban": "Nambo Jaya",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015112"
+    },
+    {
+      "no": "384",
+      "urban": "Pabuaran Tumpeng",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015112"
+    },
+    {
+      "no": "385",
+      "urban": "Pasar Baru",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015112"
+    },
+    {
+      "no": "386",
+      "urban": "Bugel",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015113"
+    },
+    {
+      "no": "387",
+      "urban": "Gerendeng",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015113"
+    },
+    {
+      "no": "388",
+      "urban": "Marga Sari",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015113"
+    },
+    {
+      "no": "389",
+      "urban": "Suka Jadi",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015113"
+    },
+    {
+      "no": "390",
+      "urban": "Cimone",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015114"
+    },
+    {
+      "no": "391",
+      "urban": "Cimone Baru",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015114"
+    },
+    {
+      "no": "392",
+      "urban": "Pabuaran",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015114"
+    },
+    {
+      "no": "393",
+      "urban": "Sumur Pancing",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015114"
+    },
+    {
+      "no": "394",
+      "urban": "Bojong Jaya",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015115"
+    },
+    {
+      "no": "395",
+      "urban": "Karawaci",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015115"
+    },
+    {
+      "no": "396",
+      "urban": "Karawaci Baru",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015116"
+    },
+    {
+      "no": "397",
+      "urban": "Nusa Jaya",
+      "subDistrict": "Karawaci",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015116"
+    },
+    {
+      "no": "398",
+      "urban": "Cikokol",
+      "subDistrict": "Tangerang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015117"
+    },
+    {
+      "no": "399",
+      "urban": "Kelapa Indah",
+      "subDistrict": "Tangerang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015117"
+    },
+    {
+      "no": "400",
+      "urban": "Babakan",
+      "subDistrict": "Tangerang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015118"
+    },
+    {
+      "no": "401",
+      "urban": "Sukasari",
+      "subDistrict": "Tangerang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015118"
+    },
+    {
+      "no": "402",
+      "urban": "Buaran Indah",
+      "subDistrict": "Tangerang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015119"
+    },
+    {
+      "no": "403",
+      "urban": "Tanah Tinggi",
+      "subDistrict": "Tangerang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015119"
+    },
+    {
+      "no": "404",
+      "urban": "Batu Jaya",
+      "subDistrict": "Batuceper",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015121"
+    },
+    {
+      "no": "405",
+      "urban": "Batu Sari",
+      "subDistrict": "Batuceper",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015121"
+    },
+    {
+      "no": "406",
+      "urban": "Karang Anyar",
+      "subDistrict": "Neglasari",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015121"
+    },
+    {
+      "no": "407",
+      "urban": "Karang Sari",
+      "subDistrict": "Neglasari",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015121"
+    },
+    {
+      "no": "408",
+      "urban": "Batuceper",
+      "subDistrict": "Batuceper",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015122"
+    },
+    {
+      "no": "409",
+      "urban": "Kebon Besar",
+      "subDistrict": "Batuceper",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015122"
+    },
+    {
+      "no": "410",
+      "urban": "Poris Gaga",
+      "subDistrict": "Batuceper",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015122"
+    },
+    {
+      "no": "411",
+      "urban": "Poris Gaga Baru",
+      "subDistrict": "Batuceper",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015122"
+    },
+    {
+      "no": "412",
+      "urban": "Poris Jaya",
+      "subDistrict": "Batuceper",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015122"
+    },
+    {
+      "no": "413",
+      "urban": "Belendung",
+      "subDistrict": "Benda",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015123"
+    },
+    {
+      "no": "414",
+      "urban": "Jurumudi",
+      "subDistrict": "Benda",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015124"
+    },
+    {
+      "no": "415",
+      "urban": "Jurumudi Baru",
+      "subDistrict": "Benda",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015124"
+    },
+    {
+      "no": "416",
+      "urban": "Benda",
+      "subDistrict": "Benda",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015125"
+    },
+    {
+      "no": "417",
+      "urban": "Pajang",
+      "subDistrict": "Benda",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015126"
+    },
+    {
+      "no": "418",
+      "urban": "Selapajang Jaya",
+      "subDistrict": "Neglasari",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015127"
+    },
+    {
+      "no": "419",
+      "urban": "Kedaung Baru",
+      "subDistrict": "Neglasari",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015128"
+    },
+    {
+      "no": "420",
+      "urban": "Kedaung Wetan",
+      "subDistrict": "Neglasari",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015128"
+    },
+    {
+      "no": "421",
+      "urban": "Mekar Sari",
+      "subDistrict": "Neglasari",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015129"
+    },
+    {
+      "no": "422",
+      "urban": "Neglasari",
+      "subDistrict": "Neglasari",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015129"
+    },
+    {
+      "no": "423",
+      "urban": "Periuk",
+      "subDistrict": "Periuk",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015131"
+    },
+    {
+      "no": "424",
+      "urban": "Periuk Jaya",
+      "subDistrict": "Periuk",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015131"
+    },
+    {
+      "no": "425",
+      "urban": "Gebang Raya",
+      "subDistrict": "Periuk",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015132"
+    },
+    {
+      "no": "426",
+      "urban": "Sangiang Jaya",
+      "subDistrict": "Periuk",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015132"
+    },
+    {
+      "no": "427",
+      "urban": "Alam Jaya",
+      "subDistrict": "Jatiuwung",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015133"
+    },
+    {
+      "no": "428",
+      "urban": "Gembor",
+      "subDistrict": "Periuk",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015133"
+    },
+    {
+      "no": "429",
+      "urban": "Jatiuwung",
+      "subDistrict": "Cibodas",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015134"
+    },
+    {
+      "no": "430",
+      "urban": "Keroncong",
+      "subDistrict": "Jatiuwung",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015134"
+    },
+    {
+      "no": "431",
+      "urban": "Pasir Jaya",
+      "subDistrict": "Jatiuwung",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015135"
+    },
+    {
+      "no": "432",
+      "urban": "Jatake",
+      "subDistrict": "Jatiuwung",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015136"
+    },
+    {
+      "no": "433",
+      "urban": "Manis Jaya",
+      "subDistrict": "Jatiuwung",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015136"
+    },
+    {
+      "no": "434",
+      "urban": "Gandasari",
+      "subDistrict": "Jatiuwung",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015137"
+    },
+    {
+      "no": "435",
+      "urban": "Cibodas",
+      "subDistrict": "Cibodas",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015138"
+    },
+    {
+      "no": "436",
+      "urban": "Cibodas Baru",
+      "subDistrict": "Cibodas",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015138"
+    },
+    {
+      "no": "437",
+      "urban": "Cibodas sari",
+      "subDistrict": "Cibodas",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015138"
+    },
+    {
+      "no": "438",
+      "urban": "Uwung Jaya",
+      "subDistrict": "Cibodas",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015138"
+    },
+    {
+      "no": "439",
+      "urban": "Panunggangan Barat",
+      "subDistrict": "Cibodas",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015139"
+    },
+    {
+      "no": "440",
+      "urban": "Poris Plawad",
+      "subDistrict": "Cipondoh",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015141"
+    },
+    {
+      "no": "441",
+      "urban": "Poris Plawad Indah",
+      "subDistrict": "Cipondoh",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015141"
+    },
+    {
+      "no": "442",
+      "urban": "Poris Plawad Utara",
+      "subDistrict": "Cipondoh",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015141"
+    },
+    {
+      "no": "443",
+      "urban": "Cipete",
+      "subDistrict": "Pinang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015142"
+    },
+    {
+      "no": "444",
+      "urban": "Pakojan",
+      "subDistrict": "Pinang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015142"
+    },
+    {
+      "no": "445",
+      "urban": "Panunggangan",
+      "subDistrict": "Pinang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015143"
+    },
+    {
+      "no": "446",
+      "urban": "Panunggangan Timur",
+      "subDistrict": "Pinang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015143"
+    },
+    {
+      "no": "447",
+      "urban": "Panunggangan Utara",
+      "subDistrict": "Pinang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015143"
+    },
+    {
+      "no": "448",
+      "urban": "Kunciran",
+      "subDistrict": "Pinang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015144"
+    },
+    {
+      "no": "449",
+      "urban": "Kunciran Indah",
+      "subDistrict": "Pinang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015144"
+    },
+    {
+      "no": "450",
+      "urban": "Kunciran Jaya",
+      "subDistrict": "Pinang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015144"
+    },
+    {
+      "no": "451",
+      "urban": "Nerogtog",
+      "subDistrict": "Pinang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015145"
+    },
+    {
+      "no": "452",
+      "urban": "Pinang",
+      "subDistrict": "Pinang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015145"
+    },
+    {
+      "no": "453",
+      "urban": "Sudimara Pinang",
+      "subDistrict": "Pinang",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015145"
+    },
+    {
+      "no": "454",
+      "urban": "Gondrong",
+      "subDistrict": "Cipondoh",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015146"
+    },
+    {
+      "no": "455",
+      "urban": "Kenanga",
+      "subDistrict": "Cipondoh",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015146"
+    },
+    {
+      "no": "456",
+      "urban": "Ketapang",
+      "subDistrict": "Cipondoh",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015147"
+    },
+    {
+      "no": "457",
+      "urban": "Petir",
+      "subDistrict": "Cipondoh",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015147"
+    },
+    {
+      "no": "458",
+      "urban": "Cipondoh",
+      "subDistrict": "Cipondoh",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015148"
+    },
+    {
+      "no": "459",
+      "urban": "Cipondoh Indah",
+      "subDistrict": "Cipondoh",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015148"
+    },
+    {
+      "no": "460",
+      "urban": "Cipondoh Makmur",
+      "subDistrict": "Cipondoh",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015148"
+    },
+    {
+      "no": "461",
+      "urban": "Sudimara Barat",
+      "subDistrict": "Ciledug",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015151"
+    },
+    {
+      "no": "462",
+      "urban": "Sudimara Jaya",
+      "subDistrict": "Ciledug",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015151"
+    },
+    {
+      "no": "463",
+      "urban": "Sudimara Selatan",
+      "subDistrict": "Ciledug",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015151"
+    },
+    {
+      "no": "464",
+      "urban": "Sudimara Timur",
+      "subDistrict": "Ciledug",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015151"
+    },
+    {
+      "no": "465",
+      "urban": "Tajur",
+      "subDistrict": "Ciledug",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015152"
+    },
+    {
+      "no": "466",
+      "urban": "Paninggilan Selatan",
+      "subDistrict": "Ciledug",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015153"
+    },
+    {
+      "no": "467",
+      "urban": "Paninggilan Utara",
+      "subDistrict": "Ciledug",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015153"
+    },
+    {
+      "no": "468",
+      "urban": "Parung Serab",
+      "subDistrict": "Ciledug",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015153"
+    },
+    {
+      "no": "469",
+      "urban": "Gaga",
+      "subDistrict": "Larangan",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015154"
+    },
+    {
+      "no": "470",
+      "urban": "Larangan Indah",
+      "subDistrict": "Larangan",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015154"
+    },
+    {
+      "no": "471",
+      "urban": "Larangan Selatan",
+      "subDistrict": "Larangan",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015154"
+    },
+    {
+      "no": "472",
+      "urban": "Larangan Utara",
+      "subDistrict": "Larangan",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015154"
+    },
+    {
+      "no": "473",
+      "urban": "Cipadu",
+      "subDistrict": "Larangan",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015155"
+    },
+    {
+      "no": "474",
+      "urban": "Cipadu Jaya",
+      "subDistrict": "Larangan",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015155"
+    },
+    {
+      "no": "475",
+      "urban": "Kreo Selatan",
+      "subDistrict": "Larangan",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015156"
+    },
+    {
+      "no": "476",
+      "urban": "Kreo Utara",
+      "subDistrict": "Larangan",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015156"
+    },
+    {
+      "no": "477",
+      "urban": "Karang Mulya",
+      "subDistrict": "Karang Tengah",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015157"
+    },
+    {
+      "no": "478",
+      "urban": "Karang Tengah",
+      "subDistrict": "Karang Tengah",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015157"
+    },
+    {
+      "no": "479",
+      "urban": "Karang Timur",
+      "subDistrict": "Karang Tengah",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015157"
+    },
+    {
+      "no": "480",
+      "urban": "Padurenan",
+      "subDistrict": "Karang Tengah",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015158"
+    },
+    {
+      "no": "481",
+      "urban": "Pondok Pucung",
+      "subDistrict": "Karang Tengah",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015158"
+    },
+    {
+      "no": "482",
+      "urban": "Parung Jaya",
+      "subDistrict": "Karang Tengah",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015159"
+    },
+    {
+      "no": "483",
+      "urban": "Pondok Bahar",
+      "subDistrict": "Karang Tengah",
+      "municipality": "Tangerang",
+      "province": "Banten",
+      "pin": "015159"
+    }
+]

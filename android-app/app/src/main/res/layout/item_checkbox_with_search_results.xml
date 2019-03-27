@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:background="@color/navigation_menu_color">
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="check box"
+            style="@style/AppTheme.CheckBox.NavigationMenu"
+            />
+
+
+        <TextView
+            android:id="@+id/filterResults"
+            style="@style/AppTheme.TextView.NavigationMenu"
+            android:layout_toEndOf="@id/checkbox"
+            android:layout_toRightOf="@id/checkbox"
+            android:layout_marginLeft="@dimen/app_margin_min"
+            android:layout_marginStart="@dimen/app_margin_min"
+            tools:text="(4)"
+            android:layout_alignBaseline="@id/checkbox" />
+
+    </RelativeLayout>
+</layout>

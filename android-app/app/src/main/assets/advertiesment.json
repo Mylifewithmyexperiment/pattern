@@ -1,0 +1,95 @@
+{
+  "requestType": "requestGetDynamicAdvertise",
+  "responseCode": "1",
+  "responseData": [
+    {
+      "addName": "dashboard_retina",
+      "deviceCategory": "APPLE_RETINA",
+      "dynaAdvertisementId": 44,
+      "fieldName": "dashboard_retina",
+      "invocationCode": "%3Cstyle%3E+%0D%0A%09body+%7Bmargin%3A0px%3B+padding%3A0px%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cscript+type%3D%27text%2Fjavascript%27%3E%0D%0A+++var+m3_u+%3D+%27http%3A%2F%2F117.236.240.10%3A9090%2Frv%2Fwww%2Fdelivery%2Fajs.php%27%3B%0D%0A+++var+m3_r+%3D+Math.floor%28Math.random%28%29*99999999999%29%3B%0D%0A+++if+%28%21document.MAX_used%29+document.MAX_used+%3D+%27%2C%27%3B%0D%0A+++document.write+%28%22%3Cscr%22%2B%22ipt+type%3D%27text%2Fjavascript%27+src%3D%27%22%2Bm3_u%29%3B%0D%0A++++++document.write+%28%22%3Fwidth%3D640%26height%3D100%26zoneid%3D10%26withtext%3D1%26fullscreen%3D0%26sms%3D%26email%3D%26location%3D%7Blocation%7D%22%29%3B+++%0D%0A++++++document.write+%28%22%26zones%3Dpre-roll%253D10%22%29%3B+++%0D%0A+++document.write+%28%27%26amp%3Bcb%3D%27+%2B+m3_r%29%3B%0D%0A+++if+%28document.MAX_used+%21%3D+%27%2C%27%29+document.write+%28%22%26amp%3Bexclude%3D%22+%2B+document.MAX_used%29%3B%0D%0A+++document.write+%28document.charset+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.charset+%3A+%28document.characterSet+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.characterSet+%3A+%27%27%29%29%3B%0D%0A+++document.write+%28%22%26amp%3Bloc%3D%22+%2B+escape%28window.location%29%29%3B%0D%0A+++if+%28document.referrer%29+document.write+%28%22%26amp%3Breferer%3D%22+%2B+escape%28document.referrer%29%29%3B%0D%0A+++if+%28document.context%29+document.write+%28%22%26context%3D%22+%2B+escape%28document.context%29%29%3B%0D%0A+++if+%28document.mmm_fo%29+document.write+%28%22%26amp%3Bmmm_fo%3D1%22%29%3B%0D%0A+++document.write+%28%22%27%3E%3C%5C%2Fscr%22%2B%22ipt%3E%22%29%3B%0D%0A%3C%2Fscript%3E",
+      "screenLocation": "FOOTER",
+      "screenName": "DASHBOARD_SCREEN"
+    },
+    {
+      "addName": "dashboard_retina",
+      "deviceCategory": "APPLE_RETINA",
+      "dynaAdvertisementId": 45,
+      "fieldName": "inventory_retina",
+      "invocationCode": "%3Cstyle%3E+%0D%0A%09body+%7Bmargin%3A0px%3B+padding%3A0px%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cscript+type%3D%27text%2Fjavascript%27%3E%0D%0A+++var+m3_u+%3D+%27http%3A%2F%2F117.236.240.10%3A9090%2Frv%2Fwww%2Fdelivery%2Fajs.php%27%3B%0D%0A+++var+m3_r+%3D+Math.floor%28Math.random%28%29*99999999999%29%3B%0D%0A+++if+%28%21document.MAX_used%29+document.MAX_used+%3D+%27%2C%27%3B%0D%0A+++document.write+%28%22%3Cscr%22%2B%22ipt+type%3D%27text%2Fjavascript%27+src%3D%27%22%2Bm3_u%29%3B%0D%0A++++++document.write+%28%22%3Fwidth%3D640%26height%3D100%26zoneid%3D10%26withtext%3D1%26fullscreen%3D0%26sms%3D%26email%3D%26location%3D%7Blocation%7D%22%29%3B+++%0D%0A++++++document.write+%28%22%26zones%3Dpre-roll%253D10%22%29%3B+++%0D%0A+++document.write+%28%27%26amp%3Bcb%3D%27+%2B+m3_r%29%3B%0D%0A+++if+%28document.MAX_used+%21%3D+%27%2C%27%29+document.write+%28%22%26amp%3Bexclude%3D%22+%2B+document.MAX_used%29%3B%0D%0A+++document.write+%28document.charset+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.charset+%3A+%28document.characterSet+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.characterSet+%3A+%27%27%29%29%3B%0D%0A+++document.write+%28%22%26amp%3Bloc%3D%22+%2B+escape%28window.location%29%29%3B%0D%0A+++if+%28document.referrer%29+document.write+%28%22%26amp%3Breferer%3D%22+%2B+escape%28document.referrer%29%29%3B%0D%0A+++if+%28document.context%29+document.write+%28%22%26context%3D%22+%2B+escape%28document.context%29%29%3B%0D%0A+++if+%28document.mmm_fo%29+document.write+%28%22%26amp%3Bmmm_fo%3D1%22%29%3B%0D%0A+++document.write+%28%22%27%3E%3C%5C%2Fscr%22%2B%22ipt%3E%22%29%3B%0D%0A%3C%2Fscript%3E",
+      "screenLocation": "FOOTER",
+      "screenName": "INVENTORY_SCREEN"
+    },
+    {
+      "addName": "dashboard_retina",
+      "deviceCategory": "APPLE_RETINA",
+      "dynaAdvertisementId": 46,
+      "fieldName": "plan_retina",
+      "invocationCode": "%3Cstyle%3E+%0D%0A%09body+%7Bmargin%3A0px%3B+padding%3A0px%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cscript+type%3D%27text%2Fjavascript%27%3E%0D%0A+++var+m3_u+%3D+%27http%3A%2F%2F117.236.240.10%3A9090%2Frv%2Fwww%2Fdelivery%2Fajs.php%27%3B%0D%0A+++var+m3_r+%3D+Math.floor%28Math.random%28%29*99999999999%29%3B%0D%0A+++if+%28%21document.MAX_used%29+document.MAX_used+%3D+%27%2C%27%3B%0D%0A+++document.write+%28%22%3Cscr%22%2B%22ipt+type%3D%27text%2Fjavascript%27+src%3D%27%22%2Bm3_u%29%3B%0D%0A++++++document.write+%28%22%3Fwidth%3D640%26height%3D100%26zoneid%3D10%26withtext%3D1%26fullscreen%3D0%26sms%3D%26email%3D%26location%3D%7Blocation%7D%22%29%3B+++%0D%0A++++++document.write+%28%22%26zones%3Dpre-roll%253D10%22%29%3B+++%0D%0A+++document.write+%28%27%26amp%3Bcb%3D%27+%2B+m3_r%29%3B%0D%0A+++if+%28document.MAX_used+%21%3D+%27%2C%27%29+document.write+%28%22%26amp%3Bexclude%3D%22+%2B+document.MAX_used%29%3B%0D%0A+++document.write+%28document.charset+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.charset+%3A+%28document.characterSet+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.characterSet+%3A+%27%27%29%29%3B%0D%0A+++document.write+%28%22%26amp%3Bloc%3D%22+%2B+escape%28window.location%29%29%3B%0D%0A+++if+%28document.referrer%29+document.write+%28%22%26amp%3Breferer%3D%22+%2B+escape%28document.referrer%29%29%3B%0D%0A+++if+%28document.context%29+document.write+%28%22%26context%3D%22+%2B+escape%28document.context%29%29%3B%0D%0A+++if+%28document.mmm_fo%29+document.write+%28%22%26amp%3Bmmm_fo%3D1%22%29%3B%0D%0A+++document.write+%28%22%27%3E%3C%5C%2Fscr%22%2B%22ipt%3E%22%29%3B%0D%0A%3C%2Fscript%3E",
+      "screenLocation": "FOOTER",
+      "screenName": "PLAN_SCREEN"
+    },
+    {
+      "addName": "dashboard_retina",
+      "deviceCategory": "APPLE_RETINA",
+      "dynaAdvertisementId": 47,
+      "fieldName": "kyc_retina",
+      "invocationCode": "%3Cstyle%3E+%0D%0A%09body+%7Bmargin%3A0px%3B+padding%3A0px%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cscript+type%3D%27text%2Fjavascript%27%3E%0D%0A+++var+m3_u+%3D+%27http%3A%2F%2F117.236.240.10%3A9090%2Frv%2Fwww%2Fdelivery%2Fajs.php%27%3B%0D%0A+++var+m3_r+%3D+Math.floor%28Math.random%28%29*99999999999%29%3B%0D%0A+++if+%28%21document.MAX_used%29+document.MAX_used+%3D+%27%2C%27%3B%0D%0A+++document.write+%28%22%3Cscr%22%2B%22ipt+type%3D%27text%2Fjavascript%27+src%3D%27%22%2Bm3_u%29%3B%0D%0A++++++document.write+%28%22%3Fwidth%3D640%26height%3D100%26zoneid%3D10%26withtext%3D1%26fullscreen%3D0%26sms%3D%26email%3D%26location%3D%7Blocation%7D%22%29%3B+++%0D%0A++++++document.write+%28%22%26zones%3Dpre-roll%253D10%22%29%3B+++%0D%0A+++document.write+%28%27%26amp%3Bcb%3D%27+%2B+m3_r%29%3B%0D%0A+++if+%28document.MAX_used+%21%3D+%27%2C%27%29+document.write+%28%22%26amp%3Bexclude%3D%22+%2B+document.MAX_used%29%3B%0D%0A+++document.write+%28document.charset+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.charset+%3A+%28document.characterSet+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.characterSet+%3A+%27%27%29%29%3B%0D%0A+++document.write+%28%22%26amp%3Bloc%3D%22+%2B+escape%28window.location%29%29%3B%0D%0A+++if+%28document.referrer%29+document.write+%28%22%26amp%3Breferer%3D%22+%2B+escape%28document.referrer%29%29%3B%0D%0A+++if+%28document.context%29+document.write+%28%22%26context%3D%22+%2B+escape%28document.context%29%29%3B%0D%0A+++if+%28document.mmm_fo%29+document.write+%28%22%26amp%3Bmmm_fo%3D1%22%29%3B%0D%0A+++document.write+%28%22%27%3E%3C%5C%2Fscr%22%2B%22ipt%3E%22%29%3B%0D%0A%3C%2Fscript%3E",
+      "screenLocation": "FOOTER",
+      "screenName": "KYC_SCREEN"
+    },
+    {
+      "addName": "dashboard_retina",
+      "deviceCategory": "APPLE_RETINA",
+      "dynaAdvertisementId": 48,
+      "fieldName": "kyc_detail_retina",
+      "invocationCode": "%3Cstyle%3E+%0D%0A%09body+%7Bmargin%3A0px%3B+padding%3A0px%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cscript+type%3D%27text%2Fjavascript%27%3E%0D%0A+++var+m3_u+%3D+%27http%3A%2F%2F117.236.240.10%3A9090%2Frv%2Fwww%2Fdelivery%2Fajs.php%27%3B%0D%0A+++var+m3_r+%3D+Math.floor%28Math.random%28%29*99999999999%29%3B%0D%0A+++if+%28%21document.MAX_used%29+document.MAX_used+%3D+%27%2C%27%3B%0D%0A+++document.write+%28%22%3Cscr%22%2B%22ipt+type%3D%27text%2Fjavascript%27+src%3D%27%22%2Bm3_u%29%3B%0D%0A++++++document.write+%28%22%3Fwidth%3D640%26height%3D100%26zoneid%3D10%26withtext%3D1%26fullscreen%3D0%26sms%3D%26email%3D%26location%3D%7Blocation%7D%22%29%3B+++%0D%0A++++++document.write+%28%22%26zones%3Dpre-roll%253D10%22%29%3B+++%0D%0A+++document.write+%28%27%26amp%3Bcb%3D%27+%2B+m3_r%29%3B%0D%0A+++if+%28document.MAX_used+%21%3D+%27%2C%27%29+document.write+%28%22%26amp%3Bexclude%3D%22+%2B+document.MAX_used%29%3B%0D%0A+++document.write+%28document.charset+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.charset+%3A+%28document.characterSet+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.characterSet+%3A+%27%27%29%29%3B%0D%0A+++document.write+%28%22%26amp%3Bloc%3D%22+%2B+escape%28window.location%29%29%3B%0D%0A+++if+%28document.referrer%29+document.write+%28%22%26amp%3Breferer%3D%22+%2B+escape%28document.referrer%29%29%3B%0D%0A+++if+%28document.context%29+document.write+%28%22%26context%3D%22+%2B+escape%28document.context%29%29%3B%0D%0A+++if+%28document.mmm_fo%29+document.write+%28%22%26amp%3Bmmm_fo%3D1%22%29%3B%0D%0A+++document.write+%28%22%27%3E%3C%5C%2Fscr%22%2B%22ipt%3E%22%29%3B%0D%0A%3C%2Fscript%3E",
+      "screenLocation": "FOOTER",
+      "screenName": "KYC_DETAIL_SCREEN"
+    },
+    {
+      "addName": "dashboard_retina",
+      "deviceCategory": "APPLE_RETINA",
+      "dynaAdvertisementId": 49,
+      "fieldName": "pincode_retina",
+      "invocationCode": "%3Cstyle%3E+%0D%0A%09body+%7Bmargin%3A0px%3B+padding%3A0px%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cscript+type%3D%27text%2Fjavascript%27%3E%0D%0A+++var+m3_u+%3D+%27http%3A%2F%2F117.236.240.10%3A9090%2Frv%2Fwww%2Fdelivery%2Fajs.php%27%3B%0D%0A+++var+m3_r+%3D+Math.floor%28Math.random%28%29*99999999999%29%3B%0D%0A+++if+%28%21document.MAX_used%29+document.MAX_used+%3D+%27%2C%27%3B%0D%0A+++document.write+%28%22%3Cscr%22%2B%22ipt+type%3D%27text%2Fjavascript%27+src%3D%27%22%2Bm3_u%29%3B%0D%0A++++++document.write+%28%22%3Fwidth%3D640%26height%3D100%26zoneid%3D10%26withtext%3D1%26fullscreen%3D0%26sms%3D%26email%3D%26location%3D%7Blocation%7D%22%29%3B+++%0D%0A++++++document.write+%28%22%26zones%3Dpre-roll%253D10%22%29%3B+++%0D%0A+++document.write+%28%27%26amp%3Bcb%3D%27+%2B+m3_r%29%3B%0D%0A+++if+%28document.MAX_used+%21%3D+%27%2C%27%29+document.write+%28%22%26amp%3Bexclude%3D%22+%2B+document.MAX_used%29%3B%0D%0A+++document.write+%28document.charset+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.charset+%3A+%28document.characterSet+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.characterSet+%3A+%27%27%29%29%3B%0D%0A+++document.write+%28%22%26amp%3Bloc%3D%22+%2B+escape%28window.location%29%29%3B%0D%0A+++if+%28document.referrer%29+document.write+%28%22%26amp%3Breferer%3D%22+%2B+escape%28document.referrer%29%29%3B%0D%0A+++if+%28document.context%29+document.write+%28%22%26context%3D%22+%2B+escape%28document.context%29%29%3B%0D%0A+++if+%28document.mmm_fo%29+document.write+%28%22%26amp%3Bmmm_fo%3D1%22%29%3B%0D%0A+++document.write+%28%22%27%3E%3C%5C%2Fscr%22%2B%22ipt%3E%22%29%3B%0D%0A%3C%2Fscript%3E",
+      "screenLocation": "FOOTER",
+      "screenName": "PINCODE_SCREEN"
+    },{
+      "addName": "dashboard_retina",
+      "deviceCategory": "APPLE_RETINA",
+      "dynaAdvertisementId": 50,
+      "fieldName": "add_address_retina",
+      "invocationCode": "%3Cstyle%3E+%0D%0A%09body+%7Bmargin%3A0px%3B+padding%3A0px%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cscript+type%3D%27text%2Fjavascript%27%3E%0D%0A+++var+m3_u+%3D+%27http%3A%2F%2F117.236.240.10%3A9090%2Frv%2Fwww%2Fdelivery%2Fajs.php%27%3B%0D%0A+++var+m3_r+%3D+Math.floor%28Math.random%28%29*99999999999%29%3B%0D%0A+++if+%28%21document.MAX_used%29+document.MAX_used+%3D+%27%2C%27%3B%0D%0A+++document.write+%28%22%3Cscr%22%2B%22ipt+type%3D%27text%2Fjavascript%27+src%3D%27%22%2Bm3_u%29%3B%0D%0A++++++document.write+%28%22%3Fwidth%3D640%26height%3D100%26zoneid%3D10%26withtext%3D1%26fullscreen%3D0%26sms%3D%26email%3D%26location%3D%7Blocation%7D%22%29%3B+++%0D%0A++++++document.write+%28%22%26zones%3Dpre-roll%253D10%22%29%3B+++%0D%0A+++document.write+%28%27%26amp%3Bcb%3D%27+%2B+m3_r%29%3B%0D%0A+++if+%28document.MAX_used+%21%3D+%27%2C%27%29+document.write+%28%22%26amp%3Bexclude%3D%22+%2B+document.MAX_used%29%3B%0D%0A+++document.write+%28document.charset+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.charset+%3A+%28document.characterSet+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.characterSet+%3A+%27%27%29%29%3B%0D%0A+++document.write+%28%22%26amp%3Bloc%3D%22+%2B+escape%28window.location%29%29%3B%0D%0A+++if+%28document.referrer%29+document.write+%28%22%26amp%3Breferer%3D%22+%2B+escape%28document.referrer%29%29%3B%0D%0A+++if+%28document.context%29+document.write+%28%22%26context%3D%22+%2B+escape%28document.context%29%29%3B%0D%0A+++if+%28document.mmm_fo%29+document.write+%28%22%26amp%3Bmmm_fo%3D1%22%29%3B%0D%0A+++document.write+%28%22%27%3E%3C%5C%2Fscr%22%2B%22ipt%3E%22%29%3B%0D%0A%3C%2Fscript%3E",
+      "screenLocation": "FOOTER",
+      "screenName": "ADD_ADDRESS_SCREEN"
+    },{
+      "addName": "dashboard_retina",
+      "deviceCategory": "APPLE_RETINA",
+      "dynaAdvertisementId": 51,
+      "fieldName": "order_confirm_retina",
+      "invocationCode": "%3Cstyle%3E+%0D%0A%09body+%7Bmargin%3A0px%3B+padding%3A0px%3B%7D%0D%0A%3C%2Fstyle%3E%0D%0A%3Cscript+type%3D%27text%2Fjavascript%27%3E%0D%0A+++var+m3_u+%3D+%27http%3A%2F%2F117.236.240.10%3A9090%2Frv%2Fwww%2Fdelivery%2Fajs.php%27%3B%0D%0A+++var+m3_r+%3D+Math.floor%28Math.random%28%29*99999999999%29%3B%0D%0A+++if+%28%21document.MAX_used%29+document.MAX_used+%3D+%27%2C%27%3B%0D%0A+++document.write+%28%22%3Cscr%22%2B%22ipt+type%3D%27text%2Fjavascript%27+src%3D%27%22%2Bm3_u%29%3B%0D%0A++++++document.write+%28%22%3Fwidth%3D640%26height%3D100%26zoneid%3D10%26withtext%3D1%26fullscreen%3D0%26sms%3D%26email%3D%26location%3D%7Blocation%7D%22%29%3B+++%0D%0A++++++document.write+%28%22%26zones%3Dpre-roll%253D10%22%29%3B+++%0D%0A+++document.write+%28%27%26amp%3Bcb%3D%27+%2B+m3_r%29%3B%0D%0A+++if+%28document.MAX_used+%21%3D+%27%2C%27%29+document.write+%28%22%26amp%3Bexclude%3D%22+%2B+document.MAX_used%29%3B%0D%0A+++document.write+%28document.charset+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.charset+%3A+%28document.characterSet+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.characterSet+%3A+%27%27%29%29%3B%0D%0A+++document.write+%28%22%26amp%3Bloc%3D%22+%2B+escape%28window.location%29%29%3B%0D%0A+++if+%28document.referrer%29+document.write+%28%22%26amp%3Breferer%3D%22+%2B+escape%28document.referrer%29%29%3B%0D%0A+++if+%28document.context%29+document.write+%28%22%26context%3D%22+%2B+escape%28document.context%29%29%3B%0D%0A+++if+%28document.mmm_fo%29+document.write+%28%22%26amp%3Bmmm_fo%3D1%22%29%3B%0D%0A+++document.write+%28%22%27%3E%3C%5C%2Fscr%22%2B%22ipt%3E%22%29%3B%0D%0A%3C%2Fscript%3E",
+      "screenLocation": "FOOTER",
+      "screenName": "ORDER_CONFIRM_SCREEN"
+    },
+    {
+      "addName": "free_logout_footer_apple",
+      "deviceCategory": "APPLE_RETINA",
+      "dynaAdvertisementId": 160,
+      "fieldName": "free_logout_footer_apple",
+      "invocationCode": "%3Cstyle%3E+body+%7Bmargin%3A0px%3B+padding%3A0px%3B%7D+%3C%2Fstyle%3E+%3Cscript+type%3D%27text%2Fjavascript%27%3E+var+m3_u+%3D+%27http%3A%2F%2F117.236.240.10%3A9090%2Frv%2Fwww%2Fdelivery%2Fajs.php%27%3B+var+m3_r+%3D+Math.floor%28Math.random%28%29*99999999999%29%3B+if+%28%21document.MAX_used%29+document.MAX_used+%3D+%27%2C%27%3B+document.write+%28%22%3Cscr%22%2B%22ipt+type%3D%27text%2Fjavascript%27+src%3D%27%22%2Bm3_u%29%3B+document.write+%28%22%3Fwidth%3D640%26height%3D100%26zoneid%3D10%26withtext%3D1%26fullscreen%3D0%26sms%3D%26email%3D%26location%3D%7Blocation%7D%22%29%3B+document.write+%28%22%26zones%3Dpre-roll%253D10%22%29%3B+document.write+%28%27%26amp%3Bcb%3D%27+%2B+m3_r%29%3B+if+%28document.MAX_used+%21%3D+%27%2C%27%29+document.write+%28%22%26amp%3Bexclude%3D%22+%2B+document.MAX_used%29%3B+document.write+%28document.charset+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.charset+%3A+%28document.characterSet+%3F+%27%26amp%3Bcharset%3D%27%2Bdocument.characterSet+%3A+%27%27%29%29%3B+document.write+%28%22%26amp%3Bloc%3D%22+%2B+escape%28window.location%29%29%3B+if+%28document.referrer%29+document.write+%28%22%26amp%3Breferer%3D%22+%2B+escape%28document.referrer%29%29%3B+if+%28document.context%29+document.write+%28%22%26context%3D%22+%2B+escape%28document.context%29%29%3B+if+%28document.mmm_fo%29+document.write+%28%22%26amp%3Bmmm_fo%3D1%22%29%3B+document.write+%28%22%27%3E%3C%5C%2Fscr%22%2B%22ipt%3E%22%29%3B+%3C%2Fscript%3E",
+      "screenLocation": "FOOTER",
+      "screenName": "FREE_LOGOUT_SCREEN"
+    },
+    {
+      "addName": "free_logout_screen_apple",
+      "deviceCategory": "APPLE_RETINA",
+      "dynaAdvertisementId": 140,
+      "fieldName": "free_logout_screen_apple",
+      "invocationCode": "video%40%40allowcancle%3Dfalse%40%40http%3A%2F%2F117.236.240.10%3A9090%2Frv%2Fwww%2Fdelivery%2Ffc.php%3Fscript%3DbannerTypeHtml%3AvastInlineBannerTypeHtml%3AvastInlineHtml%26format%3Dvast%26zones%3Dpre-roll%3D13%26nz%3D13%26location%3D%7Blocation%7D",
+      "screenLocation": "FULLSCREEN",
+      "screenName": "FREE_LOGOUT_SCREEN"
+    }
+  ],
+  "responseMessage": "SUCCESS"
+}

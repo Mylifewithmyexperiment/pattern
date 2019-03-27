@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/_2sdp">
+
+        <RelativeLayout
+            android:id="@+id/frImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/app_margin">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_centerInParent="true"
+                android:src="?attr/colorMain" />
+
+            <ImageView
+                android:id="@+id/ivItem"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_mmp_internet" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tvValue"
+            style="@style/AppTheme.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frImageView"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:lines="3"
+            android:maxLines="3"
+            android:maxWidth="@dimen/_65sdp"
+            android:singleLine="false"
+            android:text="UpTo 2400 Minutes Roaming"
+            android:textSize="@dimen/app_text_medium" />
+
+
+    </RelativeLayout>
+
+</layout>

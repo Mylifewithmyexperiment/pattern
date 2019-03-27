@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:background="@drawable/bg_circle"
+        android:layout_margin="@dimen/app_margin">
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/amount"
+                style="@style/AppTheme.TextView.Bold"
+                android:textSize="@dimen/app_text_max_medium"
+                tools:text="@string/lbl_price_three_nine_nine"/>
+            <TextView
+                android:id="@+id/sorDesc"
+                style="@style/AppTheme.TextView"
+                android:textSize="@dimen/app_text_medium_high"
+                tools:text="UNLIMITED"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

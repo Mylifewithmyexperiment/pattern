@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btn_eapsim"
+        android:title="@string/eapsim" />
+
+    <item
+        android:id="@+id/btn_eapaka"
+        android:title="@string/eapaka" />
+
+    <item
+        android:id="@+id/btn_eliteeapsim"
+        android:title="@string/eliteeapsim" />
+
+    <item
+        android:id="@+id/btn_eapttls"
+        android:title="@string/eapttls" />
+
+    <item
+        android:id="@+id/btn_eappeap"
+        android:title="@string/eappeap" />
+
+</menu>

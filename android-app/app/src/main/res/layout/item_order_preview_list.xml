@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    style="@style/match_wrap">
+
+    <LinearLayout
+        style="@style/match_wrap"
+       >
+
+
+        <FrameLayout
+            android:id="@+id/frm_category_image"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:padding="@dimen/app_padding_min">
+
+
+            <ImageView
+                android:id="@+id/ivProductImg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_image_place_holder" />
+
+
+            <ProgressBar
+                android:id="@+id/pbImg"
+                android:indeterminateTint="@color/white"
+                android:layout_width="@dimen/app_progress_bar_width"
+                android:layout_height="@dimen/app_progress_bar_height"
+                android:layout_gravity="center" />
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/app_margin"
+            android:layout_marginStart="@dimen/app_margin"
+            android:layout_marginRight="@dimen/app_margin"
+            android:layout_marginEnd="@dimen/app_margin"
+            android:layout_marginTop="@dimen/app_margin_min"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/app_padding_min">
+
+            <RelativeLayout
+                style="@style/match_wrap"
+                android:layout_toStartOf="@+id/tvPrice"
+                android:layout_toLeftOf="@+id/tvPrice"
+                android:layout_marginBottom="@dimen/app_margin_min"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvProductName"
+                    style="@style/AppTheme.TextView"
+                    android:textSize="@dimen/app_text_medium_high"
+                    android:textColor="@color/app_default_text_color"
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:text="Himalaya Men Facewash oil cleaner Lemon Face clener"
+                    />
+
+                <TextView
+                    android:id="@+id/tvLblQty"
+                    android:layout_below="@id/tvProductName"
+                    style="@style/AppTheme.TextView.Bold"
+                    android:text="@string/lbl_quantity"
+                    android:layout_marginTop="@dimen/app_margin_min"
+                    android:textSize="@dimen/app_text_regular_medium"
+                    android:visibility="visible" />
+                <TextView
+                    android:id="@+id/tvQty"
+                    android:layout_below="@id/tvProductName"
+                    android:layout_toRightOf="@id/tvLblQty"
+                    android:layout_toEndOf="@id/tvLblQty"
+                    style="@style/AppTheme.TextView.Bold"
+                    android:text="5"
+                    android:layout_marginTop="@dimen/app_margin_min"
+                    android:textSize="@dimen/app_text_regular_medium"
+                    android:visibility="visible"
+                    android:layout_alignBaseline="@id/tvLblQty"/>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/tvPrice"
+                style="@style/AppTheme.TextView.Bold"
+                android:layout_marginLeft="@dimen/app_margin_min"
+                android:layout_marginStart="@dimen/app_margin_min"
+                tools:text="1000"
+                android:textSize="@dimen/app_text_regular_medium"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
+</layout>

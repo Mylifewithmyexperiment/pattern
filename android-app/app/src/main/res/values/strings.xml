@@ -1,0 +1,585 @@
+<resources>
+    <string name="app_name">DCCM</string>
+
+    <string name="font_regular" translatable="false">font/Arial-Regular.ttf</string>
+    <string name="font_bold" translatable="false">font/Arial-Bold.ttf</string>
+    //for facebook app login
+    <string name="facebook_app_id" translatable="false">797888397048010</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb797888397048010</string>
+
+
+    <string name="msg_under_developement">This feature is under development.</string>
+    <string name="msg_alert_you_have_permission">You have deny  some permission , please go to setting and enable it.</string>
+    <string name="msg_network_not_available">Please check your internet connection</string>
+    <string name="msg_no_network_connection">No internet connection found. Check your connection or try again.</string>
+    <string name="msg_login_faild">Mobile or password wrong</string>
+    <string name="msg_progress_dialog">Loading…</string>
+    <string name="msg_registration_faild">User Already Registered.</string>
+    <string name="msg_connection_failed">Connection failed</string>
+    <string name="msg_login_sucess">Login successful</string>
+    <string name="msg_item_clicked">item clicked</string>
+    <string name="msg_fb_login_sucess">Facebook login success</string>`
+    <string name="msg_fb_login_cancel">Facebook login cancel</string>
+    <string name="msg_apply_clicked">Apply clicked</string>
+    <string name="msg_reset_clicked">Reset clicked</string>
+    <string name="msg_go_clicked">Go clicked</string>
+    <string name="msg_more_pack_clicked">More Packs clicked</string>
+    <string name="msg_recharge_successful">Your recharge is done.</string>
+    <string name="msg_transfer_successful">Your transfer is successful.</string>
+    <string name="msg_activation_successful">Your connection is activated successfully.</string>
+    <string name="msg_new_connection">Order a SIM in 3 simple steps.</string>
+    <string name="msg_make_my_plan">Please select connection type.</string>
+    <string name="msg_new_bb_plan">Please select connection type.</string>
+    <string name="msg_make_my_plan_detail">Your plan is not valid.</string>
+    <string name="msg_make_my_plan_detail_plan_value_over">Your plan maximum price reached.</string>
+    <string name="msg_empty_cart">Your Cart is empty.</string>
+    <string name="msg_caputure_image">Please capture or select an image</string>
+    <string name="msg_invalid_number">Invalid Social Security Number</string>
+
+
+    <string name="lbl_press_again_to_exit">press again to exit</string>
+    <string name="lbl_forgot_psw">Forgot password ?</string>
+    <string name="lbl_sign_up"><u>New User ? Sign up</u></string>
+    <string name="lbl_welcome">Welcome</string>
+    <string name="lbl_shop_postpaid_service">Postpaid Service Plan</string>
+    <string name="lbl_shop_prepaid_service">Prepaid Service Plan</string>
+    <string name="lbl_shop_make_my_plan">Make My Plan</string>
+    <string name="lbl_shop_recharge">Recharge</string>
+    <string name="lbl_shop_device">Device</string>
+    <string name="lbl_shop_mnp">MNP</string>
+    <string name="lbl_shop_preaid_to_postpaid">Prepaid to Postpaid</string>
+    <string name="lbl_order_details">Order Details</string>
+    <string name="lbl_order_date">Order Date</string>
+    <string name="lbl_order_total">Order Total</string>
+    <string name="lbl_order_status">Order Status</string>
+    <string name="lbl_shipment_details">Shipment Details</string>
+    <string name="lbl_payment_information">Payment Information</string>
+    <string name="lbl_payment_method">Payment Method</string>
+    <string name="lbl_billing_address">Billing Address</string>
+    <string name="lbl_shipping_address">Shipping Address</string>
+    <string name="lbl_store_address">Store Address</string>
+    <string name="lbl_order_summary">Order Summary</string>
+    <string name="lbl_items">items:</string>
+    <string name="lbl_shipping_charges">Shipping charges:</string>
+    <string name="lbl_total_before_tax">Total before tax:</string>
+    <string name="lbl_tax">Tax:</string>
+    <string name="lbl_total">Total:</string>
+    <string name="lbl_shiping_method">Shipping method</string>
+    <string name="lbl_service_experience">Service Experience</string>
+    <string name="lbl_user_experience">User Experience</string>
+
+    <string name="lbl_more_order_history">Order History</string>
+    <string name="lbl_more_logout">Logout</string>
+
+    <string name="lbl_check_now">Check how </string>
+    <string name="lbl_create_account">CREATE ACCOUNT</string>
+    <string name="lbl_gender">Gender</string>
+    <string name="lbl_male">Male</string>
+    <string name="lbl_female">Female</string>
+    <string name="lbl_already_have_account">Already have an account?</string>
+    <string name="lbl_log_in"><u>LOG IN</u></string>
+    <string name="lbl_update"><u>Update</u></string>
+
+    <string name="lbl_grand_total">Grand Total:\u0020</string>
+    <string name="lbl_no_item_found">No items in cart</string>
+    <string name="lbl_select_delevery_type">Select delivery type</string>
+    <string name="lbl_home_delivery_type">Home delivery</string>
+    <string name="lbl_pick_up_from_store">Pickup from store</string>
+    <string name="lbl_quantity">Quantity:\u0020</string>
+    <string name="lbl_row_total">Row total:\u0020</string>
+    <string name="lbl_price">Price:\u0020</string>
+    <string name="lbl_plan">Plan</string>
+    <string name="lbl_zero">0</string>
+    <string name="lbl_select">Select</string>
+    <string name="lbl_additional_benefits">Basic benefits across all Postpaid Plans</string>
+    <string name="lbl_additional_benefits_prepaid">Basic benefits across all Prepaid Plans</string>
+    <string name="lbl_customer_uid">Customer UID</string>
+    <string name="lbl_customer_uid_number">2908 4454 5628</string>
+    <string name="lbl_customer_kyc_title">Customer Consent</string>
+    <string name="lbl_customer_kuc_descrpition">I the holder of UID number 2908 4454 5628, here give my consent to Digital Commerce and Customer Management(DCCM) to obtain my UID, Name and FingerPrint/Iris for authentication with UIDAI. Digital Commerce and Customer Management (DCCM) has informed me that my identity information would only be used for Onboarding of DCCM.Subscriber and also informed that my biometrics will not be stored/shared and will be submitted to CIDR only for the purpose of the authentication.</string>
+    <string name="lbl_kyc_success_msg">Costomer eKYC Successfully Submitted</string>
+    <string name="lbl_order_received_success_msg">Your order pickup place selected successfully.</string>
+    <string name="lbl_order_placed_successfully">Your order has been placed successfully.</string>
+    <string name="lbl_same_adderess_for_shipping">Use same address for shipping</string>
+    <string name="lbl_my_orders">My orders</string>
+    <string name="lbl_order_no">Order No.\u0020</string>
+    <string name="lbl_pincode_text">Deliver SIM card to</string>
+    <string name="lbl_pincode_text1">Please enter your pincode for checking feasibility of the service in your area</string>
+    <string name="lbl_mob_no">Mobile:</string>
+    <string name="lbl_features">%s Features</string>
+    <string name="lbl_tech_spec">%s Technical Specifications</string>
+    <string name="lbl_order_number">Order No</string>
+    <string name="lbl_transaction_no">Transaction No</string>
+    <string name="lbl_paid">Paid</string>
+    <string name="lbl_make_my_plan">Make My Plan</string>
+    <string name="lbl_upto">Upto</string>
+    <string name="lbl_use">Use</string>
+    <string name="lbl_price_use">Use %s</string>
+    <string name="lbl_my_plan">My Plan</string>
+    <string name="lbl_new_connection">New Mobile Connection</string>
+    <string name="lbl_new_broadband_connection">Fixed Line Connection</string>
+    <string name="lbl_my_account">My Account</string>
+    <string name="lbl_activation">Activation</string>
+    <string name="lbl_recharge">Recharge</string>
+    <string name="lbl_order_tracking">Order Tracking</string>
+    <string name="lbl_choose_number_series">Number Series</string>
+    <string name="lbl_select_type">Select type</string>
+    <string name="lbl_all">All</string>
+    <string name="lbl_free">Default</string>
+    <string name="lbl_premium">Gold</string>
+    <string name="lbl_sort_by">Sort By Price:</string>
+    <string name="lbl_lth">Low to High</string>
+    <string name="lbl_htl">High to Low</string>
+    <string name="lbl_enter_amount">Enter amount</string>
+    <string name="lbl_view_other_packs">View other packs</string>
+    <string name="lbl_recommended">Recommended</string>
+    <string name="lbl_recharge_to">Recharge to number</string>
+    <string name="lbl_transfer_to">Transfer to number</string>
+    <string name="lbl_recharge_amount">Recharge amount</string>
+    <string name="lbl_transfer_amount">Transfer amount</string>
+    <string name="lbl_comment">Comment</string>
+    <string name="lbl_free_benefits">FREE benefits</string>
+    <string name="lbl_worth">Worth $ </string>
+    <string name="lbl_select_time">Select delivery time</string>
+    <string name="lbl_receive_otp_for_varification">You will receive OTP for verification</string>
+    <string name="lbl_otp_has_bin_sent_to_num">OTP has been sent Successfully to your number ending with *******</string>
+    <string name="lbl_otp_has_bin_sent_to_email">OTP has been sent Successfully to your email address which is linked to number ending with *******</string>
+    <string name="lbl_num_with_stars">*******</string>
+    <string name="lbl_otp">OTP</string>
+    <string name="lbl_resend_otp"><u>Resend OTP</u></string>
+    <string name="lbl_plan_price">Price</string>
+    <string name="lbl_of">out of\u0020</string>
+    <string name="lbl_left">left</string>
+    <string name="lbl_mb">GB</string>
+    <string name="lbl_or">OR</string>
+    <string name="lbl_login_with">Login With</string>
+
+    <string name="lbl_internet"> Internet (GB)</string>
+    <string name="lbl_internet_mb"> Internet (MB)</string>
+    <string name="lbl_call">Call (Minutes - On Net)</string>
+    <string name="lbl_sms">SMS</string>
+    <string name="lbl_roaming">Roaming (Minutes - Off Net)</string>
+    <string name="lbl_card_number">Card Number</string>
+    <string name="lbl_expiry_date">Expiry Date</string>
+    <string name="lbl_cvv">CVV</string>
+    <string name="lbl_please_wait_making_transaction">Please wait while we are making transaction</string>
+    <string name="lbl_enter_id">Social Security Number</string>
+    <string name="lbl_select_image_id_proof">Select or capture photo of id card</string>
+
+    <string name="title_balance_transfer">Balance Transfer</string>
+    <string name="title_balance_success">Balance transfer Success</string>
+    <string name="title_recharge_success">Recharge Success</string>
+    <string name="title_order_success">Order Success</string>
+    <string name="title_kyc">Customer eKYC</string>
+    <string name="title_billing_address">Billing Address</string>
+    <string name="title_shiping_addredd">Shipping Address</string>
+    <string name="title_my_orders">My orders</string>
+    <string name="title_order_details">Order Details</string>
+    <string name="title_order_preview">Order Preview</string>
+    <string name="title_recharge_summary">Recharge Summary</string>
+    <string name="title_transfer_summary">Transfer Summary</string>
+    <string name="title_thank_you">Thank You</string>
+    <string name="title_activation">Activation</string>
+    <string name="title_special_offer">Special Offer</string>
+
+    <string name="btn_ok">Ok</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+    <string name="btn_retry">Tap to Retry</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_validate">Validate</string>
+    <string name="btn_login_with_google">Login with Google</string>
+    <string name="btn_sign_up">CREATE ACCOUNT</string>
+    <string name="btn_check_out">PROCEED TO CHECKOUT</string>
+    <string name="btn_select_plan">Select Plan</string>
+    <string name="btn_select">Select</string>
+    <string name="btn_select_device">Select Device</string>
+    <string name="btn_accept">I AGREE &amp; CONTINUE</string>
+    <string name="btn_txt_back_to_list">List</string>
+    <string name="btn_proceed">Proceed</string>
+    <string name="btn_place_order">PLACE ORDER</string>
+    <string name="btn_continue">CONTINUE</string>
+    <string name="btn_track">Track Order</string>
+    <string name="btn_change_address">CHANGE ADDRESS</string>
+    <string name="btn_save">SAVE</string>
+    <string name="btn_buy_now">Buy Now</string>
+    <string name="btn_apply">Apply</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_go">Go</string>
+    <string name="btn_recharge_now">Recharge Now</string>
+    <string name="btn_transfer_now">Transfer Now</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_pick_from_store">Pick From Store</string>
+    <string name="btn_verify">Verify</string>
+    <string name="btn_activate">Activate</string>
+    <string name="btn_make_payment">Make payment</string>
+    <string name="btn_expand">More</string>
+    <string name="btn_select_language" translatable="false">Select Language</string>
+    <string name="btn_select_photo">Capture or Select</string>
+    <string name="btn_submit">Submit</string>
+
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+
+    <string name="txt_version">Version code:\u0020 </string>
+    <string name="txt_build">\u0020Build:\u0020 </string>
+
+    <string name="title_registration">Registration</string>
+    <string name="title_verify_oto">Verify Otp</string>
+    <string name="title_select_number">Select Number</string>
+    <string name="title_tracking_detail">Tracking Details</string>
+    <string name="title_select_store">Select Store</string>
+    <string name="title_pincode">Pincode</string>
+    <string name="title_feasibility">Feasibility Check</string>
+    <string name="title_devices">Devices</string>
+    <string name="title_pack_summery">Pack Summary</string>
+    <string name="title_select_language">Select Language</string>
+    <string name="title_payment_information">Payment Information</string>
+    <string name="title_post_paid_plan_for_you">Post paid plan for you</string>
+    <string name="title_feedback">Feedback</string>
+
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_usage">Usage</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_recharge">Recharge</string>
+    <string name="menu_activation">Activation</string>
+    <string name="menu_order_tracking">Order Tracking</string>
+    <string name="menu_more">More</string>
+
+
+    <string name="hint_lbl_user_id">User Name</string>
+    <string name="hint_lbl_pincode">Pincode</string>
+    <string name="hint_lbl_pincode_ex">ex:- 000000</string>
+    <string name="hint_lbl_psw">Password</string>
+    <string name="hint_lbl_name">Name</string>
+    <string name="hint_lbl_symbol_star">*</string>
+    <string name="hint_lbl_fname">First Name</string>
+    <string name="hint_lbl_lname">Last Name</string>
+    <string name="hint_lbl_street">Street</string>
+    <string name="hint_lbl_email">Email</string>
+    <string name="hint_lbl_mobile">Mobile No</string>
+    <string name="hint_alt_lbl_mobile">Alternate Mobile No</string>
+    <string name="hint_alt_lbl_email">Alternate Email Id</string>
+
+    <string name="hint_lbl_password">Password</string>
+    <string name="hint_lbl_no_records_found">No Records Found!</string>
+    <string name="hint_lbl_address1">Address1</string>
+    <string name="hint_lbl_address2">Address2</string>
+    <string name="hint_lbl_city">Address3</string>
+    <string name="hint_lbl_state">Province</string>
+    <string name="hint_lbl_country">Country</string>
+    <string name="hint_lbl_pin">Post Code</string>
+    <string name="hint_lbl_municipality">Municipality</string>
+    <string name="hint_lbl_login">Login Id</string>
+
+
+    <string name="hint_lbl_lucky_number">Enter your lucky number</string>
+    <string name="hint_lbl_manually_number">Manually enter a number</string>
+    <string name="hint_lbl_enter_amount">$ Enter amount</string>
+    <string name="hint_lbl_comment">Comment</string>
+    <string name="hint_lbl_date">Select delivery date</string>
+    <string name="hint_lbl_otp">OTP</string>
+    <string name="hint_lbl_mmp_filter_rangebar">Please select price</string>
+    <string name="hint_lbl_card_number" translatable="false">xxxx xxxx xxxx xxxx</string>
+    <string name="hint_lbl_expiry_date" translatable="false">MM/YY</string>
+    <string name="hint_lbl_cvv" translatable="false">xxx</string>
+    <string name="hint_lbl_enter_number">Enter number</string>
+    <string name="hint_lbl_title">Title</string>
+    <string name="hint_lbl_description">Description</string>
+
+
+    <string name="val_invaild_pincode">Invaild pincode</string>
+    <string name="val_user_name_required">Please enter a valid username</string>
+    <string name="val_pword_required">Please enter password</string>
+    <string name="val_enter_valid_password">Please enter valid length password</string>
+    <string name="val_enter_first_name">Please enter first name</string>
+    <string name="val_enter_name">Please enter name</string>
+    <string name="val_enter_last_name">Please enter last name</string>
+    <string name="val_enter_mobile_no">Please enter mobile number</string>
+    <string name="val_enter_valid_mobile_no">Please enter valid mobile number</string>
+    <string name="val_enter_email">Please enter email</string>
+    <string name="val_enter_valid_email">Please enter valid email</string>
+    <string name="val_enter_address_line1">Please enter urban</string>
+    <string name="val_enter_address_line2">Please enter sub district</string>
+    <string name="val_enter_city">Please enter municipality</string>
+    <string name="val_enter_state">Please enter province</string>
+    <string name="val_enter_pin">Please enter zip code</string>
+    <string name="val_enter_valid_pin">Please enter valid zip code</string>
+    <string name="val_enter_country">Please enter street</string>
+    <string name="val_select_date">Please select delivery date</string>
+    <string name="val_enter_opt">Please enter OTP</string>
+    <string name="val_enter_valid_otp">Please enter valid OTP</string>
+    <string name="val_enter_card_number">Please enter card number</string>
+    <string name="val_enter_valid_card_number">Please enter valid card number</string>
+    <string name="val_enter_expiry_date">Please enter expiry date</string>
+    <string name="val_enter_valid_expiry_date">Please enter valid expiry date</string>
+    <string name="val_enter_cvv">Please enter cvv</string>
+    <string name="val_enter_valid_cvv">Please valid enter cvv</string>
+    <string name="val_enter_number">Please enter number</string>
+
+    <string name="lbl_recharge_analysis">Spend and usage Analysis</string>
+    <string name="txt_price">Price: </string>
+    <string name="txt_you_save">You save %s </string>
+    <string name="lbl_in_stock">In Stock</string>
+    <string name="lbl_out_stock">Out of Stock</string>
+    <string name="proceed">Proceed</string>
+    <string name="registration_title_text">Just few details to get you started</string>
+    <string name="make_my_plan_detail_text">Choose any and make you plan</string>
+    <string name="msg_tracking_msg">Below are the details of your order</string>
+    <string name="msg_we_have_extra_benefits">Hey, Looking at your spend and usage pattern, we have a special offer for you which can give you more benefits</string>
+    <string name="msg_invaild_feedback">Please select ratings.</string>
+    <string name="msg_thanks_feedback">Thank you for your feedback.</string>
+
+    <string name="nav_menu_home">Home</string>
+    <string name="nav_menu_new_connection">New Mobile Connection</string>
+    <string name="nav_menu_new_broadband_connection">Fixed Line Connection</string>
+    <string name="nav_menu_new_customer_connection">Onboard Customer</string>
+
+    <string name="nav_menu_make_my_plan">Make My Plan</string>
+    <string name="nav_menu_prepaid">Prepaid</string>
+    <string name="nav_menu_postpaid">Postpaid</string>
+    <string name="nav_menu_connection">New Connection</string>
+    <string name="nav_menu_activation">Activation</string>
+    <string name="nav_menu_order_tracking">Order Tracking</string>
+    <string name="nav_menu_my_cart">My Cart</string>
+    <string name="nav_menu_my_account">My Account</string>
+    <string name="nav_menu_recharge">Recharge</string>
+    <string name="nav_menu_usage">Usage</string>
+    <string name="nav_menu_internet_packs">Internet Packs</string>
+    <string name="nav_menu_roaming_packs">Roaming Packs</string>
+    <string name="nav_menu_balance_transfer">Balance Transfer</string>
+    <string name="nav_menu_entertainment">Entertainment</string>
+    <string name="nav_menu_sms">SMS</string>
+    <string name="nav_menu_unsubscribe">Unsubscribe Addon</string>
+
+    <string name="nav_menu_logout">Log out</string>
+    <string name="nav_menu_about">About</string>
+    <string name="nav_menu_back_to_dealer">Back to Dealer</string>
+
+    <string name="nav_menu_settings">Settings</string>
+    <string name="nav_menu_search_customer">Search Customer</string>
+
+
+    <string name="nav_menu_change_language">Change Language</string>
+    <string name="data">Data</string>
+    <string name="three_g_data">Data</string>
+    <string name="minutes">Mins</string>
+    <string name="sms">SMS</string>
+    <string name="balance">Balance</string>
+    <string name="enter_mbile_number">Enter Mobile Number</string>
+    <string name="send_otp_via_sms">Send OTP via SMS</string>
+    <string name="send_otp_via_email">Send OTP via Email</string>
+    <string name="title_login">Login</string>
+    <string name="plan_details">Plan Details</string>
+    <string name="selected_plan">Selected Plan</string>
+    <string name="selected_no">Selected No</string>
+    <string name="order_date">Order Date</string>
+    <string name="delivery_status">Delivery Status</string>
+    <string name="order_id">Order ID</string>
+    <string name="order_status">Order Status</string>
+    <string name="your_plan_rental_detail"><![CDATA[Your plan & rental details]]></string>
+    <string name="refreshed_at">" Refreshed at "</string>
+    <string name="remaining_for_next_bill">"\u0020Days remaining for next bill"</string>
+
+    <string name="customer_not_activated">"You account is under creation, please refresh to recheck"</string>
+
+    <string name="lbl_last_month_avg_recharge">Avg. Recharge</string>
+    <string name="lbl_last_month_avg_data">Avg. Data Usage(GB)</string>
+
+    <string name="lbl_last_month_netflix_data">Avg. Netflix Usage(GB)</string>
+    <string name="lbl_last_month_youtube_data">Avg. Youtube Usage(GB)</string>
+    <string name="lbl_last_month_prime_data">Avg. Prime Usage(GB)</string>
+
+    <string name="lbl_last_month_avg_voice">Avg. Voice Calls(Min)</string>
+    <string name="lbl_get_more_with_post_paid">GET MORE WITH POST PAID PLAN</string>
+    <string name="one_time_charge_will_be_added_to_your_first_bill">One-time charge will be added to your first bill</string>
+    <string name="delivery">Delivery</string>
+    <string name="your_number">Your number</string>
+    <string name="sim">SIM</string>
+    <string name="delivery_date_amp_time"><![CDATA[Delivery date & time]]></string>
+    <string name="check_how"><![CDATA[Check how >]]></string>
+    <string name="go_green_and_receive_your_monthly_e_bill_on">Go green and receive your monthly e-bill on</string>
+    <string name="add_to_bill">Add to bill</string>
+    <string name="total_cost">Total Cost:</string>
+    <!--order status statements-->
+    <string name="order_confirm">Your order is confirmed.</string>
+    <string name="order_assign_for_delivery">Your order is assgined for delivery.</string>
+    <string name="order_appointment_confirm">Your order\'s appointment is confirmed.</string>
+    <string name="order_out_for_delivery">Your order is out for delivery.</string>
+    <string name="order_sim_delivered">Your sim is delivered.</string>
+    <string name="order_sim_activated">Your sim is activated.</string>
+    <string name="msg_somtehing_went_wrong">Something went Wrong.</string>
+    <string name="order_not_placed">We haven\'t received your order yet</string>
+    <string name="lbl_unlimited_recharge">UNLIMITED</string>
+    <string name="msg_customer_activate">Customer Activated Successfully</string>
+    <string name="mg_account_not_created">Please wait! we are still creating your account</string>
+    <string name="lbl_dn_Number">Inventory Number</string>
+    <string name="arrbenefits_download1">Download \'My </string>
+    <string name="arrbenefits_download2"> \' app to avail 1GB free</string>
+    <string name="arrbenefits_indonesia">Free roaming anywhere in Indonesia</string>
+    <string name="arrbenefits_india">Free roaming anywhere in India</string>
+    <string name="dealer_login">Dealer Login </string>
+    <string name="subscriber_login">Customer Login</string>
+
+
+    <string name="callrate_minute1">call to other local number @ $</string>
+    <string name="callrate_minute2">/MINUTE</string>
+    <string name="callrate_sms1">SMS @</string>
+    <string name="callrate_sms2">/SMS</string>
+    <string name="plan_validity">Plan Validity:</string>
+    <string name="month">Month</string>
+    <string name="arrbenefits_voice">Voice</string>
+    <string name="arrbenefits_data">Data</string>
+
+    <string name="video_max">Youtube</string>
+    <string name="two_gb_video_max">2 GB Youtube</string>
+    <string name="arrbenefits_sms">SMS</string>
+    <string name="fifty_min_voice">50  Minutes Voice</string>
+    <string name="twenty_five_min_voice">25  Minutes Voice</string>
+    <string name="fifty_sms">50 SMS</string>
+    <string name="twelve_gb">12 GB</string>
+    <string name="twenty_three_gb">23 GB</string>
+    <string name="four_gb">4 GB</string>
+    <string name="two_gb">2 GB</string>
+    <string name="four_hundred_min">400 Min Free</string>
+    <string name="msg_no_inv_found">Inventory not found</string>
+    <string name="msg_no_inv_found_for_match">No match found</string>
+    <string name="msg_something_went_wrong">Something went wrong. Please try again after sometime</string>
+    <string name="status_pending">pending</string>
+    <string name="free">FREE</string>
+    <string name="activation">Activation</string>
+    <string name="free_benefits_worth_rp">Free Benefits worth $</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="serviceisnotfeasible">service is not feasible at your address</string>
+    <string name="recharge_success">Your recharge successfully done</string>
+    <string name="lbl_recharge_plan_detail">Plan Description</string>
+    <string name="lbl_data">Data</string>
+    <string name="lbl_credite_limit">Credit</string>
+    <string name="lbl_avail_balance">Available Balance</string>
+    <string name="good_morning">Hello, </string>
+    <string name="lbl_select_payment">Payment Mode</string>
+    <string name="msg_mobile_validation">minimum 10 digits and must start between 6 and 9</string>
+    <string name="online">Online</string>
+    <string name="two_gb_3g_data">2 GB 3G Data</string>
+    <string name="lbl_payment_incomplete">Please complete your payment</string>
+
+    <string name="media_picker_select_from">Choose image source</string>
+    <string name="media_picker_camera">Camera</string>
+    <string name="media_picker_gallery">Gallery</string>
+    <string name="lbl_pickup_store">Pickup From Store</string>
+    <string name="lbl_installation_date">Set Installation Date</string>
+    <string name="lbl_installation_time">Set Installation Time</string>
+    <string name="three_gb">3 GB</string>
+    <string name="hundred_mbps">100 Mbps</string>
+    <string name="Fifty_mbps">50 Mbps</string>
+    <string name="Eighty_mbps">80 Mbps</string>
+    <string name="arrbenefits_south_africa">Free roaming anywhere in South Africa</string>
+    <string name="arrbenefits_uk">Free roaming anywhere in UK</string>
+
+    <string name="lbl_feasible_to">Feasible To</string>
+    <string name="lbl_deliverable_to">Deliverable To</string>
+    <string name="lbl_install_address">Installation Address</string>
+    <string name="lbl_select_number">Select Number</string>
+    <string name="lbl_select_addOn">Select Addon</string>
+    <string name="lbl_unsubscribe">Unsubscribe Addon</string>
+    <string name="msg_service_instance_not_found">No active subscription</string>
+    <string name="lbl_price_five_hundred">$500</string>
+    <string name="lbl_price_thousand">$1000</string>
+    <string name="lbl_price_three_nine_nine">$399</string>
+    <string name="lbl_data_not_found">AddOn Data not Found! Please Select another Number</string>
+    <string name="msg_no_data">No Data</string>
+    <string name="nav_menu_bill">View Bill</string>
+    <string name="nav_menu_view_bill">View Bill</string>
+
+    <string name="lbl_date">Date</string>
+    <string name="lbl_package">Package</string>
+    <string name="lbl_recharge_type">Recharge Type</string>
+    <string name="lbl_old_balance">Old Balance</string>
+    <string name="lbl_new_balance">New Balance</string>
+    <string name="lbl_old_quota">Old Quota</string>
+    <string name="lbl_new_quota">New Quota</string>
+    <string name="title_recharge_history">Recharge History</string>
+    <string name="lbl_payment_number">Payment ID</string>
+    <string name="lbl_payment_date">Payment Date</string>
+    <string name="lbl_payment_mode">Payment Mode</string>
+    <string name="lbl_status">Status</string>
+    <string name="lbl_amount">Amount</string>
+    <string name="title_payment_history">Payment History</string>
+    <string name="nav_menu_payment_history">Payment History</string>
+    <string name="hundred_gb">100 GB</string>
+    <string name="eight_gb">8 GB</string>
+    <string name="six_gb">6 GB</string>
+    <string name="msg_available">Available</string>
+    <string name="select_subscription">Select Subscription</string>
+
+    <string name="twenty_five_gb">25 GB</string>
+    <string name="fourteen_gb">14 GB</string>
+    <string name="title_chage_plan">Change Plan</string>
+    <string name="five_gb">5 GB</string>
+    <string name="twenty_seven_gb">27 GB</string>
+    <string name="ten_gb">10 GB</string>
+    <string name="twenty_gb">20</string>
+    <string name="eleven_gb">11 GB</string>
+    <string name="twenty_two_gb">22 GB</string>
+    <string name="thirty_three_gb">22 GB</string>
+
+    <string name="twenty_gb_">20 GB</string>
+    <string name="sixty_gb">60 GB</string>
+    <string name="sixty_six_gb">66 GB</string>
+    <string name="fiftyfive_min_voice">55  Minutes Voice</string>
+    <string name="thirty_three_min_voice">33  Minutes Voice</string>
+    <string name="thirty_gb">30 GB</string>
+    <string name="thirty_min_voice">30  Minutes Voice</string>
+    <string name="arrbenefits_netflix">Netflix</string>
+    <string name="arrbenefits_prime">Prime</string>
+    <string name="arrbenefits_youtube">Youtube</string>
+    <string name="lbl_installation_date_time">Installation Date and Time</string>
+    <string name="hint_Partner_login">Partner Id</string>
+    <string name="lbl_customer">Customer</string>
+    <string name="lbl_partner">Dealer</string>
+    <string name="head_profile_details">Profile Details</string>
+    <string name="string_no_subs_found">No Subscription found for this user</string>
+    <string name="string_invalid_user">Invalid User</string>
+
+    <string name="Min_2000">2000  Minutes </string>
+    <string name="Min_3000">3000  Minutes </string>
+    <string name="Min_5000">5000  Minutes </string>
+    <string name="Min_6000">6000  Minutes </string>
+    <string name="Min_5500">5500  Minutes </string>
+    <string name="Min_8000">8000  Minutes </string>
+    <string name="Min_8800">8800  Minutes </string>
+    <string name="Min_Unlimited">Unlimited  Minutes </string>
+
+    <string name="Data_5GB">5 GB </string>
+    <string name="Data_10GB">10 GB </string>
+    <string name="Data_11GB">11 GB </string>
+
+    <string name="Data_20GB">20 GB </string>
+    <string name="Data_30GB">30 GB </string>
+    <string name="Data_40GB">40 GB </string>
+    <string name="Data_15GB">15 GB </string>
+    <string name="Data_22GB">22 GB </string>
+    <string name="Data_33GB">33 GB </string>
+    <string name="Data_Unlimited">Unlimited GB </string>
+
+    <string name="Sms_Unlimited">Unlimited SMS</string>
+    <string name="free_membership">Free Membership</string>
+    <string name="free_data">Unlimited Free</string>
+    <string name="Unlimited">Unlimited</string>
+    <string name="title_create_ticket">Create Ticket</string>
+    <string name="title_activity_view_ticket">View Ticket</string>
+    <string name="nav_menu_ticket">Ticket</string>
+    <string name="lbl_ticket_number">Ticket Number</string>
+    <string name="title">Title</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="lbl_created_time">Created Time</string>
+    <string name="lbl_description">Description</string>
+    <string name="lbl_category">Category</string>
+    <string name="no_ticket_found">No Ticket Found</string>
+    <string name="lbl_choose_category">Category</string>
+    <string name="lbl_choose_sub_category">Sub Category</string>
+</resources>

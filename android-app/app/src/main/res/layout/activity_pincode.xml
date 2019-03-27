@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_header">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/parent"
+        style="@style/match_match"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/scrollable_toolbar" />
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scrollMainContainer"
+            style="@style/match_match"
+            android:fillViewport="false"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                style="@style/match_wrap"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/app_margin_max">
+
+
+                <ImageView
+                    android:id="@+id/prepaidImage"
+                    style="@style/AppTheme.ImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:focusableInTouchMode="true"
+                    android:src="@drawable/banner1_red_prepaid"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:background="@drawable/background_rounded_corner"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/_15sdp">
+
+                    <TextView
+                        android:id="@+id/lbldeliverSim"
+                        style="@style/AppTheme.TextView.Bold"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="@string/lbl_pincode_text"
+                        android:textColor="?attr/colorMain" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/app_margin"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            style="@style/AppTheme.TextView.Register"
+                            android:layout_marginTop="@dimen/app_margin"
+                            android:text="@string/hint_lbl_pincode" />
+
+                        <EditText
+                            android:id="@+id/etPincode"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_lbl_pincode_ex"
+                            android:inputType="number"
+                            android:maxLength="8" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/ilPincode"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_marginBottom="@dimen/app_margin"
+                            android:layout_margin="0dp" />
+
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/rlType"
+                        style="@style/match_wrap"
+                        android:layout_marginStart="@dimen/app_margin"
+                        android:layout_marginLeft="@dimen/app_margin"
+                        android:gravity="start|left"
+                        >
+                    <TextView
+                        android:id="@+id/tvLblDelivery"
+                        android:layout_alignParentTop="true"
+                        style="@style/AppTheme.TextView.Register"
+                        android:layout_marginTop="@dimen/app_margin"
+                        android:text="@string/lbl_select_delevery_type"
+                        android:textSize="@dimen/app_text_regular_medium"
+
+                        />
+                    <RadioGroup
+                        android:layout_below="@id/tvLblDelivery"
+                        android:id="@+id/rgDelivery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <RadioButton
+                            android:id="@+id/rbHomeDelivery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lbl_home_delivery_type"
+                            android:checked="true"
+                            style="@style/AppTheme.TextView.Register"
+                            android:layout_marginTop="@dimen/app_margin"/>
+                        <RadioButton
+                            android:id="@+id/rbStorePickUp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/AppTheme.TextView.Register"
+                            android:layout_marginTop="@dimen/app_margin"                            android:text="@string/lbl_pick_up_from_store"/>
+                    </RadioGroup>
+
+
+                    </RelativeLayout>
+
+
+
+
+
+
+
+                    <Button
+                        android:id="@+id/btnValidate"
+                        style="@style/AppTheme.Button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/app_margin"
+                        android:background="@drawable/button_rounded_corner"
+                        android:text="@string/btn_validate" />
+
+                    <Button
+                        android:id="@+id/btnPickUpFromStore"
+                        style="@style/AppTheme.Button"
+                        android:layout_width="match_parent"
+                        android:visibility="gone"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/app_margin"
+                        android:background="@drawable/button_rounded_corner"
+                        android:text="@string/btn_pick_from_store" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+        <include
+            android:id="@+id/extra_view"
+            layout="@layout/layout_extra_view"
+            tools:visibility="gone" />
+
+    </android.support.design.widget.CoordinatorLayout>
+</layout>

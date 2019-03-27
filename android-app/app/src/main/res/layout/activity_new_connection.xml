@@ -1,0 +1,54 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data></data>
+
+    <RelativeLayout
+        style="@style/match_match"
+        android:animateLayoutChanges="true"
+        android:background="@color/app_bg_color">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_toolbar_layout" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/loginscroll"
+            style="@style/match_wrap"
+            android:layout_below="@+id/toolbar"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/app_margin"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/app_margin">
+
+                <Button
+                    android:id="@+id/btnPostPaid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onButtonClicked"
+                    android:text="Selec Postpaid Plan" />
+
+                <Button
+                    android:id="@+id/btnPrepaid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onButtonClicked"
+                    android:text="Selec Prepaid Plan" />
+
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <include
+            android:id="@+id/extra_view"
+            style="@style/match_match"
+            layout="@layout/layout_extra_view"
+            android:layout_below="@+id/toolbar" />
+    </RelativeLayout>
+</layout>

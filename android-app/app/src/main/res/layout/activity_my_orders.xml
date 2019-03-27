@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_header">
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/header_toolbar_layout" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/toolbar"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <com.sterlite.dccmappfordealersterlite.customView.CustomRecyclerView
+                    android:id="@+id/rvMyOrders"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/app_margin_min"
+                    android:visibility="visible"
+                    app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                    tools:listitem="@layout/item_order_list"/>
+
+                <!-- <TextView
+                     android:id="@+id/tvTemp"
+                     style="@style/AppTheme.TextView"
+                     android:layout_margin="@dimen/_20sdp"
+                     android:text="List of Orders" />
+
+                 <Button
+                     android:id="@+id/btnTrack"
+                     android:layout_margin="@dimen/_10sdp"
+                     style="@style/AppTheme.Button"
+                     android:layout_below="@+id/tvTemp"
+                     android:text="Track order" />
+     -->
+                <TextView
+                    android:id="@+id/tvNotFound"
+                    style="@style/AppTheme.TextView.NotFound" />
+            </RelativeLayout>
+
+
+            <include
+                android:id="@+id/extra_view"
+                layout="@layout/layout_extra_view"
+                tools:visibility="gone"
+                />
+
+
+        </android.support.design.widget.CoordinatorLayout>
+        <include
+            android:id="@+id/layoutNavMenu"
+            layout="@layout/nav_main_menu" />
+    </android.support.v4.widget.DrawerLayout>
+</layout>

@@ -1,0 +1,91 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data></data>
+
+    <RelativeLayout
+        style="@style/match_match"
+        android:animateLayoutChanges="true"
+        android:background="@color/app_bg_color">
+
+        <include
+            android:id="@+id/toolbarLayout"
+            layout="@layout/header_toolbar_layout" />
+
+        <com.sothree.slidinguppanel.SlidingUpPanelLayout
+            android:id="@+id/sliding_layout"
+            android:layout_below="@+id/toolbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            app:umanoAnchorPoint="0.6"
+            app:umanoDragView="@+id/dragView"
+            app:umanoInitialState="hidden"
+            app:umanoOverlay="true"
+            app:umanoPanelHeight="0dp"
+            app:umanoParallaxOffset="@dimen/_200sdp"
+            app:umanoScrollableView="@+id/rvDashboard">
+
+            <!-- MAIN CONTENT -->
+            <RelativeLayout
+                android:id="@+id/relMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <com.sterlite.dccmappfordealersterlite.customView.MapWrapperLayout
+                    android:id="@+id/mapWrapperLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <fragment
+                        android:id="@+id/map"
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </com.sterlite.dccmappfordealersterlite.customView.MapWrapperLayout>
+
+
+
+                <Button
+                    android:id="@+id/btnbacktoList"
+                    style="@style/AppTheme.Button"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/hint_color"
+                    android:text="@string/btn_txt_back_to_list"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <!-- SLIDING LAYOUT -->
+            <LinearLayout
+                android:id="@+id/dragView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/app_bg_color"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNotFound"
+                    style="@style/AppTheme.TextView.NotFound" />
+
+                <com.sterlite.dccmappfordealersterlite.customView.CustomRecyclerView
+                    android:id="@+id/rvDashboard"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded_corner"
+                    app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+            </LinearLayout>
+        </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+        <include
+            android:id="@+id/extra_view"
+            android:layout_below="@+id/toolbar"
+            style="@style/match_match"
+            layout="@layout/layout_extra_view"
+            />
+    </RelativeLayout>
+</layout>

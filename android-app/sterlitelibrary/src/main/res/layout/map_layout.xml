@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/map_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent" />
+
+    <WebView
+        android:id="@+id/wv_advertiseMent_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_banner_height"
+        android:background="@android:color/white"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:progressBackgroundTint="@android:color/holo_blue_light"
+            android:progressTint="@android:color/holo_blue_bright" />
+
+        <TextView
+            android:id="@+id/tv_noInternet_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightred"
+            android:gravity="center"
+            android:padding="@dimen/message_margin"
+            android:text="@string/noInternet"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size"
+            android:visibility="gone" />
+    </FrameLayout>
+
+
+</LinearLayout>

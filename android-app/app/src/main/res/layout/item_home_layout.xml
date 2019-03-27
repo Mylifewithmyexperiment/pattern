@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/app_margin_min">
+
+        <FrameLayout
+            android:id="@+id/cardBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="0.5dp">
+
+            <ImageView
+                android:id="@+id/cardBackImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:alpha="0.5"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/home_menu_image_size_height"
+                        android:layout_height="@dimen/home_menu_image_size_height" />
+
+                    <ImageView
+                        android:layout_width="@dimen/home_menu_image_size_height"
+                        android:layout_height="@dimen/home_menu_image_size_height"
+                        android:padding="@dimen/app_padding_max" />
+
+                </FrameLayout>
+
+                <TextView
+                    style="@style/AppTheme.TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:padding="@dimen/app_padding_min" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/cardFront"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="0.5dp">
+
+            <ImageView
+                android:id="@+id/cardFrontImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:alpha="0.5"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imgMenuCircle"
+                        android:layout_width="@dimen/home_menu_image_size_height"
+                        android:layout_height="@dimen/home_menu_image_size_height"
+                        android:src="?attr/colorMain" />
+
+                    <ImageView
+                        android:id="@+id/ivMenuItem"
+                        android:layout_width="@dimen/home_menu_image_size_height"
+                        android:layout_height="@dimen/home_menu_image_size_height"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/_16sdp"
+                        android:src="@drawable/ic_connection_lost" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tvMenuItem"
+                    style="@style/AppTheme.TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:padding="@dimen/app_padding_min"
+                    android:text="Prepaid to Card"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/app_text_regular" />
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+    </FrameLayout>
+</layout>

@@ -1,0 +1,277 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data></data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imgHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/home_bg_header" />
+
+        <ImageView
+            android:id="@+id/company_logo"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_marginStart="@dimen/app_margin"
+            android:layout_marginTop="@dimen/_15sdp" />
+<!--
+        <ImageView
+            android:id="@+id/ivAppIcon"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_marginStart="@dimen/app_margin"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:src="@drawable/company_logo" />
+-->
+        <ImageView
+            android:id="@+id/ivChangeLanguage"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end|right"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            app:srcCompat="@drawable/ic_language"
+            android:background="@drawable/background_rounded_corner_transparent"
+            android:padding="@dimen/app_padding_min"
+            android:elevation="@dimen/app_card_elevation"
+            />
+
+        <ImageView
+            android:id="@+id/iv_chat"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end|right"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_50sdp"
+            android:layout_marginStart="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            app:srcCompat="@drawable/ic_chat_black"
+            android:background="@drawable/background_rounded_corner_transparent"
+            android:padding="@dimen/app_padding_min"
+            android:elevation="@dimen/app_card_elevation"
+            />
+
+
+        <com.sterlite.dccmappfordealersterlite.customView.CustomRecyclerView
+            android:id="@+id/rvHomeItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imgHeader"
+            android:orientation="vertical"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+
+
+        <RelativeLayout
+            android:id="@+id/relSelectionView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_bg_selection_view_transparent"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="bottom"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_bg_selection_view"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+
+                    android:padding="@dimen/app_padding">
+
+                    <TextView
+                        android:id="@+id/tvTitle"
+                        style="@style/AppTheme.TextView.Bold"
+                        android:layout_margin="@dimen/app_margin_min"
+                        android:textColor="@color/app_text_color_light"
+                        android:textSize="@dimen/app_text_regular_medium" />
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/app_margin">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/imgMenuCircle"
+                            android:layout_width="@dimen/landing_image_size"
+                            android:layout_height="@dimen/landing_image_size"
+                            android:src="?attr/colorMain" />
+
+                        <ImageView
+                            android:id="@+id/ivMenuItem"
+                            android:layout_width="@dimen/landing_image_size"
+                            android:layout_height="@dimen/landing_image_size"
+                            android:padding="@dimen/app_padding"
+                            android:src="@drawable/ic_shop_prepaid_to_postpaid" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tnMenuDescription"
+                        style="@style/AppTheme.TextView"
+                        android:layout_margin="@dimen/app_margin_min"
+                        android:textColor="@color/app_text_color_light"
+                        android:textSize="@dimen/app_text_regular_medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/app_margin_min"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn1"
+                            style="@style/AppTheme.Button"
+                            android:layout_width="@dimen/_130sdp"
+                            android:layout_marginEnd="@dimen/app_margin_min"
+                            android:layout_marginStart="@dimen/app_margin_min" />
+
+                        <Button
+                            android:id="@+id/btn2"
+                            style="@style/AppTheme.Button"
+                            android:layout_width="@dimen/_130sdp"
+                            android:layout_marginEnd="@dimen/app_margin_min"
+                            android:layout_marginStart="@dimen/app_margin_min" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_15sdp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ivClose"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="@dimen/app_margin_min"
+                    android:padding="@dimen/app_padding"
+                    android:src="@drawable/ic_close"
+                    android:tint="@color/app_icon_light" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>
+
+
+    <!--
+    <layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <data></data>
+
+        <RelativeLayout
+            style="@style/match_match"
+            android:animateLayoutChanges="true"
+            android:background="@color/app_bg_color">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/header_toolbar_layout" />
+
+            <android.support.v4.widget.NestedScrollView
+                android:id="@+id/loginscroll"
+                style="@style/match_wrap"
+                android:layout_below="@+id/toolbar"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/app_margin"
+                    android:descendantFocusability="blocksDescendants"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/app_margin">
+
+                    <Button
+                        android:id="@+id/btnMakeMyPlan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onButtonClicked"
+                        android:text="@string/lbl_make_my_plan" />
+
+                    <Button
+                        android:id="@+id/btnNewConnection"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onButtonClicked"
+                        android:text="@string/lbl_new_connection" />
+
+                    <Button
+                        android:id="@+id/btnMyAccount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onButtonClicked"
+                        android:text="@string/lbl_my_account" />
+
+                    <Button
+                        android:id="@+id/btnActivation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onButtonClicked"
+                        android:text="@string/lbl_activation" />
+
+                    <Button
+                        android:id="@+id/btnRecharge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onButtonClicked"
+                        android:text="@string/lbl_recharge" />
+
+                    <Button
+                        android:id="@+id/btnOrderTracking"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onButtonClicked"
+                        android:text="@string/lbl_order_tracking" />
+
+                    <Button
+                        android:id="@+id/btnBalanceTransfer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onButtonClicked"
+                        android:text="@string/title_balance_transfer" />
+
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+
+            <include
+                android:id="@+id/extra_view"
+                style="@style/match_match"
+                layout="@layout/layout_extra_view"
+                android:layout_below="@+id/toolbar" />
+        </RelativeLayout>
+    </layout>
+    -->

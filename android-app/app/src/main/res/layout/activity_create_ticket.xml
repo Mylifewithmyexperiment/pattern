@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_header">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/parent"
+        style="@style/match_match"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/scrollable_toolbar" />
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scrollMainContainer"
+            style="@style/match_match"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                style="@style/match_wrap"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/app_margin_max">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:background="@drawable/background_rounded_corner"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/_15sdp">
+
+                    <!--<TextView-->
+                    <!--style="@style/AppTheme.TextView.Bold"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:layout_marginTop="@dimen/_10sdp"-->
+                    <!--android:text="@string/registration_title_text"-->
+                    <!--android:textColor="@color/color_found" />-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/app_margin"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/AppTheme.TextView.Register"
+                            android:text="@string/hint_lbl_title" />
+
+
+                        <EditText
+                            android:id="@+id/edtTitle"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_lbl_title"
+                            android:inputType="textCapSentences|textCapWords" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtTitle"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_margin="0dp">
+
+                        </android.support.design.widget.TextInputLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:layout_marginBottom="@dimen/_4sdp">
+
+                            <TextView
+                                android:id="@+id/tvlblChooseCategory"
+                                style="@style/AppTheme.TextView.CreateTicket.SpinnerLabel"
+                                android:text="@string/lbl_choose_category" />
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/edittext_rounded_corner"
+                                android:gravity="center_vertical"
+                                android:paddingBottom="@dimen/_8sdp"
+                                android:paddingTop="@dimen/_9sdp"
+                                android:layout_marginLeft="@dimen/app_margin"
+                                android:layout_marginStart="@dimen/app_margin"
+                                >
+                                <Spinner
+                                    android:id="@+id/spnCategory"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    />
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/llSpinnerContainer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/lucyNumberSeparator"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:layout_marginBottom="@dimen/_4sdp">
+
+                            <TextView
+                                android:id="@+id/tvlblChooseSubCategory"
+                                style="@style/AppTheme.TextView.CreateTicket.SpinnerLabel"
+                                android:text="@string/lbl_choose_sub_category" />
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/edittext_rounded_corner"
+                                android:gravity="center_vertical"
+                                android:paddingBottom="@dimen/_8sdp"
+                                android:paddingTop="@dimen/_9sdp"
+                                android:layout_marginLeft="@dimen/app_margin"
+                                android:layout_marginStart="@dimen/app_margin"
+                                >
+                                <Spinner
+                                    android:id="@+id/spnSubCategory"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    />
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <TextView
+                            style="@style/AppTheme.TextView.Register"
+                            android:text="@string/hint_lbl_description" />
+
+
+                        <EditText
+                            android:id="@+id/edtDescription"
+                            style="@style/AppTheme.EditText"
+                            android:layout_margin="0dp"
+                            android:hint="@string/hint_lbl_description"
+                            android:inputType="textCapSentences|textCapWords"/>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtDescription"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_margin="0dp">
+
+                        </android.support.design.widget.TextInputLayout>
+
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnContinue"
+                        style="@style/AppTheme.Button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="@dimen/app_margin"
+                        android:background="@drawable/button_rounded_corner"
+                        android:onClick="onButtonClicked"
+                        android:text="@string/btn_submit" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+        <include
+            android:id="@+id/extra_view"
+            layout="@layout/layout_extra_view"
+            tools:visibility="gone" />
+
+    </android.support.design.widget.CoordinatorLayout>
+</layout>
+

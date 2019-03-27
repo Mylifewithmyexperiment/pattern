@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_header">
+
+    <data />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/parent"
+        style="@style/match_match"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        tools:background="@drawable/bg_header"
+        tools:theme="@style/AppTheme.NoActionBar">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/scrollable_toolbar" />
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scrollMainContainer"
+            style="@style/match_wrap"
+            android:fillViewport="false"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/app_padding">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_rounded_corner">
+
+                    <android.support.constraint.ConstraintLayout
+                        android:id="@+id/constraintMainContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        tools:visibility="invisible">
+
+                        <ImageView
+                            android:id="@+id/ivMastercard"
+                            style="@style/AppTheme.ImageView.PaymentMethodIcons"
+                            android:layout_marginStart="@dimen/app_margin"
+                            android:layout_marginLeft="@dimen/app_margin"
+                            android:layout_marginTop="@dimen/app_margin"
+                            android:src="@drawable/ic_mastercard"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/ivVisaCard"
+                            style="@style/AppTheme.ImageView.PaymentMethodIcons"
+                            android:layout_marginStart="@dimen/app_margin"
+                            android:layout_marginTop="8dp"
+                            android:src="@drawable/ic_visacard"
+                            app:layout_constraintStart_toEndOf="@+id/ivMastercard"
+                            app:layout_constraintTop_toTopOf="@+id/barrier4"
+                            tools:ignore="ContentDescription" />
+
+                        <android.support.constraint.Barrier
+                            android:id="@+id/barrier4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:barrierDirection="bottom"
+                            app:constraint_referenced_ids="ivVisaCard,ivMastercard"
+                            tools:layout_editor_absoluteY="284dp" />
+
+                        <TextView
+                            android:id="@+id/tvEdtLblCardNumber"
+                            style="@style/AppTheme.TextView.EDTLbl"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lbl_card_number"
+                            app:layout_constraintStart_toStartOf="@+id/edtCardNumber"
+                            app:layout_constraintTop_toBottomOf="@id/barrier4" />
+
+
+                        <EditText
+                            android:id="@+id/edtCardNumber"
+                            style="@style/AppTheme.EditText"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/app_margin"
+                            android:hint="@string/hint_lbl_card_number"
+                            android:inputType="number"
+                            android:maxLength="16"
+                            app:layout_constraintBottom_toTopOf="@+id/tvEdtLblExpiryDate"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.473"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/tvEdtLblCardNumber"
+                            app:layout_goneMarginTop="0dp" />
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtCardNumber"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
+                            app:layout_constraintEnd_toEndOf="@id/edtCardNumber"
+                            app:layout_constraintStart_toStartOf="@id/edtCardNumber"
+                            app:layout_constraintTop_toBottomOf="@+id/edtCardNumber">
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <TextView
+                            android:id="@+id/tvEdtLblExpiryDate"
+                            style="@style/AppTheme.TextView.EDTLbl"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:text="@string/lbl_expiry_date"
+                            app:layout_constraintBottom_toTopOf="@id/edtExpiryDate"
+                            app:layout_constraintStart_toStartOf="@+id/edtExpiryDate"
+                            app:layout_constraintTop_toBottomOf="@id/iedtCardNumber" />
+
+                        <EditText
+                            android:id="@+id/edtExpiryDate"
+                            style="@style/AppTheme.EditText"
+                            android:layout_width="@dimen/_100sdp"
+                            android:hint="@string/hint_lbl_expiry_date"
+                            android:inputType="number"
+                            android:maxLength="5"
+                            app:layout_constraintBottom_toTopOf="@id/iedtExpiryDate"
+                            app:layout_constraintEnd_toStartOf="@+id/edtCvv"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/tvEdtLblExpiryDate"
+                            app:layout_constraintTop_toTopOf="@id/edtCvv"
+                            tools:ignore="TextFields" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtExpiryDate"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_width="0dp"
+                            android:layout_margin="0dp"
+                            app:layout_constraintBottom_toTopOf="@+id/btnMakePayment"
+                            app:layout_constraintEnd_toEndOf="@+id/edtExpiryDate"
+                            app:layout_constraintStart_toStartOf="@+id/edtExpiryDate"
+                            app:layout_constraintTop_toBottomOf="@id/edtExpiryDate">
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <TextView
+                            android:id="@+id/tvEdtLblCvv"
+                            style="@style/AppTheme.TextView.EDTLbl"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lbl_cvv"
+                            app:layout_constraintBaseline_toBaselineOf="@+id/tvEdtLblExpiryDate"
+                            app:layout_constraintBottom_toTopOf="@id/edtCvv"
+                            app:layout_constraintStart_toStartOf="@+id/edtCvv"
+                            app:layout_constraintTop_toTopOf="@id/tvEdtLblExpiryDate" />
+
+                        <EditText
+                            android:id="@+id/edtCvv"
+                            style="@style/AppTheme.EditText"
+                            android:layout_width="@dimen/_80sdp"
+                            android:hint="@string/hint_lbl_cvv"
+                            android:inputType="numberPassword"
+                            android:maxLength="3"
+                            app:layout_constraintBaseline_toBaselineOf="@id/edtExpiryDate"
+                            app:layout_constraintBottom_toBottomOf="@id/edtExpiryDate"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/tvEdtLblCvv" />
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/iedtCvv"
+                            style="@style/AppTheme.TextInputLayout"
+                            android:layout_width="0dp"
+                            android:layout_margin="0dp"
+                            app:layout_constraintBottom_toTopOf="@id/btnMakePayment"
+                            app:layout_constraintEnd_toEndOf="@+id/edtCvv"
+                            app:layout_constraintStart_toStartOf="@+id/edtCvv"
+                            app:layout_constraintTop_toBottomOf="@+id/edtCvv">
+
+                        </android.support.design.widget.TextInputLayout>
+
+                        <Button
+                            android:id="@+id/btnMakePayment"
+                            style="@style/AppTheme.Button"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/app_margin"
+                            android:layout_marginBottom="76dp"
+                            android:text="@string/btn_make_payment"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/iedtExpiryDate"
+                            tools:layout_editor_absoluteY="260dp" />
+
+                       <!-- <android.support.constraint.Group
+                            android:id="@+id/grpMainScreen"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:constraint_referenced_ids="tvEdtLblCardNumber,iedtCardNumber,edtCvv,barrier4,edtCardNumber,btnMakePayment,ivMastercard,ivVisaCard,edtExpiryDate,iedtCvv,tvEdtLblExpiryDate,tvEdtLblCvv,iedtExpiryDate"
+                            tools:visibility="invisible" />-->
+                    </android.support.constraint.ConstraintLayout>
+
+                    <android.support.constraint.ConstraintLayout
+                        android:id="@+id/constraintProgressContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:visibility="visible">
+
+                        <ProgressBar
+                            android:id="@+id/progress"
+                            style="?android:attr/progressBarStyle"
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintBottom_toTopOf="@id/tvMessage"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_chainStyle="packed" />
+
+                        <TextView
+                            android:id="@+id/tvMessage"
+                            style="@style/AppTheme.TextView"
+                            android:layout_marginStart="@dimen/app_margin"
+                            android:layout_marginLeft="@dimen/app_margin"
+                            android:layout_marginTop="@dimen/app_margin_super_max"
+                            android:layout_marginEnd="@dimen/app_margin"
+                            android:layout_marginRight="@dimen/app_margin"
+                            android:layout_marginBottom="@dimen/app_margin"
+                            android:gravity="center"
+                            android:maxLines="2"
+                            android:text="@string/lbl_please_wait_making_transaction"
+                            android:textSize="@dimen/app_text_max"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintStart_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/progress" />
+                    </android.support.constraint.ConstraintLayout>
+                    <!-- <android.support.constraint.Group
+                         android:id="@+id/grpProgressBarContrainer"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         app:constraint_referenced_ids="constraintProgressContainer"
+                         android:visibility="gone"
+                         tools:visibility="visible"/>
+ -->
+                </android.support.constraint.ConstraintLayout>
+                <!--<android.support.constraint.ConstraintLayout
+                    android:id="@+id/constraintProgressContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/app_padding"
+                    android:visibility="gone"
+                    tools:visibility="visible"
+                    android:background="@drawable/background_rounded_corner">
+
+                    <ProgressBar
+                        android:id="@+id/progress"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        app:layout_constraintBottom_toTopOf="@id/tvMessage"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_chainStyle="packed" />
+
+                    <TextView
+                        android:id="@+id/tvMessage"
+                        style="@style/AppTheme.TextView"
+                        android:maxLines="2"
+                        android:text="@string/lbl_please_wait_making_transaction"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintStart_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/progress" />
+
+                </android.support.constraint.ConstraintLayout>-->
+
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <include
+            android:id="@+id/extra_view"
+            style="@style/match_match"
+            layout="@layout/layout_extra_view"
+            tools:visibility="gone" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</layout>

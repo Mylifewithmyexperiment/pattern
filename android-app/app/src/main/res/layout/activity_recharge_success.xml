@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_toolbar_layout" />
+
+        <ImageView
+            android:id="@+id/ivSuccessIcon"
+            style="@style/AppTheme.ImageView.SuccessIcon"
+            android:layout_below="@id/toolbar"
+            android:layout_centerHorizontal="true"
+            android:tint="?attr/colorMain"
+            app:srcCompat="@drawable/ic_success" />
+
+
+        <TextView
+            android:id="@+id/tvKycSuccessMessage"
+            style="@style/AppTheme.TextView.Bold"
+            android:layout_below="@+id/ivSuccessIcon"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/app_margin"
+            android:gravity="center"
+            android:maxLines="2"
+
+            android:text="Recharge Successfully Done"
+            android:textSize="@dimen/app_text_max_medium" />
+
+        <Button
+            android:id="@+id/btnProceed"
+            style="@style/AppTheme.Button"
+            android:layout_below="@+id/tvKycSuccessMessage"
+            android:layout_margin="@dimen/app_margin"
+            android:text="@string/btn_ok" />
+
+        <include
+            android:id="@+id/extra_view"
+            layout="@layout/layout_extra_view" />
+    </RelativeLayout>
+</layout>

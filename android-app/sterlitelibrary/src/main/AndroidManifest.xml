@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.elitecore.eliteconnectlibrary">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <application>
+
+        <!-- label comment in activity
+        android:label="@string/app_name"-->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+             />
+
+        <!-- [START firebase_service] -->
+        <service android:name="com.elitecorelib.core.fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+        <!-- [START firebase_iid_service] -->
+        <service android:name="com.elitecorelib.core.fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- [END firebase_iid_service] -->
+        <service android:name="com.elitecorelib.core.captiveportal.CaptiveService" />
+        <!--Anaytic data receiver-->
+        <receiver android:name="com.elitecorelib.core.receiver.AnalyticReceiver" />
+        <!--SMS Service Receiver-->
+        <service android:name="com.elitecorelib.core.sms.SmsService" />
+        <!--SMS Receiver Invoke-->
+        <!--<receiver android:name="com.elitecorelib.core.sms.IncomingSmsReceiver">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.provider.Telephony.SMS_RECEIVED" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <service android:name="com.elitecorelib.core.services.SyncDataService" />
+
+
+        <!--Notification call back Receiver-->
+        <!--<receiver android:name="com.elitecorelib.core.receiver.MyBroadcastReceiver">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.elitecore.eliteconnectlibrary.ALARM_RECIEVED" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <!--<receiver android:name="com.elitecorelib.wifi.receiver.BootReceiver">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.BOOT_COMPLETED" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <!--<receiver android:name="com.elitecorelib.wifi.receiver.BatteryReceiver">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.ACTION_BATTERY_LOW" />-->
+                <!--<action android:name="android.intent.action.ACTION_BATTERY_OKAY" />-->
+                <!--<action android:name="android.intent.action.BATTERY_CHANGED" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <!--<receiver android:name="com.elitecorelib.wifi.receiver.SignalRSSIReceiver">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.net.wifi.RSSI_CHANGED" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <!--<receiver android:name="com.elitecorelib.wifi.receiver.ANDSFPolicyPullReceiver" />-->
+        <!--<receiver android:name="com.elitecorelib.wifi.receiver.ANDSFPolicyEvaluateReceiver" />-->
+        <!--<receiver android:name="com.elitecorelib.wifi.receiver.NotificationReceiver" />-->
+
+        <service android:name="com.elitecorelib.core.services.AutoConnectWiFiService" />
+        <service android:name="com.elitecorelib.core.services.BackgroundLocationService" />
+        <service android:name="com.elitecorelib.core.services.BackgroundProcessService" />
+
+    </application>
+</manifest>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data></data>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--tools:openDrawer="end"-->
+
+
+        <include
+            android:id="@+id/app_bar_dash_board"
+            layout="@layout/app_bar_dash_board"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- <android.support.design.widget.NavigationView
+             android:id="@+id/nav_view"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_gravity="end"
+             android:backgroundTint="@color/navigation_menu_color"
+             android:fitsSystemWindows="false"
+             app:itemTextColor="@color/app_text_color_light">-->
+
+        <include
+            android:id="@+id/layoutNavMenu"
+            layout="@layout/nav_main_menu" />
+        <!--</android.support.design.widget.NavigationView>-->
+        <!--  app:headerLayout="@layout/nav_header_close_button"
+        app:itemIconTint="@color/app_icon_light"-->
+
+        <!--app:headerLayout="@layout/nav_header_dash_board"-->
+        <!--<TextView-->
+        <!--android:id="@+id/tvVersionCode"-->
+        <!--style="@style/AppTheme.TextView"-->
+        <!--android:layout_gravity="end|bottom"-->
+        <!--android:layout_margin="@dimen/_5sdp"-->
+        <!--android:text="Version"-->
+        <!--android:textSize="@dimen/app_text_min" />-->
+        <!--</android.support.design.widget.NavigationView>-->
+
+      <!--  <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />-->
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+</layout>

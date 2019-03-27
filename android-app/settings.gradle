@@ -1,0 +1,4 @@
+include ':app'
+include ':sterlitelibrary'
+include ':chatsdk-debug1'
+

@@ -249,6 +249,28 @@ public class SettingsActivity extends PreferenceActivity {
         });
 
 
+        preference = findPreference(AppPreferencesHelper.CRM_CONTEXT);
+        sharedPreferences= PreferenceManager.getDefaultSharedPreferences(this);
+        sharedPreferences = this.getSharedPreferences(AppPreferencesHelper.CRM_SETTINGS, MODE_PRIVATE);
+        preference.setSummary("CONTEXT : " + sharedPreferences.getString(AppPreferencesHelper.CRM_CONTEXT, Constants.CRM_CONTEXT));
+        preference.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
+
+            @Override
+            public boolean onPreferenceChange(Preference preference, Object newValue) {
+                // TODO Auto-generated method stub
+                SharedPreferences sharedPreferences = getSharedPreferences(AppPreferencesHelper.CRM_SETTINGS,MODE_PRIVATE
+                );
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putString(AppPreferencesHelper.CRM_CONTEXT, newValue.toString());
+                editor.commit();
+                preference.setDefaultValue(newValue);
+                preference.setSummary("CONTEXT : " + newValue);
+                DCCMDealerSterlite.getDataManager().setAppPref(AppPreferencesHelper.CRM_CONTEXT, newValue.toString());
+                return true;
+            }
+        });
+
+
 
 
         preference = findPreference(AppPreferencesHelper.APP_THEME);

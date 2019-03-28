@@ -105,6 +105,8 @@ public class AppPreferencesHelper implements PreferencesHelper {
     public static final String CRM_IP ="crm_ip" ;
     public static final String CRM_PORT ="crm_port" ;
     public static final String CRM_SECURITY ="crm_security" ;
+    public static final String CRM_CONTEXT ="crm_context" ;
+
 
     public static final String APP_THEME ="app_theme" ;
 

@@ -244,6 +244,7 @@ public class Constants {
   public static final String CRM_IP = "10.151.5.84";
   public static final String CRM_PORT = "58081";
   public static final String CRM_SECURITY = "http://";
+  public static final String CRM_CONTEXT = "stlcrm";
 
 
   public static final String BSS_Adapter_IP = "103.23.140.225";//192.168.0.218

@@ -79,6 +79,13 @@
             android:summary="Click to show a text entry dialog"
             android:title="CRM Port" />
 
+        <EditTextPreference
+            android:defaultValue="stlcrm"
+            android:dialogTitle="Context"
+            android:key="crm_context"
+            android:summary="Click to show a text entry dialog"
+            android:title="CRM Context" />
+
         <ListPreference
             android:defaultValue="http"
             android:dialogTitle="Security"

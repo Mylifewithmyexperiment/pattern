@@ -63,7 +63,7 @@ public class AppApiHelper implements ApiHelper {
 
 //    public static final String BSS_ADAPTER_BASE_URL = "http://" + Constants.BSS_Adapter_IP + ":18080/";
     public static final String BSS_ADAPTER = "bssadapter/services/";
-    public static final String CRM = "stlcrm/";
+ //   public static final String CRM = "stlcrm/";
 
 
     private static final String BASE_URL_ADDITITON = "telcocommercewebservices/";
@@ -133,13 +133,13 @@ public class AppApiHelper implements ApiHelper {
     private static final String API_DELETE_CART = BASE_URL_ADDITITON + "v2/b2ctelco/users/";
     private static final String API_CHANGE_PLAN = BSS_ADAPTER + "ManageCustomer/changePlan";
 
-    private static final String API_CREATE_TICKET = CRM + "createTicket.php";
-    private static final String API_GET_TICKET_CATEGORY = CRM + "getTicketCategory.php";
-    private static final String API_GET_TICKET_SUB_CATEGORY = CRM + "getTicketSubCategory.php?category=";
-    private static final String API_GET_TICKET = CRM + "getTicketByCustomer.php";
+    private static final String API_CREATE_TICKET =  "/createTicket.php";
+    private static final String API_GET_TICKET_CATEGORY = "/getTicketCategory.php";
+    private static final String API_GET_TICKET_SUB_CATEGORY ="/getTicketSubCategory.php?category=";
+    private static final String API_GET_TICKET =  "/getTicketByCustomer.php";
 
-    private static final String API_CRM_UPDATE_CUSTOMER_DETAILS = "sterlitecrm/updateCustomerAccount.php";
-    private static final String API_CRM_GET_CUSTOMER_DETAILS = "sterlitecrm/getCustomerDetails.php";
+    private static final String API_CRM_UPDATE_CUSTOMER_DETAILS = "/updateCustomerAccount.php";
+    private static final String API_CRM_GET_CUSTOMER_DETAILS = "/getCustomerDetails.php";
 
 
 

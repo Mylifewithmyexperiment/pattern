@@ -165,9 +165,9 @@ public class RestHelper implements RestClientListener {
             String port=DCCMDealerSterlite.getDataManager().getAppPref(AppPreferencesHelper.CRM_PORT, Constants.CRM_PORT);
             String context=DCCMDealerSterlite.getDataManager().getAppPref(AppPreferencesHelper.CRM_CONTEXT, Constants.CRM_CONTEXT);
 
-            String baseurl = security+ip+":"+port+"/"+context;
+            String baseurl = security+ip+":"+port+"/";
             Log.e("CRM URL",baseurl+" ");
-            sendRequest(baseurl, reqType, identifier, action, contentType, qryparams, params, headers, callback, imageKey, imagePath, json);
+            sendRequest(baseurl, reqType, context+identifier, context+action, contentType, qryparams, params, headers, callback, imageKey, imagePath, json);
 
         }else {
             String security= DCCMDealerSterlite.getDataManager().getAppPref(AppPreferencesHelper.DCCM_SECURITY, Constants.DCCM_SECURITY);

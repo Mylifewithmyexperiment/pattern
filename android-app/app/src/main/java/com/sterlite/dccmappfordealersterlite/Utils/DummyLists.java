@@ -711,7 +711,10 @@ public class DummyLists {
 
 
 
+        else if (code.equalsIgnoreCase(Constants.CODE_MODEM_1)) {
 
+            data = context.getString(R.string.Data_40GB);
+        }
 
 
 
@@ -855,9 +858,15 @@ public class DummyLists {
 
             freeBenefits = "400";
 
-        } else {
+        }
+        else if (code.equalsIgnoreCase(Constants.CODE_MODEM_1)) {
 
-            freeBenefits = "100";
+            freeBenefits = "400";        }
+
+
+        else {
+
+                freeBenefits = "100";
 
         }
 
@@ -969,6 +978,10 @@ public class DummyLists {
         } else if (code.equalsIgnoreCase(Constants.CODE_MODEM)) {
             arrBenefts.add(getPlanBenefit(Constants.ROUTER, "", context.getString(R.string.hundred_mbps)));
         }
+        else if (code.equalsIgnoreCase(Constants.CODE_MODEM_1)) {
+            arrBenefts.add(getPlanBenefit(Constants.ROUTER, "", context.getString(R.string.hundred_mbps)));
+        }
+
 
 
         else if (code.equalsIgnoreCase(Constants.CODE14)) {

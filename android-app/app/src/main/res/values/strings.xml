@@ -572,7 +572,7 @@
     <string name="Unlimited">Unlimited</string>
     <string name="title_create_ticket">Create Ticket</string>
     <string name="title_activity_view_ticket">View Ticket</string>
-    <string name="nav_menu_ticket">Ticket</string>
+    <string name="nav_menu_ticket">Tickets</string>
     <string name="lbl_ticket_number">Ticket Number</string>
     <string name="title">Title</string>
     <string name="sub_category">Sub Category</string>

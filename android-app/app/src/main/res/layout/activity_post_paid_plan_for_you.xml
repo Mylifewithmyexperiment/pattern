@@ -31,7 +31,8 @@
                     style="@style/match_wrap"
                     android:layout_above="@id/btnSelectPlan"
                     android:layout_below="@id/toolbar"
-                    android:scrollbars="none">
+                    android:scrollbars="none"
+                    >
 
                     <RelativeLayout
                         android:layout_width="match_parent"
@@ -328,7 +329,8 @@
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="wrap_content">
+                                    android:layout_height="wrap_content"
+                                    android:visibility="gone">
 
                                     <RelativeLayout
                                         android:layout_width="wrap_content"

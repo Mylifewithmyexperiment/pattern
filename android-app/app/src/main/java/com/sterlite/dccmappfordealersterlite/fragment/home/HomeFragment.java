@@ -259,17 +259,32 @@ public class HomeFragment extends BaseFragment implements HomeContract.View {
 
     private void showDataInChart(BalanceData balanceData) {
         Log.e("BalanceData", balanceData + "");
-
-
+        binding.tvLblLeft.setVisibility(View.VISIBLE);
+        binding.tvLblof.setVisibility(View.VISIBLE);
+        binding.tvTotalUnits.setVisibility(View.VISIBLE);
         String strMenu = "", strValue = "", strTotal = "", strUnit = null;
         DecimalFormat df = new DecimalFormat();
         df.setMaximumFractionDigits(2);
         if (balanceData.getBalanceType().equalsIgnoreCase("VOLUME")) {
+
+            if((balanceData.getTotalUsageBalance() / (1024 * 1024.0 * 1024.0))>=9999){
+                strTotal="Unlimited";
+                strValue="Unlimited";
+                binding.tvLblLeft.setVisibility(View.GONE);
+                binding.tvLblof.setVisibility(View.GONE);
+            }
             strValue = String.valueOf(df.format(balanceData.getAvailableBalance() / (1024 * 1024.0 * 1024.0)));
             Log.e("StrValue::", strValue);
 
             strTotal = String.valueOf(df.format(balanceData.getTotalUsageBalance() / (1024 * 1024.0 * 1024.0)));
             Log.e("strTotal::", strTotal);
+            if((balanceData.getTotalUsageBalance() / (1024 * 1024.0 * 1024.0))>=9999){
+                strTotal="Unlimited";
+                strValue="Unlimited";
+                binding.tvTotalUnits.setVisibility(View.GONE);
+                binding.tvLblLeft.setVisibility(View.GONE);
+                binding.tvLblof.setVisibility(View.GONE);
+            }
 
           /*  binding.fitChart.setMaxValue((int)balanceData.getTotalUsageBalance()/(1024*1024*1024));
             binding.fitChart.setValue((*//*(balanceData.getTotalUsageBalance()/(1024*1024)) -*//*(int) (balanceData.getAvailableBalance()/(1024*1024*1024))));
@@ -309,6 +324,7 @@ public class HomeFragment extends BaseFragment implements HomeContract.View {
 
         if (!TextUtils.isEmpty(strValue))
             binding.tvContentValue.setText(strValue);
+
         else
             binding.tvContentValue.setText("");
 

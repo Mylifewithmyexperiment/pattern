@@ -29,21 +29,66 @@ public class General_Utility_Program {
 
 	private static void program9() {
 		// TODO Auto-generated method stub
+		int no = scanner.nextInt();
+		
+		System.out.println("palindrome no ");
+		 
+		
 		
 	}
 
 	private static void progran8() {
 		// TODO Auto-generated method stub
+		System.out.println(" fibbonacci series");
+		
+		int n1=1;
+		int n2=1;
+		int n3;
+		System.out.println(n1);
+		System.out.println(n2);
+		
+		/*
+		 * for (int i = 0; i < 5; i++) {
+		 * 
+		 * n3= n1+n2; System.out.println(n3); n1=n2; n2=n3; }
+		 * 
+		 */
+		do {
+			n3= n1+n2;
+			System.out.println(n3);
+			n1=n2;
+			n2=n3;
+		} while (n3<2);
+		
+		 
 		
 	}
 
 	private static void program7() {
 		// TODO Auto-generated method stub
+		int a=5;
+		int b=6;
+		System.out.println("Swapping without using third variable");
+		System.out.println("initially a is " + a + " and b is " +b);
+		System.out.println("After swapping, a is   "+ (a+b-a) + "  and b is  " +(a+b-b));
+		
+		
+		
 		
 	}
 
 	private static void program6() {
 		// TODO Auto-generated method stub
+		
+		int a=5;
+		int b=6;
+		System.out.println("Initially  a is :- "+a +" and b is :- " +b);
+		int c;
+		c=a;
+		a=b;
+		b=c;
+		System.out.println("After swapping "
+				+ " a is :- "+ a + " and b is :- " +b);
 		
 	}
 
@@ -54,6 +99,8 @@ public class General_Utility_Program {
 
 	private static void program4() {
 		// TODO Auto-generated method stub
+		
+		
 		
 	}
 
@@ -83,7 +130,7 @@ public class General_Utility_Program {
 	  long c=1;
 	  for (long i = a; i >1; i--) {
 		c=c*i;
-		  
+		   
 	}System.out.print(c);
 	
 		

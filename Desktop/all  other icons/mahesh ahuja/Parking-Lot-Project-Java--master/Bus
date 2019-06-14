@@ -1,0 +1,12 @@
+public class Bus extends Vehicle{
+	// constructor
+	public Bus(){
+		needSpts = 5;
+		sz = VehicleSize.Large;
+	} // end of constructor
+
+	public boolean canFitSpt(ParkingSpot spt){
+		// return true if it is a large spot
+		return spt.getSize() == VehicleSize.Large;
+	} // end of canFitSpt method
+} // end of Bus class

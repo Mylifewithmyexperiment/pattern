@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: elitecore
+Class-Path: lib/junit-4.10.jar lib/hamcrest-core-1.1.jar
+Build-Jdk: 1.8.0_144
+Created-By: Maven Integration for Eclipse
+Main-Class: com.gojek.parking.ParkingMain
+

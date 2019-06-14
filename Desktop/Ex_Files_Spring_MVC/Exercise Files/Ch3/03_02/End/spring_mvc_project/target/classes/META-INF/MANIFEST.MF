@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: shonnasmith
+Build-Jdk: 9.0.4
+Implementation-Title: landon-hotel-event-mgmt-app
+Implementation-Version: 0.1.0
+Implementation-Vendor-Id: org.springframework
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/landon-hotel-event-mgmt-app
+Created-By: Maven Integration for Eclipse
+

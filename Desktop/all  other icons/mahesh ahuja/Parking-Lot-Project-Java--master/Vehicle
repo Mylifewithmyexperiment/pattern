@@ -1,0 +1,26 @@
+public abstract class Vehicle {
+	// private data field
+	protected static int needSpts;
+	protected VehicleSize sz;
+	protected String licenNum;
+	// creating ArrayList
+	protected static ArrayList<ParkingSpot> sptForParking = new ArrayList<ParkingSpot>();
+
+	// getter
+	public VehicleSize getSize(){
+		// return statement
+		return sz;
+	} // end of getSize method
+	
+	// getter
+	public int getSptsNeeded(){
+		// return statement
+		return needSpts;
+	} // end of getSptsNeeded method
+
+	public void parkSpts(ParkingSpot s){
+		sptForParking.add(s);
+	} // end of parkSpot method
+
+	public abstract boolean canFitSpt(ParkingSpot spt);
+} // end of Vehicle class
